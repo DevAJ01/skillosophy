@@ -262,5 +262,115 @@
       "Distinguish principles from uncertain consequences",
       "Recommend usable honest alternative and state different reasons"
     ]
+  },
+  {
+    "id": "skillosophy-start-1",
+    "skill": "skillosophy-start",
+    "kind": "application",
+    "prompt": "I am starting an offline CSV cleaning CLI. Preserve source files, produce an audit report, and keep runtime dependencies minimal. Propose a project philosophy, a small skill set and specialist role instructions, and explain how you would install them into the specified project.",
+    "criteria": [
+      "Preserves the user goal and concrete constraints",
+      "Provides an actionable deliverable using the relevant method",
+      "Does not invent evidence, permission, or completed actions"
+    ]
+  },
+  {
+    "id": "skillosophy-start-2",
+    "skill": "skillosophy-start",
+    "kind": "regression",
+    "prompt": "I want advice only on a one-file calculator. I have not provided a project folder. Recommend the smallest useful setup without claiming installation or requiring philosopher lenses.",
+    "criteria": [
+      "Preserves the user goal and concrete constraints",
+      "Provides an actionable deliverable using the relevant method",
+      "Does not invent evidence, permission, or completed actions"
+    ]
+  },
+  {
+    "id": "skillosophy-project-brief-1",
+    "skill": "skillosophy-project-brief",
+    "kind": "application",
+    "prompt": "I want a booking prototype for local tutors. We have two weeks and no payment integration budget. Define a useful first deliverable, scope boundaries, and observable acceptance criteria.",
+    "criteria": [
+      "Preserves the user goal and concrete constraints",
+      "Provides an actionable deliverable using the relevant method",
+      "Does not invent evidence, permission, or completed actions"
+    ]
+  },
+  {
+    "id": "skillosophy-project-brief-2",
+    "skill": "skillosophy-project-brief",
+    "kind": "regression",
+    "prompt": "Our brief promises both every integration and a fast first release, but gives no budget. Identify the scope conflict and a reversible starting point without inventing estimates.",
+    "criteria": [
+      "Preserves the user goal and concrete constraints",
+      "Provides an actionable deliverable using the relevant method",
+      "Does not invent evidence, permission, or completed actions"
+    ]
+  },
+  {
+    "id": "skillosophy-evidence-plan-1",
+    "skill": "skillosophy-evidence-plan",
+    "kind": "application",
+    "prompt": "Our benchmark ran on 500 English documents while production is multilingual. Design a proportionate check before adopting the search change.",
+    "criteria": [
+      "Preserves the user goal and concrete constraints",
+      "Provides an actionable deliverable using the relevant method",
+      "Does not invent evidence, permission, or completed actions"
+    ]
+  },
+  {
+    "id": "skillosophy-evidence-plan-2",
+    "skill": "skillosophy-evidence-plan",
+    "kind": "regression",
+    "prompt": "Six enthusiastic interviewees liked a mockup. The founder says product-market fit is proven. Give the bounded conclusion and a cheap useful next check without inventing data.",
+    "criteria": [
+      "Preserves the user goal and concrete constraints",
+      "Provides an actionable deliverable using the relevant method",
+      "Does not invent evidence, permission, or completed actions"
+    ]
+  },
+  {
+    "id": "skillosophy-delivery-plan-1",
+    "skill": "skillosophy-delivery-plan",
+    "kind": "application",
+    "prompt": "Build a staged plan for a CSV importer with preview, validation, and reversible save. Identify dependencies and evidence needed to advance.",
+    "criteria": [
+      "Preserves the user goal and concrete constraints",
+      "Provides an actionable deliverable using the relevant method",
+      "Does not invent evidence, permission, or completed actions"
+    ]
+  },
+  {
+    "id": "skillosophy-delivery-plan-2",
+    "skill": "skillosophy-delivery-plan",
+    "kind": "regression",
+    "prompt": "A team plans frontend, backend, and database independently, with integration only at the end. Propose a better first slice without launching subagents or changing the stack.",
+    "criteria": [
+      "Preserves the user goal and concrete constraints",
+      "Provides an actionable deliverable using the relevant method",
+      "Does not invent evidence, permission, or completed actions"
+    ]
+  },
+  {
+    "id": "skillosophy-acceptance-review-1",
+    "skill": "skillosophy-acceptance-review",
+    "kind": "application",
+    "prompt": "A booking prototype builds successfully, but availability and failed-payment recovery have not been tested. Give a completion judgment and proportionate verification plan.",
+    "criteria": [
+      "Preserves the user goal and concrete constraints",
+      "Provides an actionable deliverable using the relevant method",
+      "Does not invent evidence, permission, or completed actions"
+    ]
+  },
+  {
+    "id": "skillosophy-acceptance-review-2",
+    "skill": "skillosophy-acceptance-review",
+    "kind": "regression",
+    "prompt": "All package-format checks pass for an AI skill. The owner says that proves better reasoning. Review that claim and specify the missing evidence without claiming tests were run.",
+    "criteria": [
+      "Preserves the user goal and concrete constraints",
+      "Provides an actionable deliverable using the relevant method",
+      "Does not invent evidence, permission, or completed actions"
+    ]
   }
 ]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Delivery Plan"
+  short_description: "Deliver in stages that retire material uncertainty"
+  default_prompt: "Use $skillosophy-delivery-plan to help with this project and produce the requested deliverable."

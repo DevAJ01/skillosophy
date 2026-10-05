@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Brief"
+  short_description: "Define outcomes and boundaries before building"
+  default_prompt: "Use $skillosophy-project-brief to help with this project and produce the requested deliverable."

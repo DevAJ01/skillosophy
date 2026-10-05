@@ -4,7 +4,7 @@ The question is whether a skill improves a useful outcome compared with the same
 
 ## Current protocol
 
-`cases.json` contains 24 author-designed tasks: one application and one regression case for each of the ten philosopher lenses, the selector, and the council. Application cases ask for a concrete deliverable. Regression cases challenge characteristic failure modes and user-constraint handling.
+`cases.json` now contains 34 author-designed fixtures. The original 24 were used in the philosopher pilot; the ten added project-workflow fixtures have not been run as a paired baseline experiment. The original 24 include one application and one regression case for each of the ten philosopher lenses, the selector, and the council. Application cases ask for a concrete deliverable. Regression cases challenge characteristic failure modes and user-constraint handling.
 
 1. Give a fresh generator only the case prompts and ordinary competent-assistant instructions. Obtain a baseline answer for every ID. Do not load skills or show rubrics.
 2. Give a separate fresh generator the same case prompts plus the designated skill and required references. Obtain actual answers and log which skills were loaded. Do not show baseline answers or rubrics.

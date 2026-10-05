@@ -1,6 +1,6 @@
-# Skillsophy evaluation evidence
+# Skillosophy evaluation evidence
 
-The initial collection is usable and passed the tested tasks, but these experiments **do not establish a meaningful general improvement over a strong AI baseline**.
+The historical philosopher pilots below concern the 0.1.x reasoning collection. They **do not establish a meaningful general improvement over a strong AI baseline**. Version 0.2.0 adds a broader project startup workflow and installer; its [installation checks](../docs/INSTALLATION_VERIFICATION.md) assess setup behavior and file preservation, not comparative performance of every catalog entry.
 
 | Pilot | Paired tasks | Score wins / ties / losses | Blinded preferences for skills | Baseline / skill mean |
 |---|---:|---|---:|---|

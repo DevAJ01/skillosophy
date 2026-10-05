@@ -1,0 +1,11 @@
+# Project installation verification — 0.2.0
+
+The installer is a real project-local filesystem operation, not a recommendation generator. It accepts a project plan, resolves catalog dependencies, stages reviewed sources, and installs selected skill folders into the requested project's `.agents/skills`.
+
+Eighteen integration tests cover: no-write/no-download preview; actual skill, role, plan and receipt creation; preservation of AGENTS.md and absence of Codex configuration changes; repeat installation; changed skill conflicts; no partial additions on conflicts; rollback after an injected commit failure; symlinked managed directories and skills; installation locks; immutable setup records; complete council dependencies; valid role selections; unknown/duplicate skills; immutable upstream revisions; network/source failure before writes; upstream helper/license preservation without execution; archive path traversal and symlinks; and changed upstream licenses.
+
+A real network installation copied `jupyter-notebook` from `openai/skills` commit `49f948faa9258a0c61caceaf225e179651397431` into a temporary project. Its Apache-2.0 license digest matched the catalog, its helper and template files were preserved, and an analyst role and source/hash receipt were written. Notebook runtime execution was not part of this installation check.
+
+An independent forward test used the actual startup skill on an offline CSV project with existing user guidance. It selected and installed exactly project-brief and acceptance-review, created contract-author and acceptance-reviewer instructions, verified all four skill file hashes, and preserved both original files. No philosopher lens, network call, product implementation, or subagent configuration was needed. [Saved outcome and artifacts](../evals/results/project-start/outcome.md) document this single setup check; it does not establish CSV correctness or general model improvement.
+
+The broad project workflows and upstream catalog entries have not undergone the earlier philosopher baseline comparison. Catalog provenance is not a success rating. Host filesystem permissions, external network access, runtime prerequisites, and Codex discovery can still affect use on another machine.

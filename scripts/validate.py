@@ -31,6 +31,11 @@ def validate(root=ROOT):
                 errors.append(f'Compatibility UI mismatch: {field}')
         if legacy.get('skills')!='./skills':
             errors.append('Compatibility skill path mismatch')
+    onboarding=manifest['extensions']['com.openai'].get('onboardingSkill')
+    if legacy_path.exists() and legacy.get('extensions',{}).get('com.openai',{}).get('onboardingSkill')!=onboarding:
+        errors.append('Compatibility onboarding skill mismatch')
+    if onboarding and not (root/onboarding).is_file():
+        errors.append('Missing onboarding skill')
     skills=list((root/'skills').glob('*/SKILL.md'))
     if not skills:
         errors.append('No skills')

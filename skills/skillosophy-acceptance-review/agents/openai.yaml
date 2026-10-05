@@ -1,0 +1,4 @@
+interface:
+  display_name: "Acceptance Review"
+  short_description: "Check the deliverable against real acceptance evidence"
+  default_prompt: "Use $skillosophy-acceptance-review to help with this project and produce the requested deliverable."

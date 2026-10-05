@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence Plan"
+  short_description: "Test the uncertainty that could change a decision"
+  default_prompt: "Use $skillosophy-evidence-plan to help with this project and produce the requested deliverable."

@@ -1,0 +1,31 @@
+{
+  "installer_version": "0.2.0",
+  "project": "/private/tmp/skillosophy-forward/project",
+  "schema_version": 1,
+  "skills": [
+    {
+      "file_sha256": {
+        "SKILL.md": "7f62bf879b43ddecbcc8a42770d2168af4e901fb61fd546e9bebecdda9c72b4b",
+        "agents/openai.yaml": "546badff2d7f21cdbfebc3b445665343d8860756b3d6f8c9c63195c1a971114b"
+      },
+      "id": "skillosophy-acceptance-review",
+      "name": "skillosophy-acceptance-review",
+      "source": {
+        "path": "skillosophy-acceptance-review",
+        "type": "bundled"
+      }
+    },
+    {
+      "file_sha256": {
+        "SKILL.md": "c752688f356eacb737e862be735cb953b9ccef7be5da393a63b9087c936900e9",
+        "agents/openai.yaml": "6d8b1dff9bc7a51531fa414ff7fda4a039bf5bb5e84b20a01d24e4ea3a820f4f"
+      },
+      "id": "skillosophy-project-brief",
+      "name": "skillosophy-project-brief",
+      "source": {
+        "path": "skillosophy-project-brief",
+        "type": "bundled"
+      }
+    }
+  ]
+}

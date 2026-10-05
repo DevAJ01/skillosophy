@@ -1,0 +1,4 @@
+interface:
+  display_name: "Start a Project with Skillosophy"
+  short_description: "Choose and install skills for your project"
+  default_prompt: "Use $skillosophy-start before building my project: determine its working philosophy, choose useful skills and roles, and install them into the project."

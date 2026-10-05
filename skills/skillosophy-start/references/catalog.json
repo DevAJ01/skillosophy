@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-05",
+  "entries": [
+    {
+      "id": "philosopher-aristotle",
+      "install_name": "philosopher-aristotle",
+      "category": "reasoning",
+      "description": "Design habits, incentives, and role-specific excellence when a decision concerns character, professional judgment, or sustained good work.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-aristotle"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-council",
+      "install_name": "philosopher-council",
+      "category": "reasoning",
+      "description": "Compare two or three philosophical lenses on a consequential decision, locate the real disagreements, and synthesize an actionable recommendation.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-council"
+      },
+      "dependencies": [
+        "philosopher-selector"
+      ],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-descartes",
+      "install_name": "philosopher-descartes",
+      "category": "reasoning",
+      "description": "Audit foundational assumptions, decompose a tangled problem, and rebuild an argument when confidence exceeds its evidential support.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-descartes"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-epictetus",
+      "install_name": "philosopher-epictetus",
+      "category": "reasoning",
+      "description": "Separate judgment and chosen action from uncertain outcomes when planning under setbacks, pressure, or limited control.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-epictetus"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-kant",
+      "install_name": "philosopher-kant",
+      "category": "reasoning",
+      "description": "Examine duties, universalizable rules, deception, and respect for agency when reviewing a proposed policy or interpersonal action.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-kant"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-mill",
+      "install_name": "philosopher-mill",
+      "category": "reasoning",
+      "description": "Compare expected benefits and harms across affected people when choosing among actions, policies, or product alternatives.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-mill"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-nietzsche",
+      "install_name": "philosopher-nietzsche",
+      "category": "reasoning",
+      "description": "Investigate inherited values, status incentives, and competing interpretations when a strategy or norm rests on an unquestioned ideal.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-nietzsche"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-popper",
+      "install_name": "philosopher-popper",
+      "category": "reasoning",
+      "description": "Design discriminating tests and counterexamples when a hypothesis, product claim, or explanation needs empirical scrutiny.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-popper"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-rawls",
+      "install_name": "philosopher-rawls",
+      "category": "reasoning",
+      "description": "Evaluate institutional rules, equal liberties, fair opportunity, and the position of the least advantaged when designing allocation or governance systems.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-rawls"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-selector",
+      "install_name": "philosopher-selector",
+      "category": "reasoning",
+      "description": "Choose a suitable philosophical reasoning skill from a user's task, explain the fit, and apply it or provide a portable invocation. Use when the user needs help selecting a lens.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-selector"
+      },
+      "dependencies": [
+        "philosopher-socrates",
+        "philosopher-kant",
+        "philosopher-nietzsche",
+        "philosopher-epictetus",
+        "philosopher-popper",
+        "philosopher-wittgenstein",
+        "philosopher-rawls",
+        "philosopher-mill",
+        "philosopher-aristotle",
+        "philosopher-descartes",
+        "philosopher-council"
+      ],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-socrates",
+      "install_name": "philosopher-socrates",
+      "category": "reasoning",
+      "description": "Test definitions and hidden assumptions through counterexamples when clarifying a disputed claim, requirement, or decision.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-socrates"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "philosopher-wittgenstein",
+      "install_name": "philosopher-wittgenstein",
+      "category": "reasoning",
+      "description": "Clarify conflicting uses of words and category mistakes when requirements, metrics, or debates hinge on ambiguous language.",
+      "source": {
+        "type": "bundled",
+        "path": "philosopher-wittgenstein"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "exploratory_pilot",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "skillosophy-acceptance-review",
+      "install_name": "skillosophy-acceptance-review",
+      "category": "workflow",
+      "description": "Review a project deliverable against intended behavior, user constraints, failure cases, and actual verification evidence before declaring completion.",
+      "source": {
+        "type": "bundled",
+        "path": "skillosophy-acceptance-review"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "not_yet_measured",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "skillosophy-delivery-plan",
+      "install_name": "skillosophy-delivery-plan",
+      "category": "workflow",
+      "description": "Build a staged implementation plan around dependencies, reversible decisions, risks, and acceptance evidence for a complex project.",
+      "source": {
+        "type": "bundled",
+        "path": "skillosophy-delivery-plan"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "not_yet_measured",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "skillosophy-evidence-plan",
+      "install_name": "skillosophy-evidence-plan",
+      "category": "workflow",
+      "description": "Design a proportionate evidence plan for an uncertain project claim, with decision-relevant comparisons, measurements, and revision conditions.",
+      "source": {
+        "type": "bundled",
+        "path": "skillosophy-evidence-plan"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "not_yet_measured",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "skillosophy-project-brief",
+      "install_name": "skillosophy-project-brief",
+      "category": "workflow",
+      "description": "Turn a project idea into a bounded brief with user outcomes, scope, constraints, decision priorities, and observable acceptance criteria before implementation.",
+      "source": {
+        "type": "bundled",
+        "path": "skillosophy-project-brief"
+      },
+      "dependencies": [],
+      "prerequisites": [],
+      "evidence": {
+        "status": "not_yet_measured",
+        "note": "Method fit is not proof of performance improvement."
+      }
+    },
+    {
+      "id": "playwright",
+      "install_name": "playwright",
+      "category": "practical",
+      "description": "Browser navigation, screenshots, interaction, and UI-flow debugging",
+      "source": {
+        "type": "github",
+        "repo": "openai/skills",
+        "revision": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/playwright",
+        "license": "Apache-2.0",
+        "license_path": "LICENSE.txt",
+        "license_sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright"
+      },
+      "dependencies": [],
+      "prerequisites": [
+        "Node.js/npm with npx; browser runtime availability",
+        "Resolve bundled helper paths from the installed project skill folder; installation does not configure runtime tools."
+      ],
+      "evidence": {
+        "status": "provenance_only",
+        "note": "Official upstream catalog and per-skill license checked 2026-10-05; no independent effectiveness measurement."
+      }
+    },
+    {
+      "id": "pdf",
+      "install_name": "pdf",
+      "category": "practical",
+      "description": "Create, extract, render, and visually verify PDF artifacts",
+      "source": {
+        "type": "github",
+        "repo": "openai/skills",
+        "revision": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/pdf",
+        "license": "Apache-2.0",
+        "license_path": "LICENSE.txt",
+        "license_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/pdf"
+      },
+      "dependencies": [],
+      "prerequisites": [
+        "Python; task-dependent PDF libraries and Poppler",
+        "Resolve bundled helper paths from the installed project skill folder; installation does not configure runtime tools."
+      ],
+      "evidence": {
+        "status": "provenance_only",
+        "note": "Official upstream catalog and per-skill license checked 2026-10-05; no independent effectiveness measurement."
+      }
+    },
+    {
+      "id": "gh-fix-ci",
+      "install_name": "gh-fix-ci",
+      "category": "practical",
+      "description": "Inspect and fix failing GitHub Actions PR checks when requested",
+      "source": {
+        "type": "github",
+        "repo": "openai/skills",
+        "revision": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/gh-fix-ci",
+        "license": "Apache-2.0",
+        "license_path": "LICENSE.txt",
+        "license_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/gh-fix-ci"
+      },
+      "dependencies": [],
+      "prerequisites": [
+        "GitHub CLI and authenticated repository access",
+        "Resolve bundled helper paths from the installed project skill folder; installation does not configure runtime tools."
+      ],
+      "evidence": {
+        "status": "provenance_only",
+        "note": "Official upstream catalog and per-skill license checked 2026-10-05; no independent effectiveness measurement."
+      }
+    },
+    {
+      "id": "security-best-practices",
+      "install_name": "security-best-practices",
+      "category": "practical",
+      "description": "Requested secure-by-default guidance or review for Python, JavaScript/TypeScript, and Go",
+      "source": {
+        "type": "github",
+        "repo": "openai/skills",
+        "revision": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/security-best-practices",
+        "license": "Apache-2.0",
+        "license_path": "LICENSE.txt",
+        "license_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/security-best-practices"
+      },
+      "dependencies": [],
+      "prerequisites": [
+        "A supported language/framework; explicit security task",
+        "Resolve bundled helper paths from the installed project skill folder; installation does not configure runtime tools."
+      ],
+      "evidence": {
+        "status": "provenance_only",
+        "note": "Official upstream catalog and per-skill license checked 2026-10-05; no independent effectiveness measurement."
+      }
+    },
+    {
+      "id": "jupyter-notebook",
+      "install_name": "jupyter-notebook",
+      "category": "practical",
+      "description": "Create reproducible experiment or teaching notebooks",
+      "source": {
+        "type": "github",
+        "repo": "openai/skills",
+        "revision": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/jupyter-notebook",
+        "license": "Apache-2.0",
+        "license_path": "LICENSE.txt",
+        "license_sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook"
+      },
+      "dependencies": [],
+      "prerequisites": [
+        "Python; optional notebook execution environment",
+        "Resolve bundled helper paths from the installed project skill folder; installation does not configure runtime tools."
+      ],
+      "evidence": {
+        "status": "provenance_only",
+        "note": "Official upstream catalog and per-skill license checked 2026-10-05; no independent effectiveness measurement."
+      }
+    },
+    {
+      "id": "vercel-deploy",
+      "install_name": "vercel-deploy",
+      "category": "practical",
+      "description": "Requested preview deployment for a project targeting Vercel",
+      "source": {
+        "type": "github",
+        "repo": "openai/skills",
+        "revision": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/vercel-deploy",
+        "license": "MIT",
+        "license_path": "LICENSE.txt",
+        "license_sha256": "e0fad1e120e56b02bb8e65745ff5be6d3234368f2df9d0dd183183879e595fc1",
+        "url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/vercel-deploy"
+      },
+      "dependencies": [],
+      "prerequisites": [
+        "Vercel CLI/auth or the upstream fallback; deployment authorization",
+        "Resolve bundled helper paths from the installed project skill folder; installation does not configure runtime tools."
+      ],
+      "evidence": {
+        "status": "provenance_only",
+        "note": "Official upstream catalog and per-skill license checked 2026-10-05; no independent effectiveness measurement."
+      }
+    }
+  ]
+}

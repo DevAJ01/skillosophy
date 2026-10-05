@@ -1,21 +1,25 @@
-# Skillsophy roadmap
+# Skillosophy product direction
 
-## Current focus: master the philosopher lenses
+Skillosophy is the starting workflow for Codex projects. Its purpose is to turn an idea and project context into a useful skill setup and clear specialist responsibilities before substantial building begins.
 
-Version 0.1.1 contains ten focused methods, a conversational selector, and a council. Improve these through real tasks, historical review, evidence-sensitive application, and regression testing. Expand only when a new philosopher brings a distinct useful method and can be evaluated, rather than accumulating famous names.
+## Implemented in 0.2.0
 
-A release should preserve portable Markdown instructions and edition-aware source pointers. A historical expert should review the adaptation boundaries before any claim of scholarly completeness. A practical reviewer should assess outputs without seeing philosopher branding.
+The startup skill identifies goals, constraints, existing guidance, and the project's working philosophy. It selects from original project workflows, pinned upstream practical skills, and optional philosopher lenses. It produces a concrete plan and named role instructions, then installs selected skills into `.agents/skills` with immutable provenance receipts.
 
-## Later: a broader skill selector
+Role instructions are the selected mode. They do not register or launch Codex subagents, choose models, or modify agent settings. Philosophers are one collection in the catalog; the default entry is the broad project starter.
 
-The future selector should include third-party skills as well as Skillsophy's own. Its ranking must distinguish **task fit** from **evidence of improvement**. Popularity, stars, testimonials, and prompt showcases can support discovery but cannot establish success.
+## Broaden capability coverage
 
-A catalog entry should record the upstream author and URL, license, version or immutable revision, supported clients, dependencies, task scope, evaluation methodology, model/configuration, baseline, sample size, outcome metric, regressions, and date. Mark unsupported claims as author claims. A result on one model/task must not become a universal success badge.
+Add distinct practical specialties according to actual projects and verified sources: design, application frameworks, data systems, testing, operations, writing, research, and other domains. Preserve the portability of skill folders. Avoid adding an entire catalog to each project; choose what the immediate work needs.
 
-Prefer linking or loading a permission-compatible upstream package to copying it. Retain attribution; do not bundle unlicensed material. Inspect fetched instructions and executable dependencies before recommending installation. A catalog recommendation never silently installs code or authorizes external actions.
+A catalog entry records scope, source and license, version or immutable revision, dependencies, prerequisites, and evidence status. Check the upstream instructions before recommending them. Keep task fit separate from performance evidence. Stars, testimonials, and author claims can support discovery but do not establish improvement.
 
-The first selector extension can remain conversational: task and constraints in, a small shortlist with evidence and limits out. Add an MCP-backed catalog and optional interactive picker only when browsing, versioned retrieval, or a visual comparison materially helps users. The current plugin does not implement those capabilities.
+The initial six upstream entries are provenance-backed, with no independent effectiveness measurement. Further catalog growth should include real task evaluations, model/configuration, baselines, sample sizes, outcome metrics, regressions, and dates when available. Unsupported results remain labeled as unmeasured or author claims.
 
-## Distribution
+## Author project-specific skills
 
-Keep the GitHub source and downloadable skills usable independently of ChatGPT. A skills-only plugin is the initial ChatGPT/Codex distribution layer. Public directory submission is a separate release process from a private plugin save. No outside skills or unverified success rankings are included in 0.1.1.
+When no existing skill fits, create a focused skill around a repeated project workflow or a material decision procedure. Use the host's creator, respect the project's instructions, and test an actual task. A generated skill should add guidance that changes work; do not turn every obvious task into another Markdown file. Record generated skills separately from pinned upstream sources.
+
+## Later product additions
+
+Consider richer catalog search and an interactive comparison when the size of the catalog justifies them. Add configurable specialist subagents only if requested as a separate mode, with supported host configuration and verification. A website is optional distribution support; project setup remains a plugin workflow in Codex.

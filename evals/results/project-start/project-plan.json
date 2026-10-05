@@ -1,0 +1,56 @@
+{
+  "project": {
+    "acceptance_criteria": [
+      "Input bytes remain unchanged after successful and failed runs.",
+      "A successful run emits a cleaned copy and audit that explains each change and rejection.",
+      "Malformed quoting, ragged records, encoding errors, and ambiguous recovery produce explicit reported outcomes, not silent repairs.",
+      "Counts reconcile when record boundaries are known; uncertain record boundaries are disclosed without fabricated row counts.",
+      "Offline execution succeeds without network access or runtime packages beyond the chosen minimal runtime."
+    ],
+    "capability_gap": "The catalog has no CSV/CLI implementation specialty. The two bundled workflow skills address contract definition and review; implement routine CSV/CLI work directly. No weak upstream match or untested custom skill is added.",
+    "constraints": [
+      "All operation is offline; no external services, credentials, or network.",
+      "Keep original input files unchanged; never reuse the input path or overwrite it through aliases.",
+      "Produce a separate audit report identifying transformations, rejected rows, and uncertainty.",
+      "Runtime dependencies must be minimal; Python standard library is a reversible initial assumption, not a mandated stack.",
+      "Role documents only; no configured or running subagents."
+    ],
+    "deliverable": "A cleaned copy and audit report, with explicit malformed-row policy and minimal runtime dependencies.",
+    "exclusions": [
+      "No product implementation in this setup.",
+      "No browser, notebooks, deployment, external integrations, or agent configuration."
+    ],
+    "goal": "Build an offline CSV-cleaning CLI that preserves source files and makes every transformation or rejection auditable.",
+    "next_decision": "Specify supported dialect/encoding, allowed transformations, malformed-record recovery boundaries, report format, exit statuses, and output-collision behavior before implementation.",
+    "philosophy": {
+      "approach": "Define a small reversible end-to-end contract, then implement directly with standard-library tools where sufficient.",
+      "evidence": "Verify byte-for-byte input preservation, reconcile accepted/rejected records in the audit, and exercise malformed-input and output-collision cases.",
+      "priority": "Preserve input bytes and explain data loss or uncertainty before offering convenient cleaning.",
+      "tradeoffs": "Reject or quarantine ambiguous records with reasons; never guess repairs or silently discard data. Prefer fewer dependencies over speculative features."
+    },
+    "users": "People cleaning local CSV files who need to understand what changed and retain their original data."
+  },
+  "roles": [
+    {
+      "done_when": "A bounded brief records observable acceptance criteria, explicit rejection/recovery policy, minimal runtime rationale, exclusions, and unresolved assumptions; no product code has been written.",
+      "mission": "Use the project brief to define the smallest offline CLI contract. Specify input/output separation, allowed cleaning, dialect/encoding, audit fields and reconciliation, malformed-record policy including uncertain boundaries, exit statuses, and collision handling. Preserve AGENTS.md and sample.csv. Do not implement the CLI or select external services.",
+      "name": "contract-author",
+      "skills": [
+        "skillosophy-project-brief"
+      ]
+    },
+    {
+      "done_when": "A review maps every material criterion to actual recorded evidence or an explicit unverified limitation and reports concrete defects; setup alone is never described as evidence that the CLI works.",
+      "mission": "Independently assess a future implementation against the contract with proportionate evidence: input hashes before/after success and failure, audit reconciliation, malformed quoting/ragged-record/encoding behavior, output aliases and collisions, and offline dependency behavior. Record uncertainty honestly. Review only; role definition does not start work.",
+      "name": "acceptance-reviewer",
+      "skills": [
+        "skillosophy-acceptance-review"
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "skills": [
+    "skillosophy-project-brief",
+    "skillosophy-acceptance-review"
+  ]
+}

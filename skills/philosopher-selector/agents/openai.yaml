@@ -1,4 +1,4 @@
 interface:
-  display_name: "Skillsophy Philosopher Selector"
+  display_name: "Skillosophy Philosopher Selector"
   short_description: "Choose a reasoning lens for your task"
   default_prompt: "Use $philosopher-selector to choose and apply the most useful lens for my task."

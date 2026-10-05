@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "type": "single independent startup forward test",
+  "installed_hashes_match": true,
+  "original_guidance_and_input_unchanged": true,
+  "subagents_configured": false,
+  "network_used": false,
+  "product_implemented": false,
+  "comparative_effectiveness_test": false
+}

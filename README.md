@@ -1,61 +1,54 @@
-# Skillsophy
+# Skillosophy
 
-Practical philosophical reasoning skills for AI agents. Use a philosopher's method to improve a piece of work: clarify a requirement, challenge a claim, design a fair rule, or make a decision under uncertainty.
+**Start your Codex project with the right skills and a clear way of working.**
 
-These are **reasoning lenses, not personality impersonations**. They contain original contemporary workflows informed by philosophical texts, with sources and interpretation limits. They do not promise superior answers on every task. Version 0.1.1 is an exploratory release; see [evaluation results](evals/RESULTS.md) for the evidence and its limits.
+Before implementation, Skillosophy examines what you want to build, determines the project's working philosophy, selects useful skills, defines specialist-agent role instructions, and installs the selected skills into that project.
 
-## Choose a lens
+“Project philosophy” means practical decision principles: the outcome that matters, tradeoffs, development approach, evidence needed to move forward, and standards for completion. Philosophical reasoning lenses are available when useful; practical project work drives the selection.
 
-| Skill | Useful for | Result to expect |
-|---|---|---|
-| [Socrates](skills/philosopher-socrates/SKILL.md) | Vague definitions and hidden assumptions | Counterexample and better working claim |
-| [Kant](skills/philosopher-kant/SKILL.md) | Duties, deception, and respect for agency | Consistent rule and honest alternative |
-| [Nietzsche](skills/philosopher-nietzsche/SKILL.md) | Inherited values and status incentives | Competing explanations and a practical experiment |
-| [Epictetus](skills/philosopher-epictetus/SKILL.md) | Setbacks and limited control | Responsible action with a contingency |
-| [Popper](skills/philosopher-popper/SKILL.md) | Empirical and causal claims | Test that could change the decision |
-| [Wittgenstein](skills/philosopher-wittgenstein/SKILL.md) | Ambiguous requirements and word disputes | Concrete uses and acceptance criteria |
-| [Rawls](skills/philosopher-rawls/SKILL.md) | Institutional rules and opportunity | Alternatives assessed for fairness |
-| [Mill](skills/philosopher-mill/SKILL.md) | Benefits, harms, and uncertainty | Stakeholder comparison and reversal condition |
-| [Aristotle](skills/philosopher-aristotle/SKILL.md) | Habits and professional judgment | Practice aligned with a worthwhile purpose |
-| [Descartes](skills/philosopher-descartes/SKILL.md) | Doubtful premises and tangled arguments | Assumption audit and rebuilt conclusion |
-| [Selector](skills/philosopher-selector/SKILL.md) | Choosing a suitable method | One useful lens, with a reason for the fit |
-| [Council](skills/philosopher-council/SKILL.md) | A decision with conflicting concerns | Explicit disagreement and actionable synthesis |
+## Start a project
 
-The Stoic lens is centered on Epictetus and the utilitarian lens on Mill. They do not represent every position within those traditions. This initial Western collection is a scoped starting point, not a universal philosophy canon.
-
-## Use with your AI
-
-A skill-aware client can load the matching folder under `skills/`. Preserve the folder's `references/` and `agents/` files. Install the selector and council together with the full collection, because they refer to sibling skills. The ten individual philosopher skills are self-contained.
-
-For Codex, copy the skill folders you want into your configured skills directory (commonly `~/.codex/skills`) and start a new session. Invoke a skill explicitly:
+Install the Skillosophy plugin and invoke its entry skill in Codex:
 
 ```text
-Use $philosopher-popper to examine this claim and design a test that could change our decision: [claim, evidence, constraints].
+Use $skillosophy-start before building my project.
+I want to build [deliverable] for [users] in [project folder].
+My constraints are [constraints].
+Determine the project's working philosophy, choose useful skills and specialist roles,
+and install the selected skills into the project.
 ```
 
-```text
-Use $philosopher-selector to choose and apply a useful lens. My task is [deliverable]; the main uncertainty is [uncertainty].
-```
+Skillosophy inspects available context, asks only for information that changes the setup, and produces a small, purposeful selection. A request for advice alone produces recommendations; a request to set up project skills proceeds with installation within the stated scope.
 
-```text
-Use $philosopher-council to compare suitable perspectives on [decision]. Here are the facts, alternatives, and constraints: [...].
-```
+The installer places skill folders in `.agents/skills` and saves the project plan, source/hash receipt, and named role instructions in `.skillosophy/setup-<hash>/`. Codex discovers project skills from that directory. Role instructions specify responsibilities and skills; they are not configured or running subagents. The installer preserves existing guidance and refuses changed destination skills rather than overwriting them.
 
-For a chat interface without skill loading, attach or paste the selected `SKILL.md` as instructions together with your task. Include its references only when historical detail matters. For the selector/council, also supply the catalog and selected skill text. Pasting a prompt does not install a plugin or grant new tools. Host instruction precedence still applies.
+Installation needs a Codex environment with access to the target project. Chat surfaces without filesystem access can prepare the plan for Codex. Installing a skill does not connect services, install its runtime prerequisites, deploy the project, or launch agents.
 
-For ChatGPT or Codex plugin distribution, build the skills-only package with `python3 scripts/package.py`, then use the host's supported plugin import or account-save workflow. The plugin contains conversational selection; there is no graphical picker or third-party search in this release. See official [skill documentation](https://developers.openai.com/plugins/build/skills) and [plugin documentation](https://learn.chatgpt.com/docs/build-plugins) for current host support.
+## Initial catalog
 
-## Evaluate and contribute
+The catalog has **22 installable entries**, while the plugin packages 17 workflows including its startup entry.
+
+| Collection | Included capabilities |
+|---|---|
+| Original project workflows | [Project brief](skills/skillosophy-project-brief/SKILL.md), [evidence plan](skills/skillosophy-evidence-plan/SKILL.md), [delivery plan](skills/skillosophy-delivery-plan/SKILL.md), [acceptance review](skills/skillosophy-acceptance-review/SKILL.md) |
+| Pinned upstream skills | Playwright browser work, PDF work, GitHub CI repair, security best practices, Jupyter notebooks, Vercel deployment |
+| Reasoning lenses | Socrates, Kant, Nietzsche, Epictetus, Popper, Wittgenstein, Rawls, Mill, Aristotle, Descartes |
+| Reasoning selection | [Philosopher selector](skills/philosopher-selector/SKILL.md) and [council](skills/philosopher-council/SKILL.md) |
+
+Upstream entries point to checked, immutable revisions of [openai/skills](https://github.com/openai/skills), with per-skill licenses and prerequisites. They are fetched only when selected for installation. Provenance and popularity do not establish measured effectiveness. The [catalog](skills/skillosophy-start/references/catalog.json) records that distinction.
+
+Coverage is intentionally finite. For a missing specialty, Skillosophy can inspect a suitable licensed source or use the host's skill-creator workflow to author a focused project skill. The bundled installer accepts reviewed catalog entries; it does not install arbitrary unreviewed URLs.
+
+## Development and verification
 
 ```sh
 python3 scripts/validate.py
+python3 -B -m unittest discover -s tests -v
 python3 scripts/package.py
 ```
 
-The first 36 paired tasks mostly tied a strong baseline; no meaningful general improvement is established. Raw answers, blind judgments, and [results](evals/RESULTS.md) are public.
+Version 0.2.0 adds project setup and installation. Integration tests cover actual writes, repeat installation, preservation, dependencies, source failures, hostile paths, license checks, and rollback. A real pinned upstream skill installation is also checked in a temporary project. Live host invocation remains separate from package validation.
 
-Structural validation checks packaging, links, metadata, and coverage. It does **not** test reasoning quality. Behavioral evaluation uses matched baseline/skill tasks, independently generated answers, and blinded judging; read [the protocol](evals/README.md) before making effectiveness claims.
+The earlier philosopher pilots mostly tied a strong baseline and do not establish reliable overall improvement. New project workflows and upstream entries are not represented as proven performance upgrades. Read [evaluation evidence](evals/RESULTS.md), [installation verification](docs/INSTALLATION_VERIFICATION.md), and [the protocol](evals/README.md).
 
-Useful contributions include a real task where a skill changed the result, a historical correction with an edition or source, and a counterexample where the method caused a regression. Report the model, task, original answer, skill-assisted answer, and how success was assessed. Do not submit private data or copyrighted source reproductions.
-
-[Roadmap and third-party catalog policy](docs/ROADMAP.md) · [Release guide](docs/RELEASE.md) · [MIT license](LICENSE)
+[Product direction](docs/ROADMAP.md) · [Release guide](docs/RELEASE.md) · [MIT license](LICENSE)

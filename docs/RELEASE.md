@@ -1,14 +1,15 @@
 # Release and publishing
 
-1. Run structural validation and build the ZIP. Review the actual behavioral report and unresolved regressions.
-2. Check each skill's description, examples, and historical pointers. Do not advertise “proven improvement” on the strength of the initial pilot.
-3. Publish the source repository and provide standalone `skills/<name>/SKILL.md` folders. When listing on a skills directory, follow its current submission rules and confirm it indexes nested `skills/` directories. Do not assume a GitHub push automatically publishes a directory listing.
-4. For ChatGPT/Codex, use the skills-only `plugin.json` package. Saving to a private account/workspace does not submit a public listing or establish installation success.
-5. Before public OpenAI directory submission, prepare the required icon, listing metadata, examples, support/contact details, and any requested attestations in the current submission portal. Use official [submission documentation](https://developers.openai.com/plugins/deploy/submission) and [plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines). Review portal requirements at release time; this repository is not a claim that public review has passed.
-6. Record the exact package checksum, Git revision, plugin release ID if saved, and evaluation configuration. Tag the release only after review. Keep raw evaluation evidence so users can examine the basis of claims.
+The current product name is **Skillosophy**, and the repository is [DevAJ01/skillosophy](https://github.com/DevAJ01/skillosophy). The 0.1.x philosopher releases retain their original historical names and evidence. Version 0.2.0 changes the primary workflow to project startup, selection, role instructions, and project-local installation.
 
-This initial package has no MCP server, third-party app bindings, external dependencies, graphical picker, or claimed directory approval. It contains the implemented philosopher workflows and conversational routing.
+Before a release, run package validation and installer integration tests, inspect the actual behavioral artifacts, and build the ZIP with `python3 scripts/package.py`. Verify the uploaded release against the local package checksum. A private plugin save does not establish installation or live invocation success, and it does not submit a public listing.
 
-## Initial hosted CI status
+The existing private account plugin has the immutable machine identifier `skillsophy`. Its update service rejects a renamed manifest. To update that same plugin without creating a duplicate, build `python3 scripts/package.py --account-name skillsophy` and upload the resulting account ZIP. Only the machine identifier and ZIP root differ; the visible name, default prompt, skills, and project records all use **Skillosophy**. The public source and portable release ZIP use `skillosophy`.
 
-The first validation run on 2026-10-05 did not start. GitHub returned: “The job was not started because your account is locked due to a billing issue.” This is an account blocker, not a passing or failing code check. Local structural and package validation passed. Restore Actions access, then rerun [the workflow](https://github.com/DevAJ01/skillsophy/actions/workflows/validate.yml).
+Publish standalone skill folders with their references and scripts. The startup workflow uses the complete bundled collection for its local-source selections. The six external catalog entries are source pointers; the installer fetches selected skills at pinned revisions and retains their licenses and notices.
+
+For public OpenAI directory submission, follow the current [submission documentation](https://developers.openai.com/plugins/deploy/submission) and [plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines), including required icons, listing details, examples, support/contact information, and attestations. Public directory review has not been completed. For other skills directories, verify their current rules; a GitHub push does not automatically submit a listing.
+
+## Hosted CI status
+
+The initial GitHub Actions run did not start because GitHub reported that the owner's account is locked due to a billing issue. Local checks passed; this is an account blocker, not a verified hosted code check. Restore Actions access and rerun [the workflow](https://github.com/DevAJ01/skillosophy/actions/workflows/validate.yml).

@@ -3,7 +3,7 @@ name: philosopher-selector
 description: "Choose a suitable philosophical reasoning skill from a user's task, explain the fit, and apply it or provide a portable invocation. Use when the user needs help selecting a lens."
 ---
 
-# Skillsophy Philosopher Selector
+# Skillosophy Philosopher Selector
 
 Choose the smallest useful set of lenses for the user's actual work. The current catalog contains ten philosophical lenses; it does not yet search or recommend third-party skills.
 
