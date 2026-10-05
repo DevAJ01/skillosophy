@@ -1,0 +1,154 @@
+{
+  "overall": {
+    "n": 12,
+    "baseline_mean": 10,
+    "skilled_mean": 10,
+    "mean_paired_delta": 0,
+    "score_wins": 0,
+    "score_ties": 12,
+    "score_losses": 0,
+    "preference_counts": {
+      "tie": 10,
+      "skilled": 2
+    },
+    "skilled_material_failure_cases": 0
+  },
+  "subsets": {
+    "transfer": {
+      "n": 12,
+      "baseline_mean": 10,
+      "skilled_mean": 10,
+      "mean_paired_delta": 0,
+      "score_wins": 0,
+      "score_ties": 12,
+      "score_losses": 0,
+      "preference_counts": {
+        "tie": 10,
+        "skilled": 2
+      },
+      "skilled_material_failure_cases": 0
+    }
+  },
+  "cases": [
+    {
+      "id": "transfer-socrates",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-kant",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-nietzsche",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-epictetus",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-popper",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-wittgenstein",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-rawls",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-mill",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "skilled",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-aristotle",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-descartes",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-selector",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "transfer-council",
+      "kind": "transfer",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "skilled",
+      "baseline_failures": [],
+      "skilled_failures": []
+    }
+  ]
+}

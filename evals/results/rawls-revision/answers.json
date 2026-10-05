@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rawls-1",
+    "answer": "Replace noon's fastest-click rule with a seven-day application window, available online and through a staffed alternative covering every shift. Notify all eligible workers across shifts. If more than 20 apply, allocate places by a transparent lottery; record the draw and prohibit managerial overrides. Give unsuccessful applicants priority in the next comparable round.\n\nAll 100 workers are formally eligible, but the current timing disadvantages night-shift workers in practice. Removing that barrier improves effective opportunity without assuming their shift makes them the least advantaged in every respect. If some workers have systematically lacked access to training, investigate that disadvantage before introducing a published priority criterion.\n\nThe tradeoff is slower allocation and less certainty for applicants than immediate registration. A lottery also cannot guarantee that the workers who would benefit most receive places.\n\nReview applications and awards by shift, prior training access, and reported access barriers after each round. Correct barriers before the next draw. This is an organizational adaptation of Rawlsian fairness, rather than a direct application to society's basic structure.",
+    "loaded_skills": [
+      "philosopher-rawls"
+    ]
+  },
+  {
+    "id": "rawls-2",
+    "answer": "The stated facts do not support a Rawlsian defense of B. Even granting that its total hours are higher, aggregate benefit does not justify executive privilege. After protecting basic liberties and fair equality of opportunity, inequalities must give the greatest benefit to the least advantaged among feasible alternatives.\n\nExecutive status alone does not establish who is least advantaged. But B reduces everyone else's training from 10 to 8 hours, with no evidence of compensating benefits. A is therefore the better-supported choice on the information given.\n\nA defense of B would require evidence that its allocation improves the relevant prospects of the least advantaged more than A and other feasible rules, while satisfying the prior principles.",
+    "loaded_skills": [
+      "philosopher-rawls"
+    ]
+  },
+  {
+    "id": "transfer-rawls",
+    "answer": "Recommend B provisionally. All options meet the stated accessibility requirement; that obligation should remain a condition of implementation. Usable transport affects effective opportunity to reach work and other activities.\n\nThe strongest evidenced disadvantage is the position of the 150 low-income outer-area shift workers with no usable alternative route. Income and lack of alternatives indicate constrained resources and opportunity. They are a defensible priority group, although the city cannot establish that they are its least advantaged residents overall. Do not infer that central riders are affluent.\n\nAmong these packages, B serves more people in that group than C—150 versus 90—and forecasts a larger average saving for outer riders. Those averages do not establish the savings each shift worker receives, so verify service times and their actual journeys. A provides no stated relief for this group. This is a Rawlsian adaptation: prioritize substantial improvement for an evidenced disadvantaged group, subject to access and opportunity requirements.\n\nB sacrifices broader coverage and central riders' gains. A forecasts 9,600 aggregate minutes saved, B 5,000, and C 5,300; aggregate minutes do not settle fairness.\n\nPublish this rationale, forecasts, and review criteria before funding. At six months and before renewal, report actual journey savings, shift compatibility, reliability, accessibility, and who benefits. Invite accessible public feedback and collect voluntary data on income and transport alternatives across both areas. Reconsider renewal if B fails to improve the priority group's effective access or evidence shows another feasible package would benefit the least advantaged more.",
+    "loaded_skills": [
+      "philosopher-rawls"
+    ]
+  },
+  {
+    "id": "rawls-greatest-benefit",
+    "answer": "Recommend B. The scenario stipulates that all three arrangements satisfy the prior requirements of adequate basic liberties and fair equality of opportunity. It also supplies a publicly justified primary-goods index and feasibility assumptions for this comparison.\n\nUnder those assumptions, the difference principle selects the arrangement giving the greatest benefit to the least advantaged: B scores 16, compared with A's 13 and E's 10. A's improvement over E is insufficient when B is feasible and does better for that group.\n\nThe minister's appeal to A's higher average—35 rather than B's 30—does not override the difference principle. Choosing B sacrifices five units of average goods while delivering three more units to the least advantaged than A.\n\nThis conclusion depends on the scenario's stipulated measure and feasibility; it does not establish that such indices are generally adequate.",
+    "loaded_skills": [
+      "philosopher-rawls"
+    ]
+  }
+]

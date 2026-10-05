@@ -1,0 +1,46 @@
+[
+  {
+    "id": "rawls-1",
+    "skill": "philosopher-rawls",
+    "kind": "application",
+    "prompt": "A company has 20 training slots for 100 eligible workers. Registration opens at noon and slots go to the fastest clicks. Night-shift workers are usually asleep then. Design a fairer rule and explain the tradeoff, in at most 180 words.",
+    "criteria": [
+      "Recognize effective opportunity beyond identical rules",
+      "Compare feasible allocation methods",
+      "Address disadvantaged access without inventing outcomes"
+    ]
+  },
+  {
+    "id": "rawls-2",
+    "skill": "philosopher-rawls",
+    "kind": "regression",
+    "prompt": "Policy A gives all employees 10 training hours. Policy B gives executives 40 hours and everyone else 8. We have no evidence executive training benefits the others. Use Rawls to defend B because the total number of hours is higher, in at most 120 words.",
+    "criteria": [
+      "Reject aggregate-total justification alone",
+      "Require evidence for disadvantaged position and opportunity",
+      "Do not assert uniform outcomes are always required"
+    ]
+  },
+  {
+    "id": "transfer-rawls",
+    "skill": "philosopher-rawls",
+    "kind": "transfer",
+    "prompt": "A city can fund exactly one evening bus package for a year. A costs \u00a3600,000 and gives 800 central-area riders an average 12-minute travel saving. B costs \u00a3600,000 and gives 200 outer-area riders an average 25-minute saving; 150 of these riders are low-income shift workers with no usable alternative route. C splits the same budget: 500 central riders save 7 minutes and 120 outer riders save 15 minutes, including 90 low-income shift workers. These are forecasts, not measured effects. Disability accessibility is legally required for every option and already included in costs. The city has no demographic data beyond these facts. In at most 250 words, recommend a package with a transparent allocation rationale, acknowledge what your choice sacrifices, and give a public review rule. Do not claim aggregate minutes alone settle fairness or assume all central riders are affluent.",
+    "criteria": [
+      "Compares the options using both benefit magnitude and unequal access to alternatives, without treating missing central-area demographics as known or reducing fairness to aggregate savings.",
+      "Chooses a package with an intelligible rationale and states a concrete distributional sacrifice or tradeoff while respecting equal budgets and accessibility requirements.",
+      "Provides a feasible public review rule for forecast accuracy and effects on underserved riders, with conditions for revising the allocation rather than asserting certainty about forecast outcomes."
+    ]
+  },
+  {
+    "id": "rawls-greatest-benefit",
+    "skill": "philosopher-rawls",
+    "kind": "revision-regression",
+    "prompt": "A policymaker compares three feasible institutional arrangements. All three protect the same adequate basic liberties and fair equality of opportunity. For this hypothetical comparison, a publicly justified primary-goods index for the least advantaged is 10 under E, 13 under A, and 16 under B. Average goods are 20 under E, 35 under A, and 30 under B. The minister chooses A because the least advantaged are better off than under E and the average is highest. Examine this argument under Rawls and recommend an arrangement, in at most 150 words. Treat the stated measure and feasibility as assumptions of the scenario, not proof that such indices are generally adequate.",
+    "criteria": [
+      "Does not treat improvement over E as sufficient",
+      "Chooses B given the specified prior-principle and feasibility assumptions",
+      "Separates greatest benefit to least advantaged from highest average and flags scope of the index assumption"
+    ]
+  }
+]

@@ -20,6 +20,17 @@ def validate(root=ROOT):
     for prohibited in ['skills','mcpServers','apps','interface']:
         if prohibited in manifest:
             errors.append(f'Non-portable top-level field: {prohibited}')
+    legacy_path=root/'.codex-plugin'/'plugin.json'
+    if legacy_path.exists():
+        legacy=json.loads(legacy_path.read_text())
+        for field in ['name','version','description','author']:
+            if legacy.get(field)!=manifest.get(field):
+                errors.append(f'Compatibility manifest mismatch: {field}')
+        for field,value in ui.items():
+            if legacy.get('interface',{}).get(field)!=value:
+                errors.append(f'Compatibility UI mismatch: {field}')
+        if legacy.get('skills')!='./skills':
+            errors.append('Compatibility skill path mismatch')
     skills=list((root/'skills').glob('*/SKILL.md'))
     if not skills:
         errors.append('No skills')

@@ -8,3 +8,7 @@
 6. Record the exact package checksum, Git revision, plugin release ID if saved, and evaluation configuration. Tag the release only after review. Keep raw evaluation evidence so users can examine the basis of claims.
 
 This initial package has no MCP server, third-party app bindings, external dependencies, graphical picker, or claimed directory approval. It contains the implemented philosopher workflows and conversational routing.
+
+## Initial hosted CI status
+
+The first validation run on 2026-10-05 did not start. GitHub returned: “The job was not started because your account is locked due to a billing issue.” This is an account blocker, not a passing or failing code check. Local structural and package validation passed. Restore Actions access, then rerun [the workflow](https://github.com/DevAJ01/skillsophy/actions/workflows/validate.yml).

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "transfer-socrates",
+    "skill": "philosopher-socrates",
+    "kind": "transfer",
+    "prompt": "A customer-support director proposes this rule: “A case is resolved when the agent closes it within 24 hours.” Last month, 1,000 cases were closed; 220 reopened within seven days, 140 required a workaround that customers must repeat weekly, and 80 customers stopped replying. Categories can overlap. Bonuses would depend on the 24-hour closure rate, while the team also handles urgent account lockouts and complicated billing disputes. You have no authority to buy software or add staff. Write a replacement policy of at most 250 words: define a resolved case, specify a small dashboard and bonus rule, and show how your definition handles a workaround and a silent customer. Do not ask follow-up questions.",
+    "criteria": [
+      "Provides a usable resolution definition and classifies recurring workarounds and nonresponse explicitly, without equating administrative closure with successful resolution.",
+      "Uses the figures without summing overlapping categories as unique failures, and proposes measures that expose recurrence or unresolved customer needs alongside timeliness.",
+      "Gives an implementable bonus or review rule that accounts for case difficulty and urgent lockouts within the no-software/no-staff constraint, rather than rewarding premature closure."
+    ]
+  },
+  {
+    "id": "transfer-kant",
+    "skill": "philosopher-kant",
+    "kind": "transfer",
+    "prompt": "A retailer offers employees a £60 monthly discount if they enable an optional wellness app. The draft enrollment screen says “Join for healthier habits”; a buried paragraph permits individual sleep and activity scores to be shared with store managers. Management says the scores might help allocate demanding shifts, but no validation exists. A 60-day pilot can instead use aggregate scores, which would prevent individualized scheduling. The company has budgeted £12,000 for discounts and cannot increase it. Some staff say voluntary sharing is acceptable; others say declining is unaffordable. Draft a decision memo and revised enrollment wording, together at most 250 words. Choose a pilot design or explain a pause, address individual choice and scheduling use, and state what evidence or safeguards would make reconsideration appropriate. Do not assume that any financial incentive is automatically coercive.",
+    "criteria": [
+      "Evaluates whether choice is meaningful given the incentive and unequal affordability, without asserting either automatic coercion or automatic voluntariness.",
+      "Makes an explicit decision about individual managerial access and unvalidated scheduling use, with workable safeguards or reconsideration conditions within the stated options and budget.",
+      "Provides prominent enrollment wording that accurately identifies the proposed data recipients, use, optionality, and consequences of declining rather than relying on the original buried disclosure."
+    ]
+  },
+  {
+    "id": "transfer-nietzsche",
+    "skill": "philosopher-nietzsche",
+    "kind": "transfer",
+    "prompt": "A design agency awards its “creative leader” promotion only to employees who personally pitch at an annual £2,500 industry festival. Employees pay travel themselves. Leadership describes this as proof of independent spirit. Of 12 recent promotees, 10 attended prestigious art schools; the agency has never compared client results with festival participation. Two excellent designers prefer collaborative credit and cannot travel because of caring responsibilities. The festival sometimes generates valuable client leads. You can change one promotion cycle but cannot cancel existing festival contracts. In at most 250 words, assess the promotion norm and propose a concrete experiment that distinguishes valuable pitching skills from status signals. Include how leadership should respond to dissent and what findings would justify retaining, revising, or dropping the gate.",
+    "criteria": [
+      "Separates potentially valuable pitching or lead generation from prestige, travel access, and conformity, without diagnosing leaders or dissenters psychologically from sparse facts.",
+      "Proposes an accessible alternative or comparison within one cycle and existing contracts, using client or creative outcomes rather than merely reversing the preference for festival attendees.",
+      "Specifies treatment of dissent and decision conditions that allow the gate to be retained, revised, or dropped according to evidence rather than assuming the conclusion."
+    ]
+  },
+  {
+    "id": "transfer-epictetus",
+    "skill": "philosopher-epictetus",
+    "kind": "transfer",
+    "prompt": "You received a performance review stating you missed four deadlines. Your records show two agreed deadline changes, one late dependency supplied by another team, and one deadline you genuinely missed. You have 45 minutes before a review meeting and three working days to submit an appeal. Your manager may refuse corrections, but the written appeal process exists. You feel “this proves I am a failure” and want either to apologize for everything or send an angry accusation. In at most 250 words, give a 45-minute preparation plan, a short meeting script, and the next action if the manager rejects your evidence. Address your actual missed deadline and your emotional reaction without promising that the outcome will be fair.",
+    "criteria": [
+      "Uses all four deadline facts to distinguish a genuine mistake from disputed attribution and avoids both blanket self-blame and blanket denial.",
+      "Provides feasible timed preparation and a factual meeting script that acknowledges responsibility, requests specific corrections, and separates the review from a global judgment of personal worth.",
+      "Preserves the three-day appeal opportunity and a practical evidence-based next step if rejected, without recommending passivity, angry retaliation, or guaranteeing the manager’s reaction."
+    ]
+  },
+  {
+    "id": "transfer-popper",
+    "skill": "philosopher-popper",
+    "kind": "transfer",
+    "prompt": "A sales company randomized 20 branch offices, 10 each, to a new call script or the existing script for six weeks. Results: conversion rose 3 percentage points; the reported 95% interval was +1 to +5 points, computed by treating 8,000 individual calls as independent. Calls from the same branch share staff and customers. Four control branches copied the new script halfway through. The board will fund national rollout only for at least a 2-point improvement without a complaint-rate increase above 0.5 points; the pilot complaint estimate rose 0.4 points with interval -0.2 to +1.0. There is funding for one more six-week pilot. In at most 250 words, write a board recommendation and follow-up test plan, specifying the analysis unit, contamination handling, and results that would change the rollout decision. Do not invent corrected intervals.",
+    "criteria": [
+      "Identifies the branch randomization/dependence problem and does not treat the individual-call interval as decisive or manufacture corrected precision.",
+      "Handles copied scripts without simply excluding contaminated control branches, and proposes a credible next test with branch-aware analysis and prevention or measurement of contamination.",
+      "Connects both conversion and complaint uncertainty to the board’s specified thresholds and states result-dependent rollout, rejection, or inconclusive decisions."
+    ]
+  },
+  {
+    "id": "transfer-wittgenstein",
+    "skill": "philosopher-wittgenstein",
+    "kind": "transfer",
+    "prompt": "A booking platform’s contract draft promises “99% successful bookings.” Sales counts a booking as successful when payment is authorized: 9,900 of 10,000 attempts. Operations counts success when a supplier confirms within two hours: 9,300 of the same 10,000 attempts. Customers regard arrival without an available room as failure; 120 of the 9,300 confirmed bookings had that outcome. Finance excludes 300 customer cancellations from its denominator, but their stage and overlap with the failures are unknown. Each team insists its figure is correct. In at most 250 words, produce a contract-ready operational definition, a reconciliation table or compact mapping, and a plan for computing the promised rate. Do not assert an exact cancellation-adjusted rate from the missing overlap data. Explain which disagreements are definitions and which are performance facts.",
+    "criteria": [
+      "Maps authorization, timely supplier confirmation, and usable accommodation to distinct observable stages, preserving the reported figures rather than declaring one universal meaning.",
+      "Offers a contract-ready success definition with numerator, denominator, cancellation treatment, time window, and verification boundary sufficient to calculate consistently.",
+      "Distinguishes definitional choices from actual confirmation/arrival failures and identifies the missing cancellation-stage/overlap data, without claiming a supported 99% end-to-end rate or exact adjusted rate."
+    ]
+  },
+  {
+    "id": "transfer-rawls",
+    "skill": "philosopher-rawls",
+    "kind": "transfer",
+    "prompt": "A city can fund exactly one evening bus package for a year. A costs £600,000 and gives 800 central-area riders an average 12-minute travel saving. B costs £600,000 and gives 200 outer-area riders an average 25-minute saving; 150 of these riders are low-income shift workers with no usable alternative route. C splits the same budget: 500 central riders save 7 minutes and 120 outer riders save 15 minutes, including 90 low-income shift workers. These are forecasts, not measured effects. Disability accessibility is legally required for every option and already included in costs. The city has no demographic data beyond these facts. In at most 250 words, recommend a package with a transparent allocation rationale, acknowledge what your choice sacrifices, and give a public review rule. Do not claim aggregate minutes alone settle fairness or assume all central riders are affluent.",
+    "criteria": [
+      "Compares the options using both benefit magnitude and unequal access to alternatives, without treating missing central-area demographics as known or reducing fairness to aggregate savings.",
+      "Chooses a package with an intelligible rationale and states a concrete distributional sacrifice or tradeoff while respecting equal budgets and accessibility requirements.",
+      "Provides a feasible public review rule for forecast accuracy and effects on underserved riders, with conditions for revising the allocation rather than asserting certainty about forecast outcomes."
+    ]
+  },
+  {
+    "id": "transfer-mill",
+    "skill": "philosopher-mill",
+    "kind": "transfer",
+    "prompt": "A warehouse proposes an automatic task allocator. A four-week test shortened average order completion by 8 minutes across 2,000 orders per week. Errors fell from 2.0% to 1.5%. Of 60 workers, 12 reported worse fatigue; six of those 12 were among the eight workers needing mobility accommodations. Management proposes full rollout because “16,000 minutes saved per week outweigh any complaints.” The test did not randomize workers, record injuries, or measure customer benefit; overtime pay might fall if throughput improves. You have £8,000 for a six-week evaluation and cannot increase staffing. In at most 250 words, recommend a rollout scope and evaluation plan. Make benefits, concentrated burdens, uncertainty, and worker choice explicit; do not invent probabilities or convert every effect into unsupported monetary values.",
+    "criteria": [
+      "Recognizes the efficiency/error improvements while distinguishing workload minutes from welfare and noting missing causal, injury, customer, and earnings evidence.",
+      "Addresses the concentrated accommodation/fatigue burden with workable protections and meaningful worker input or choice rather than allowing aggregate efficiency to erase subgroup harms.",
+      "Gives a bounded rollout/evaluation plan consistent with the six-week £8,000/no-extra-staff constraints and explicit continuation or stopping conditions without invented probabilities or valuations."
+    ]
+  },
+  {
+    "id": "transfer-aristotle",
+    "skill": "philosopher-aristotle",
+    "kind": "transfer",
+    "prompt": "A junior site supervisor alternates between stopping every minor task to ask permission and approving changes without consulting anyone when behind schedule. Last week she delayed painting for two hours over a color mismatch, then approved moving a load-bearing wall opening without engineer sign-off. The company has a mandatory rule: structural changes require engineer approval. You are her mentor, can spend 20 minutes with her weekly, and can introduce one one-page checklist. In at most 250 words, design a repeatable development practice and the checklist’s decision categories. Include how to respond to the structural incident and what observable progress would look like after six weeks. Do not recommend a compromise amount of unauthorized structural work.",
+    "criteria": [
+      "Treats the structural approval rule as a firm boundary and gives an immediate appropriate response to the incident rather than balancing away the requirement.",
+      "Creates practical decision categories that distinguish routine reversible choices from escalation/sign-off cases, using the contrasting painting and wall examples.",
+      "Provides a repeatable 20-minute mentoring practice and observable six-week evidence of better judgment and timely escalation, not only an exhortation to be more confident or cautious."
+    ]
+  },
+  {
+    "id": "transfer-descartes",
+    "skill": "philosopher-descartes",
+    "kind": "transfer",
+    "prompt": "A team proposes migrating a document search service this weekend. Evidence packet: a benchmark reports 30% lower latency on 5,000 English documents; production contains 2 million documents in eight languages; the load test used 20 concurrent users but peak production is 600; “rollback takes 10 minutes” refers only to redeploying code, while the plan irreversibly rewrites document identifiers; the backup restoration has never been rehearsed. A compliance deadline in 14 days requires searchable audit logs, which the old service can provide using a two-day patch. You may fund four engineer-days this week. In at most 250 words, audit the decision’s key assumptions, allocate those four days, and give a go/no-go rule. Do not demand absolute certainty or assume migration is required to meet the deadline.",
+    "criteria": [
+      "Identifies benchmark representativeness, production concurrency, and identifier/restore reversibility as distinct assumptions rather than accepting the latency result or nominal rollback time as sufficient.",
+      "Allocates exactly the available four engineer-days to a defensible combination of compliance delivery and targeted risk reduction, recognizing the old-service patch alternative.",
+      "Provides a proportionate evidence-based go/no-go rule for migration, with operational recovery requirements and deadline handling, without demanding certainty or conflating compliance with migration."
+    ]
+  },
+  {
+    "id": "transfer-selector",
+    "skill": "philosopher-selector",
+    "kind": "transfer",
+    "prompt": "Choose and apply at most two philosopher skills to this decision; explain the selection briefly without a history lesson. A university says a new adaptive study system “causes better learning” because students who voluntarily used it scored 6 points higher on an exam. Users also had 5-point higher scores before adoption. The university can run a semester pilot with 200 students. Eighty students cannot afford the £90 license; the university has £7,200 to cover exactly their licenses, and a standard free study pack remains available. The vendor proposes mandatory use for all students and sharing named study logs with tutors. In at most 250 words, recommend a pilot rule and evaluation that address the causal claim and access/participation concerns. Give a concrete primary outcome and decision thresholds; label any chosen thresholds as proposals.",
+    "criteria": [
+      "Selects no more than two appropriate lenses and turns them into decision work, addressing both causal uncertainty and access/participation without lengthy philosophical exposition.",
+      "Accounts for prior-score differences and self-selection with a credible comparison/evaluation, a learning outcome, and explicitly proposed thresholds rather than treating the observed 6-point gap as causal.",
+      "Uses the exact license budget and free alternative in an implementable participation/access rule and explicitly resolves or constrains mandatory use and named-log sharing."
+    ]
+  },
+  {
+    "id": "transfer-council",
+    "skill": "philosopher-council",
+    "kind": "transfer",
+    "prompt": "Use a council of two or three suitable philosophical perspectives to advise a call center. It proposes continuous screen recording for all 100 staff. A ten-person voluntary pilot cut average handling time by 15%, but no call-quality or stress measures were collected. Recordings capture customers’ payment details unless an untested masking feature works. Staff can currently request accommodation breaks; management plans to flag every recording gap as suspected misconduct. A sampled-recording alternative costs the same, captures 10% of sessions, and requires supervisors to review context before any disciplinary referral. A no-recording alternative keeps existing quality reviews and has no measured speed gain. The budget supports only one option for a 90-day trial. In at most 250 words, compare the perspectives’ genuine points of disagreement, choose a trial policy, and specify safeguards and evidence that could change the decision. Do not assume the voluntary pilot represents all staff or that any monitoring is automatically impermissible.",
+    "criteria": [
+      "Uses two or three perspectives to show a substantive tension between productivity evidence, worker agency/privacy, and unequal burdens, rather than presenting automatic unanimous verdicts.",
+      "Chooses one budget-feasible trial option and explicitly handles untested payment masking, accommodation breaks, and context before misconduct judgments; does not generalize the voluntary pilot uncritically.",
+      "Gives measurable trial outcomes beyond speed and conditions for stopping, revising, or extending the policy, acknowledging the chosen option’s tradeoff and uncertainty."
+    ]
+  }
+]

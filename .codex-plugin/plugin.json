@@ -1,0 +1,19 @@
+{
+  "interface": {
+    "displayName": "Skillsophy",
+    "shortDescription": "Choose a useful reasoning lens",
+    "longDescription": "Select and apply ten philosophical reasoning lenses to real work. Clarify assumptions, test claims, examine duties and consequences, and compare disagreements through a council. Initial release; effectiveness is under evaluation.",
+    "developerName": "Ashan Jeevanathan",
+    "category": "Productivity",
+    "defaultPrompt": "Help me choose a philosophical reasoning lens for the task I am working on.",
+    "capabilities": []
+  },
+  "name": "skillsophy",
+  "version": "0.1.1",
+  "description": "Practical philosophical reasoning lenses, a task-based selector, and a council for comparing disagreement.",
+  "author": {
+    "name": "Ashan Jeevanathan"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

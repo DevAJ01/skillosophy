@@ -2,7 +2,7 @@
 
 Practical philosophical reasoning skills for AI agents. Use a philosopher's method to improve a piece of work: clarify a requirement, challenge a claim, design a fair rule, or make a decision under uncertainty.
 
-These are **reasoning lenses, not personality impersonations**. They contain original contemporary workflows informed by philosophical texts, with sources and interpretation limits. They do not promise superior answers on every task. Version 0.1.0 is an exploratory release; see [evaluation](evals/README.md) for the evidence and its limits.
+These are **reasoning lenses, not personality impersonations**. They contain original contemporary workflows informed by philosophical texts, with sources and interpretation limits. They do not promise superior answers on every task. Version 0.1.1 is an exploratory release; see [evaluation results](evals/RESULTS.md) for the evidence and its limits.
 
 ## Choose a lens
 
@@ -51,6 +51,8 @@ For ChatGPT or Codex plugin distribution, build the skills-only package with `py
 python3 scripts/validate.py
 python3 scripts/package.py
 ```
+
+The first 36 paired tasks mostly tied a strong baseline; no meaningful general improvement is established. Raw answers, blind judgments, and [results](evals/RESULTS.md) are public.
 
 Structural validation checks packaging, links, metadata, and coverage. It does **not** test reasoning quality. Behavioral evaluation uses matched baseline/skill tasks, independently generated answers, and blinded judging; read [the protocol](evals/README.md) before making effectiveness claims.
 

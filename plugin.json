@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "skillsophy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Practical philosophical reasoning lenses, a task-based selector, and a council for comparing disagreement.",
   "author": {
     "name": "Ashan Jeevanathan"

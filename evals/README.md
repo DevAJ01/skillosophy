@@ -29,4 +29,4 @@ Use paired effect sizes and uncertainty intervals appropriate to the sampling de
 
 ## Artifacts
 
-The initial run's answers, blinding key, scoring records, and report will live under `results/initial/` when complete. Preserve the blinding key for audit after judging. These hypothetical cases contain no customer data. The ZIP is a package test, not a behavioral evaluation result.
+The initial run's answers, blinding key, scoring records, and [report](results/initial/REPORT.md) live under `results/initial/`. The harder [transfer report](results/transfer/REPORT.md) and its artifacts live under `results/transfer/`. That suite, designed by a baseline-only agent without reading the skills, is evaluated separately against the unchanged skill text. It remains a small single-model exploratory sample, not an externally validated benchmark. Preserve the blinding key for audit after judging. These hypothetical cases contain no customer data. The ZIP is a package test, not a behavioral evaluation result.

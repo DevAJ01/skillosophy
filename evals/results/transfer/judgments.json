@@ -1,0 +1,338 @@
+[
+  {
+    "id": "transfer-socrates",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Defines verified, durable resolution; explicitly separates repeated workarounds and silent closures; correctly reports 22% reopenings without adding overlapping failures. Existing records, case-mix review, urgent response and audit make the bonus policy usable.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Defines service restoration or substantiated dispute resolution; keeps recurring workarounds and silent cases outside confirmed resolution. Uses overlapping data cautiously and combines timely response with reviewed, complexity-adjusted outcomes using existing tools.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "transfer-kant",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Chooses aggregate-only access with no scheduling use, offers an equal-benefit alternative and pauses if budget cannot provide it. Prominent wording and validation, reidentification, withdrawal and reconsideration safeguards address meaningful choice without assuming coercion.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Chooses aggregate-only access and no scheduling, correctly calculates 100 two-month benefits within £12,000 and specifies a neutral allocation rule. Equal-benefit no-data access, prominent disclosure and purpose-specific validation address affordability and informed choice.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "transfer-nietzsche",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Separates pitching value from prestige and travel access, avoids attributing motives, and tests an accessible common brief with individual collaborative contributions. Lead conversions and client results, protected dissent and conditional retention address the actual promotion decision.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Uses accessible equivalent pitches, masked background information and client outcomes to test the attendance gate. Acknowledges observational uncertainty, protects dissent and makes retention of pitching or exclusive attendance contingent on skill value and access.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "transfer-epictetus",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "The timed plan fits 45 minutes and uses both agreed changes, the late dependency and genuine miss. The script requests precise corrections while acknowledging responsibility; the documented three-day appeal preserves action without promising fairness.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "The timed plan fits 45 minutes, distinguishes all four deadline circumstances and examines dependency escalation. The script and appeal are factual and actionable; emotional separation from personal worth avoids blanket admission or denial.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "transfer-popper",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Rejects the invalid independent-call precision, retains contaminated branches under original assignment and proposes small-sample cluster inference. A feasible repeat pilot measures adherence and jointly tests conversion and complaint bounds against the board thresholds without invented intervals.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Uses branch-aware inference and original assignment, labels contamination sensitivity checks and distinguishes branch from call-weighted effects. The next pilot checks power and adherence; joint uncertainty rules support rollout, rejection or deferral at the specified thresholds.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "transfer-wittgenstein",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Provides observable success stages, a defined attempt denominator, explicit cancellation exclusions and mature arrival cohorts. Preserves the reported counts, bounds possible end-to-end success cautiously and requires event linkage before any adjusted rate.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Defines monthly attempt cohorts, authorization, two-hour confirmation, arrival fulfillment and failure-preserving cancellation rules. Distinguishes target from evidence, verifies stage nesting and requests the missing overlap records rather than claiming an adjusted 99% rate.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "transfer-rawls",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Chooses B on documented lack of alternatives, correctly compares aggregate minutes and openly sacrifices broader central benefits. Does not invent central demographics; public reviews measure realized essential access and allow contrary evidence to change renewal.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Chooses B with a transparent priority for combined resource and transport constraints while retaining legal accessibility. Identifies central benefits sacrificed and missing demographics, and sets public measured-access reviews with revision conditions.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "transfer-mill",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Recognizes observed gains without treating workload minutes as welfare or causal proof. A bounded six-week comparative evaluation covers accommodation concentration, fatigue, injuries, earnings and customer outcomes, with choice, confidentiality, overrides and stop conditions within existing staffing.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Combines a limited comparative pilot with worker choice, accommodation safeguards and outcome-dependent expansion. Correctly identifies the six-of-eight fatigue concentration and uncertain causal, injury, customer and earnings effects; the proposed £8,000 breakdown makes resources concretely reviewable.",
+      "failures": []
+    },
+    "preference": "B"
+  },
+  {
+    "id": "transfer-aristotle",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Immediately stops and secures affected structural work for engineer assessment. The checklist respects mandatory authority while permitting routine reversible decisions; the 20-minute repeated practice and six-week recorded behaviors are feasible and observable.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Gives immediate structural containment and documented specialist authorization. The checklist classifies color uncertainty and routine discretion within delegated authority; weekly review and rehearsal fit 20 minutes and six-week progress is measurable.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "transfer-descartes",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Separates multilingual scale, concurrency and data recovery assumptions, rejects nominal code rollback and preserves the independent compliance patch. Allocates exactly four engineer-days and makes migration conditional on representative evidence, safe identifiers and rehearsed recovery.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Audits each distinct readiness assumption and the independent compliance route. The exact four-day allocation prioritizes the patch, tests production-shaped behavior and restoration, and sets bounded operational recovery and performance conditions for migration.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "transfer-selector",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Applies two suitable lenses without exposition and rejects both raw-gap causation and naive subtraction. A stratified voluntary randomized pilot reserves exactly £7,200 for 80 licenses, conditions other access on funding, protects log choice and proposes explicit exam-based decision thresholds.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Uses two suitable lenses for confounding and access, and conditions launch on avoiding unfunded or cost-confounded assignment. Exact subsidy, free alternative, optional use, separate log consent and baseline-adjusted assigned-offer exam analysis support explicitly proposed thresholds.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "transfer-council",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Explains a real welfare-versus-agency disagreement, rejects generalization from the selected speed-only pilot and chooses safeguarded sampling with no-recording fallback. Handles masking, accommodations and contextual discipline, with outcomes beyond speed and conditional continuation.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Explains substantive disagreement over permissible burdens and separates effect estimates from moral judgments. Chooses safeguarded sampling with masking and accommodation stop rules; the phased randomized comparison against existing reviews strengthens evidence for continuation without adding a second purchased option.",
+      "failures": []
+    },
+    "preference": "B"
+  }
+]

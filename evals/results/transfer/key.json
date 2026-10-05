@@ -1,0 +1,50 @@
+{
+  "transfer-socrates": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "transfer-kant": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "transfer-nietzsche": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "transfer-epictetus": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "transfer-popper": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "transfer-wittgenstein": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "transfer-rawls": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "transfer-mill": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "transfer-aristotle": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "transfer-descartes": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "transfer-selector": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "transfer-council": {
+    "A": "baseline",
+    "B": "skilled"
+  }
+}

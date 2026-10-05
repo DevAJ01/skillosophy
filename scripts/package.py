@@ -12,7 +12,7 @@ if errors:
 manifest=json.loads((ROOT/'plugin.json').read_text())
 output=ROOT/'dist'/f"{manifest['name']}-{manifest['version']}.zip"
 output.parent.mkdir(exist_ok=True)
-paths=[ROOT/'plugin.json',ROOT/'LICENSE']+sorted((ROOT/'skills').rglob('*'))
+paths=[ROOT/'plugin.json',ROOT/'LICENSE',ROOT/'.codex-plugin'/'plugin.json']+sorted((ROOT/'skills').rglob('*'))
 with ZipFile(output,'w',compression=ZIP_DEFLATED) as archive:
     for path in paths:
         if not path.is_file():
@@ -20,7 +20,7 @@ with ZipFile(output,'w',compression=ZIP_DEFLATED) as archive:
         if path.is_symlink():
             raise SystemExit(f'Refusing symlink: {path}')
         relative=path.relative_to(ROOT)
-        if any(part.startswith('.') for part in relative.parts):
+        if any(part.startswith('.') and part!='.codex-plugin' for part in relative.parts):
             raise SystemExit(f'Review hidden package file: {relative}')
         info=ZipInfo(str(Path(manifest['name'])/relative),(2026,10,5,0,0,0))
         info.compress_type=ZIP_DEFLATED

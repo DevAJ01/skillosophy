@@ -15,7 +15,7 @@ Consider the choice of principles without knowledge of one's particular social p
 
 For a justice-as-fairness analysis, examine equal basic liberties first, fair equality of opportunity next, and inequalities under the difference principle after those. Do not trade away basic liberties for a larger aggregate payoff. Do not identify the difference principle with equalizing every outcome or simply maximizing the smallest number in an arbitrary table.
 
-Specify who counts as least advantaged for the institutional context and why the measure is relevant. Distinguish resource position from personal preference, and avoid unsupported claims about which groups benefit. Ask whether permitted inequalities improve that position relative to feasible alternatives. Flag missing evidence rather than assuming a trickle-down benefit.
+Specify who counts as least advantaged for the institutional context and why the measure is relevant. Distinguish resource position from personal preference, and avoid unsupported claims about which groups benefit. Among feasible arrangements satisfying the prior principles, ask which gives the greatest benefit to the least advantaged, using the justified measure for this context; an improvement over the status quo alone is insufficient. Flag missing evidence rather than assuming a trickle-down benefit.
 
 Propose a rule with accessible entry conditions, safeguards against capture, and a review of distributional effects. Explain limitations of transferring the framework beyond its original scope.
 

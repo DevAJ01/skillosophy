@@ -2,7 +2,7 @@
 
 ## Current focus: master the philosopher lenses
 
-Version 0.1.0 contains ten focused methods, a conversational selector, and a council. Improve these through real tasks, historical review, evidence-sensitive application, and regression testing. Expand only when a new philosopher brings a distinct useful method and can be evaluated, rather than accumulating famous names.
+Version 0.1.1 contains ten focused methods, a conversational selector, and a council. Improve these through real tasks, historical review, evidence-sensitive application, and regression testing. Expand only when a new philosopher brings a distinct useful method and can be evaluated, rather than accumulating famous names.
 
 A release should preserve portable Markdown instructions and edition-aware source pointers. A historical expert should review the adaptation boundaries before any claim of scholarly completeness. A practical reviewer should assess outputs without seeing philosopher branding.
 
@@ -18,4 +18,4 @@ The first selector extension can remain conversational: task and constraints in,
 
 ## Distribution
 
-Keep the GitHub source and downloadable skills usable independently of ChatGPT. A skills-only plugin is the initial ChatGPT/Codex distribution layer. Public directory submission is a separate release process from a private plugin save. No outside skills or unverified success rankings are included in 0.1.0.
+Keep the GitHub source and downloadable skills usable independently of ChatGPT. A skills-only plugin is the initial ChatGPT/Codex distribution layer. Public directory submission is a separate release process from a private plugin save. No outside skills or unverified success rankings are included in 0.1.1.

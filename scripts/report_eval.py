@@ -53,9 +53,10 @@ report=f'''# {folder.name.title()} exploratory evaluation
 '''
 for label,value in [('Overall',summary['overall']),*summary['subsets'].items()]:
     report+=f"| {label} | {value['baseline_mean']:.2f} | {value['skilled_mean']:.2f} | {value['mean_paired_delta']:+.2f} | {value['score_wins']} / {value['score_ties']} / {value['score_losses']} |\n"
-report+='\n## Per-case evidence\n\n| Case | Baseline | Skill | Difference |\n|---|---:|---:|---:|\n'
+report+='\nBlind pairwise preferences: '+str(summary['overall']['preference_counts'])+'. These can differ from coarse score ties.\n'
+report+='\n## Per-case evidence\n\n| Case | Baseline | Skill | Difference | Preference |\n|---|---:|---:|---:|---|\n'
 for r in rows:
-    report+=f"| {r['id']} | {r['baseline']} | {r['skilled']} | {r['delta']:+} |\n"
+    report+=f"| {r['id']} | {r['baseline']} | {r['skilled']} | {r['delta']:+} | {r['preference']} |\n"
 report+='''
 ## Interpretation limits
 

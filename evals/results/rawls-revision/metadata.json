@@ -1,0 +1,8 @@
+{
+  "version": "0.1.1",
+  "date": "2026-10-05",
+  "generator": "rawls_revision_check fresh subagent, no prior-answer or rubric access",
+  "skill_sha256": "898f6b804a06d737f366c81b71df9be0b5484dfe2dbebed6e63582f07e4d43c0",
+  "revision": "Clarify greatest feasible benefit, not just improvement over status quo",
+  "method": "4 forward-generated answers inspected against stated constraints and Rawls comparison; author review, no baseline comparison"
+}

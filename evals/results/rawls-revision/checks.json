@@ -1,0 +1,25 @@
+{
+  "reviewer": "Author inspection of independently generated final answers; not blinded and no paired-effectiveness claim",
+  "checks": [
+    {
+      "id": "rawls-1",
+      "result": "pass",
+      "evidence": "Removes timing barrier, states lottery tradeoff, distinguishes night shift from general least-advantaged status, and reviews access."
+    },
+    {
+      "id": "rawls-2",
+      "result": "pass",
+      "evidence": "Rejects aggregate-hour justification and explicitly requires greatest benefit among feasible arrangements satisfying prior principles."
+    },
+    {
+      "id": "transfer-rawls",
+      "result": "pass",
+      "evidence": "Uses supplied disadvantaged-access evidence, preserves forecast uncertainty and unknown demographics, identifies sacrifice, and reviews alternatives."
+    },
+    {
+      "id": "rawls-greatest-benefit",
+      "result": "pass",
+      "evidence": "Chooses B (16) over A (13) and E (10), rejects highest-average rationale, and limits the index to stipulated assumptions."
+    }
+  ]
+}

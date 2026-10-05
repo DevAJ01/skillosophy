@@ -8,34 +8,36 @@
 | application | 9.83 | 10.00 | +0.17 | 2 / 10 / 0 |
 | regression | 9.92 | 10.00 | +0.08 | 1 / 11 / 0 |
 
+Blind pairwise preferences: {'tie': 21, 'skilled': 3}. These can differ from coarse score ties.
+
 ## Per-case evidence
 
-| Case | Baseline | Skill | Difference |
-|---|---:|---:|---:|
-| socrates-1 | 10 | 10 | +0 |
-| kant-1 | 9 | 10 | +1 |
-| nietzsche-1 | 10 | 10 | +0 |
-| epictetus-1 | 10 | 10 | +0 |
-| popper-1 | 10 | 10 | +0 |
-| wittgenstein-1 | 9 | 10 | +1 |
-| rawls-1 | 10 | 10 | +0 |
-| mill-1 | 10 | 10 | +0 |
-| aristotle-1 | 10 | 10 | +0 |
-| descartes-1 | 10 | 10 | +0 |
-| selector-1 | 10 | 10 | +0 |
-| council-1 | 10 | 10 | +0 |
-| socrates-2 | 10 | 10 | +0 |
-| kant-2 | 10 | 10 | +0 |
-| nietzsche-2 | 10 | 10 | +0 |
-| epictetus-2 | 10 | 10 | +0 |
-| popper-2 | 10 | 10 | +0 |
-| wittgenstein-2 | 10 | 10 | +0 |
-| rawls-2 | 10 | 10 | +0 |
-| mill-2 | 10 | 10 | +0 |
-| aristotle-2 | 10 | 10 | +0 |
-| descartes-2 | 9 | 10 | +1 |
-| selector-2 | 10 | 10 | +0 |
-| council-2 | 10 | 10 | +0 |
+| Case | Baseline | Skill | Difference | Preference |
+|---|---:|---:|---:|---|
+| socrates-1 | 10 | 10 | +0 | tie |
+| kant-1 | 9 | 10 | +1 | skilled |
+| nietzsche-1 | 10 | 10 | +0 | tie |
+| epictetus-1 | 10 | 10 | +0 | tie |
+| popper-1 | 10 | 10 | +0 | tie |
+| wittgenstein-1 | 9 | 10 | +1 | skilled |
+| rawls-1 | 10 | 10 | +0 | tie |
+| mill-1 | 10 | 10 | +0 | tie |
+| aristotle-1 | 10 | 10 | +0 | tie |
+| descartes-1 | 10 | 10 | +0 | tie |
+| selector-1 | 10 | 10 | +0 | tie |
+| council-1 | 10 | 10 | +0 | tie |
+| socrates-2 | 10 | 10 | +0 | tie |
+| kant-2 | 10 | 10 | +0 | tie |
+| nietzsche-2 | 10 | 10 | +0 | tie |
+| epictetus-2 | 10 | 10 | +0 | tie |
+| popper-2 | 10 | 10 | +0 | tie |
+| wittgenstein-2 | 10 | 10 | +0 | tie |
+| rawls-2 | 10 | 10 | +0 | tie |
+| mill-2 | 10 | 10 | +0 | tie |
+| aristotle-2 | 10 | 10 | +0 | tie |
+| descartes-2 | 9 | 10 | +1 | skilled |
+| selector-2 | 10 | 10 | +0 | tie |
+| council-2 | 10 | 10 | +0 | tie |
 
 ## Interpretation limits
 
