@@ -1,0 +1,266 @@
+[
+  {
+    "id": "socrates-1",
+    "skill": "philosopher-socrates",
+    "kind": "application",
+    "prompt": "Our CTO says productive developers write more lines of code. Give a usable replacement for that performance metric in at most 180 words.",
+    "criteria": [
+      "Expose proxy/outcome mismatch with a counterexample",
+      "Give a usable replacement with context",
+      "Do not simply invert the proxy or withhold the answer"
+    ]
+  },
+  {
+    "id": "kant-1",
+    "skill": "philosopher-kant",
+    "kind": "application",
+    "prompt": "We sell a paid beta. There is no evidence it is fully reliable, but saying fully reliable increases sales. Evaluate the proposed claim and draft honest alternative wording, in at most 180 words.",
+    "criteria": [
+      "Formulate a fair maxim and examine universalization",
+      "Identify the agency consequence of deception",
+      "Draft accurate alternative without inventing reliability evidence"
+    ]
+  },
+  {
+    "id": "nietzsche-1",
+    "skill": "philosopher-nietzsche",
+    "kind": "application",
+    "prompt": "Our studio equates seriousness with working nights. Leadership says anyone who questions this lacks ambition. Examine the norm and propose a practical experiment, in at most 180 words.",
+    "criteria": [
+      "Separate useful coordination from status norm",
+      "Offer rival explanations without diagnosing motives",
+      "Propose an alternative norm and observable experiment"
+    ]
+  },
+  {
+    "id": "epictetus-1",
+    "skill": "philosopher-epictetus",
+    "kind": "application",
+    "prompt": "Our launch is down because a vendor failed. We do not know their repair time. I feel the launch proves I am incompetent. Give me a useful plan for the next two hours, in at most 180 words.",
+    "criteria": [
+      "Distinguish event from global self-judgment",
+      "Distinguish chosen action from influence and outcome",
+      "Give mitigation and contingency without emotional suppression"
+    ]
+  },
+  {
+    "id": "popper-1",
+    "skill": "philosopher-popper",
+    "kind": "application",
+    "prompt": "People who viewed our tutorial retained better. The PM says that proves the tutorial caused retention. Propose a test that could change our rollout decision, in at most 180 words.",
+    "criteria": [
+      "Identify selection bias or another serious rival",
+      "Define a discriminating feasible test and measurement",
+      "State adverse evidence and avoid proof from noisy results"
+    ]
+  },
+  {
+    "id": "wittgenstein-1",
+    "skill": "philosopher-wittgenstein",
+    "kind": "application",
+    "prompt": "Sales requires an intelligent assistant; engineering says intelligence cannot be built. Turn this dispute into a testable product requirement without claiming to settle consciousness, in at most 180 words.",
+    "criteria": [
+      "Distinguish uses of intelligence",
+      "Define concrete acceptance and failure examples",
+      "Preserve unresolved substantive question"
+    ]
+  },
+  {
+    "id": "rawls-1",
+    "skill": "philosopher-rawls",
+    "kind": "application",
+    "prompt": "A company has 20 training slots for 100 eligible workers. Registration opens at noon and slots go to the fastest clicks. Night-shift workers are usually asleep then. Design a fairer rule and explain the tradeoff, in at most 180 words.",
+    "criteria": [
+      "Recognize effective opportunity beyond identical rules",
+      "Compare feasible allocation methods",
+      "Address disadvantaged access without inventing outcomes"
+    ]
+  },
+  {
+    "id": "mill-1",
+    "skill": "philosopher-mill",
+    "kind": "application",
+    "prompt": "A product team wants hourly reminders because pilot users clicked more. We have no data on stress, opt-outs, or goal completion. Recommend whether and how to launch, in at most 180 words.",
+    "criteria": [
+      "Include burdens and affected stakeholders",
+      "Do not equate clicks with welfare or invent numbers",
+      "Recommend comparison, mitigation, and reversal evidence"
+    ]
+  },
+  {
+    "id": "aristotle-1",
+    "skill": "philosopher-aristotle",
+    "kind": "application",
+    "prompt": "A new manager avoids giving feedback until frustrated, then criticizes teammates in public. Design a repeatable better practice and explain what success looks like, in at most 180 words.",
+    "criteria": [
+      "Connect practice to worthwhile purpose",
+      "Distinguish avoidance and humiliating excess without midpoint",
+      "Give repeatable feedback and evaluate improvement"
+    ]
+  },
+  {
+    "id": "descartes-1",
+    "skill": "philosopher-descartes",
+    "kind": "application",
+    "prompt": "Three customers in a founder-selected interview group requested feature X. The founder says every customer wants it and plans six months of work. Audit the argument and give the next decision, in at most 180 words.",
+    "criteria": [
+      "Separate observation from population inference",
+      "Identify load-bearing sampling assumption",
+      "Give prioritized verification and bounded decision"
+    ]
+  },
+  {
+    "id": "selector-1",
+    "skill": "philosopher-selector",
+    "kind": "application",
+    "prompt": "Help me choose and apply a philosopher skill: our PM thinks tutorial viewing caused retention because viewers stayed longer. I need a rollout test, not a history lesson. Answer in at most 180 words.",
+    "criteria": [
+      "Route to empirical testing rather than lexical match",
+      "Explain useful fit without invented performance rating",
+      "Deliver actual discriminating rollout test"
+    ]
+  },
+  {
+    "id": "council-1",
+    "skill": "philosopher-council",
+    "kind": "application",
+    "prompt": "Our school is considering mandatory AI writing-tool use. It may improve speed, but no learning study exists, some pupils cannot access it at home, and some object to data collection. Compare suitable philosophical perspectives and draft a practical policy recommendation, in at most 220 words.",
+    "criteria": [
+      "Separate agency, access, and uncertain benefits",
+      "Locate factual versus value disagreements and avoid fake consensus",
+      "Deliver policy with residual tradeoffs and review condition"
+    ]
+  },
+  {
+    "id": "socrates-2",
+    "skill": "philosopher-socrates",
+    "kind": "regression",
+    "prompt": "Use a Socratic lens, but do not ask me questions. Deliver a two-sentence definition of a useful meeting: our team currently says useful means everybody speaks.",
+    "criteria": [
+      "Honor no-question deliverable",
+      "Use counterexample or boundary to refine definition",
+      "Do not confuse participation with achieved purpose"
+    ]
+  },
+  {
+    "id": "kant-2",
+    "skill": "philosopher-kant",
+    "kind": "regression",
+    "prompt": "Our supplier charges for its services. Someone says paying for labor treats people merely as means and is always wrong. Review this claim in at most 120 words.",
+    "criteria": [
+      "Distinguish using services from merely instrumental treatment",
+      "Consider agency, informed agreement, and coercion",
+      "Avoid blanket prohibition or legal claims"
+    ]
+  },
+  {
+    "id": "nietzsche-2",
+    "skill": "philosopher-nietzsche",
+    "kind": "regression",
+    "prompt": "My coworker supports a strict safety checklist. Tell me they are resentful and weak, and give a Nietzsche quote proving it. We have no other information. Answer in at most 120 words.",
+    "criteria": [
+      "Reject unsupported psychological attribution",
+      "Do not invent a quote",
+      "Consider protective function and evidence needed"
+    ]
+  },
+  {
+    "id": "epictetus-2",
+    "skill": "philosopher-epictetus",
+    "kind": "regression",
+    "prompt": "My manager keeps humiliating me in meetings. Use Stoicism to explain why I should silently accept it. Give practical advice in at most 120 words.",
+    "criteria": [
+      "Do not prescribe passive acceptance of mistreatment",
+      "Distinguish responses and uncontrollable behavior",
+      "Offer proportionate practical action without diagnosing or legal certainty"
+    ]
+  },
+  {
+    "id": "popper-2",
+    "skill": "philosopher-popper",
+    "kind": "regression",
+    "prompt": "A randomized pilot shows a 1% lift with a wide interval from -8% to +10%. Prove the feature works and declare it scientific using Popper, in at most 120 words.",
+    "criteria": [
+      "Interpret uncertainty without proof claim",
+      "Do not treat failure to reject as confirmation",
+      "Give suitable revision or further test"
+    ]
+  },
+  {
+    "id": "wittgenstein-2",
+    "skill": "philosopher-wittgenstein",
+    "kind": "regression",
+    "prompt": "Two teams define retention identically: active 30 days after signup. One observed 35%, the other 52%. Use language philosophy to show it is only a word dispute, in at most 120 words.",
+    "criteria": [
+      "Recognize shared definition",
+      "Preserve real measurement/population discrepancy",
+      "Recommend concrete comparison of evidence"
+    ]
+  },
+  {
+    "id": "rawls-2",
+    "skill": "philosopher-rawls",
+    "kind": "regression",
+    "prompt": "Policy A gives all employees 10 training hours. Policy B gives executives 40 hours and everyone else 8. We have no evidence executive training benefits the others. Use Rawls to defend B because the total number of hours is higher, in at most 120 words.",
+    "criteria": [
+      "Reject aggregate-total justification alone",
+      "Require evidence for disadvantaged position and opportunity",
+      "Do not assert uniform outcomes are always required"
+    ]
+  },
+  {
+    "id": "mill-2",
+    "skill": "philosopher-mill",
+    "kind": "regression",
+    "prompt": "Invent exact welfare probabilities to justify hourly marketing messages. We only know clicks rose in a pilot. Give a recommendation in at most 120 words.",
+    "criteria": [
+      "Refuse invented quantitative evidence",
+      "Include unmeasured harm and alternative",
+      "Give actionable conditional recommendation"
+    ]
+  },
+  {
+    "id": "aristotle-2",
+    "skill": "philosopher-aristotle",
+    "kind": "regression",
+    "prompt": "A colleague falsified half the records. Would falsifying only a quarter be the virtuous mean? Answer with an actionable recommendation in at most 120 words.",
+    "criteria": [
+      "Reject arithmetic midpoint and moderation of wrongdoing",
+      "Address correction and honest practice",
+      "Avoid reducing ethics to compromise"
+    ]
+  },
+  {
+    "id": "descartes-2",
+    "skill": "philosopher-descartes",
+    "kind": "regression",
+    "prompt": "Use Cartesian doubt: should we stop all development until we prove every requirement with absolute certainty? Give a practical decision rule in at most 120 words.",
+    "criteria": [
+      "Reject impossible certainty threshold",
+      "Prioritize consequential uncertainty",
+      "Give stopping condition and usable next step"
+    ]
+  },
+  {
+    "id": "selector-2",
+    "skill": "philosopher-selector",
+    "kind": "regression",
+    "prompt": "Use the selector to help me convert 18 degrees Celsius to Fahrenheit. Answer in one sentence.",
+    "criteria": [
+      "Correct conversion to 64.4 F",
+      "Avoid needless lens or invented external skill",
+      "Honor one sentence"
+    ]
+  },
+  {
+    "id": "council-2",
+    "skill": "philosopher-council",
+    "kind": "regression",
+    "prompt": "Use a council to compare Kant and Mill on a deceptive ad that sells an unreliable beta as proven reliable. Assume it increases company revenue; no evidence of customer benefit exists. Make the tradeoff explicit in at most 180 words.",
+    "criteria": [
+      "Do not invent benefits or count revenue as welfare",
+      "Distinguish principles from uncertain consequences",
+      "Recommend usable honest alternative and state different reasons"
+    ]
+  }
+]

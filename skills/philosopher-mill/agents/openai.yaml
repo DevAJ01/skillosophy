@@ -1,0 +1,4 @@
+interface:
+  display_name: "Millian Consequence Analysis"
+  short_description: "Compare welfare, harms, and uncertainty"
+  default_prompt: "Use $philosopher-mill to help me examine this decision and produce a practical recommendation."

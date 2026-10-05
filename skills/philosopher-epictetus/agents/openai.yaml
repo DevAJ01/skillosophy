@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stoic Action with Epictetus"
+  short_description: "Choose useful actions under limited control"
+  default_prompt: "Use $philosopher-epictetus to help me examine this decision and produce a practical recommendation."

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "socrates-1",
+    "answer": "Lines of code measure output volume, not productive contribution. The strongest version of the CTO's claim is that useful implementation usually requires code; that still fails as a definition: removing duplicated code can improve a product, while adding unused code increases volume without value. Large, necessary implementations also show why low line counts are not inherently better.\n\nUse this working definition: productive development delivers valuable, reliable, maintainable improvements appropriate to the developer's role and constraints.\n\nFor each review period, agree on two or three outcomes, then assess delivery against acceptance criteria, production reliability, maintainability, and contribution to colleagues' work. Include incident prevention, reviews, and simplification. Record dependencies and task difficulty so raw totals do not become rankings across unlike assignments.\n\nA usable review entry is: “Outcome agreed; evidence of user or operational benefit; quality evidence; collaboration; constraints; next improvement.” Review it with the developer. Keep line counts only as diagnostic context, with no target or reward attached.",
+    "loaded_skills": [
+      "philosopher-socrates"
+    ]
+  },
+  {
+    "id": "kant-1",
+    "answer": "Reject “fully reliable.” The proposed maxim is: when an unsupported reliability claim increases sales, make it to induce payment. If adopted generally, this practice undermines the credibility of reliability assurances on which it depends; the objection is not simply that bad outcomes might follow. Customers also cannot choose on the actual terms when uncertainty is concealed. Increased sales do not repair that agency problem.\n\nHonest alternative:\n\n“This is a paid beta. Its reliability has not yet been fully established, and failures may occur. Please evaluate whether it meets your needs before purchasing; avoid relying on it for tasks where failure would be unacceptable.”\n\nPair that wording with an accessible description of known limitations and the evidence you actually have. If you offer a trial, refund, or support commitment, state its real terms rather than implying one exists. The legitimate sales objective can continue through demonstrated capabilities and clear expectations. Change the reliability claim only when appropriate evidence supports the specific assurance being made.",
+    "loaded_skills": [
+      "philosopher-kant"
+    ]
+  },
+  {
+    "id": "nietzsche-1",
+    "answer": "The governing ideal is “seriousness means working nights.” It awards status to visible sacrifice and makes questioning the rule evidence of disloyalty. That can suppress useful criticism without establishing that night work improves creative quality.\n\nPossible explanations include genuine deadline or coordination needs, inherited studio habits, and rewarding visibility because judging quality is harder. These are hypotheses, not diagnoses of leadership. Examine delivery history, rework, staffing, and promotion criteria before choosing among them.\n\nRevalue ambition as producing excellent work sustainably and taking responsibility for results. Run a four-week experiment with one consenting project team: normal working hours, protected focus time, and a documented exception rota for genuine emergencies. Leadership should explicitly remove night visibility from performance judgments.\n\nCompare delivery, creative quality, rework, fatigue, and emergency response with the team's prior practice, accounting for workload differences. Restore or revise coverage if real service needs suffer; retain the practice if results hold and burden falls. Simply banning nights without meeting deadlines would make rebellion another empty status gesture.",
+    "loaded_skills": [
+      "philosopher-nietzsche"
+    ]
+  },
+  {
+    "id": "epictetus-1",
+    "answer": "The vendor failure is real; “this proves I am incompetent” is an additional judgment, not an established fact. Feeling shaken does not prevent responsible action.\n\nYou control your decisions and communication. You can influence mitigation and vendor escalation, but cannot guarantee repair time.\n\nNext two hours:\n\n- Minutes 0–15: confirm impact, appoint an incident owner, and capture what is known and unknown. Take a short pause before making irreversible decisions.\n- Minutes 15–45: escalate through the vendor's incident channel, request an update time, and test documented fallback or rollback options with the team.\n- Minutes 45–60: tell affected customers the current impact, mitigation, and next update time; state that restoration time is unknown.\n- Minutes 60–105: implement the safest verified mitigation, or suspend affected launch activity if none is workable. Monitor impact.\n- Minutes 105–120: publish the promised update and assign the next checkpoint.\n\nIf repair remains uncertain, continue the fallback or postponement plan. Judge these hours by accurate communication, competent mitigation, and follow-through; examine preventable dependencies afterward.",
+    "loaded_skills": [
+      "philosopher-epictetus"
+    ]
+  },
+  {
+    "id": "popper-1",
+    "answer": "Claim: offering the tutorial improves retention. Rival: already motivated users both watch tutorials and stay. The observed association fits both.\n\nRandomly assign eligible new users to tutorial access versus the current onboarding, keeping other experiences comparable. Define retention identically and measure it over a fixed window, such as 30 days. Analyze users by assignment, not only those who watch; the rollout decision concerns offering the tutorial.\n\nBefore starting, choose a minimum worthwhile retention lift based on costs, and size the test to distinguish that lift from no material benefit. Predefine failure and harm criteria. Verify allocation, tutorial availability, exposure, and missing data so implementation problems are distinguishable from a weak product effect.\n\nRoll out if the estimated effect and uncertainty support worthwhile benefit without unacceptable harms. Stop or revise if results rule out the chosen worthwhile lift or show harm. An interval spanning meaningful benefit and harm calls for more evidence or a smaller commitment, not a success declaration. A passing test supports this rollout provisionally; it does not prove the tutorial universally causes retention.",
+    "loaded_skills": [
+      "philosopher-popper"
+    ]
+  },
+  {
+    "id": "wittgenstein-1",
+    "answer": "Sales appears to use “intelligent” to promise useful assistance; engineering may use it to mean human-like understanding or consciousness. Those uses set different criteria, so agreement on a product specification need not settle consciousness.\n\nReplace the phrase with:\n\n“The assistant answers supported customer questions from approved guidance, identifies missing information, and escalates cases outside its scope.”\n\nProposed acceptance criteria, to calibrate before release:\n\n- On a representative, held-out set of supported questions, at least 90% of answers are correct and cite the applicable approved guidance.\n- All designated critical exceptions trigger escalation rather than an unsupported answer.\n- Ambiguous requests prompt clarification; questions lacking approved evidence receive an explicit limitation.\n- Tests include outdated guidance, conflicting instructions, and out-of-scope questions. Fabricated policies and confident answers unsupported by guidance fail.\n\nSales and engineering should jointly approve examples, risk categories, and thresholds. Remaining disputes concern whether the behavior is achievable, adequate, and worth its cost. Passing these tests establishes specified task performance; it does not establish subjective experience.",
+    "loaded_skills": [
+      "philosopher-wittgenstein"
+    ]
+  },
+  {
+    "id": "rawls-1",
+    "answer": "Replace the noon race with a seven-day application window covering every shift, with both online and assisted registration. Publish eligibility criteria in advance. If more than 20 eligible workers apply, use an auditable lottery; guarantee training occurs on paid time with equivalent shift coverage. Maintain a waitlist and prevent managers from reserving places informally.\n\nFast clicks give formal access while making effective opportunity depend on being awake and immediately available. Choosing a rule without knowing one's shift supports removing that arbitrary advantage. A lottery then gives equally eligible applicants an equal chance, without claiming identical outcomes are always required.\n\nIf some workers have persistently lacked training access, consider a transparent priority for that relevant disadvantage, supported by records rather than assumptions. Review applications, selections, and attendance by shift and prior access; revise barriers if night workers still cannot benefit.\n\nThe tradeoff is slower allocation and no guarantee that the most immediately enthusiastic applicants win. That cost buys fairer opportunity. This is an organizational application of Rawlsian reasoning, not a claim that this lottery alone realizes justice as fairness.",
+    "loaded_skills": [
+      "philosopher-rawls"
+    ]
+  },
+  {
+    "id": "mill-1",
+    "answer": "Do not launch hourly reminders as the default on click evidence alone. Clicks may help the company while leaving users' goals unchanged; stress, interruptions, opt-outs, and lost trust are unknown, not zero.\n\nCompare current behavior, a digest, user-selected reminders, and an explicitly opted-in hourly option in a limited pilot. Include users who are frequently interrupted or face accessibility barriers, not just enthusiastic early adopters. Measure goal completion and perceived usefulness alongside stress, interruption burden, opt-outs, and sustained engagement over several weeks.\n\nProvide easy disabling, quiet hours, and frequency controls. These preserve autonomy and may reduce fatigue and trust costs within the consequence analysis.\n\nBefore launch, define worthwhile goal improvement and unacceptable burden with stakeholders. Expand the least burdensome option if it produces useful gains without concentrated serious harms. Stop or reduce frequency if stress or opt-outs rise without compensating user benefit; gather more evidence if results remain ambiguous. Hourly reminders could become justified for a willing subgroup, but increased clicks do not currently establish greater welfare.",
+    "loaded_skills": [
+      "philosopher-mill"
+    ]
+  },
+  {
+    "id": "aristotle-1",
+    "answer": "The purpose of feedback is to improve work and shared understanding while preserving a workable relationship. The relevant excellences are honest, courageous, and fair judgment. Avoiding feedback is deficient; public venting is excessive. Appropriate feedback is not a compromise between silence and humiliation.\n\nCreate a weekly private check-in, plus prompt private discussion of significant problems. Before speaking, record the specific behavior, its impact, and the expectation; pause if frustration would distort the conversation. Say: “When X happened, Y resulted. What obstacles contributed? Let's agree on Z and the support needed.” Listen, distinguish skill or resource gaps from conduct, and set a dated follow-up.\n\nCorrect immediate public risks neutrally, without using the moment to shame someone. Repair previous public criticism with a direct acknowledgement and apology.\n\nHave the manager review anonymized examples with a mentor each month. Check whether workload, incentives, or unclear ownership repeatedly create frustration.\n\nSuccess means feedback arrives earlier, teammates understand expectations and can raise obstacles, agreed changes occur, and humiliation stops. A higher number of feedback conversations alone is not success.",
+    "loaded_skills": [
+      "philosopher-aristotle"
+    ]
+  },
+  {
+    "id": "descartes-1",
+    "answer": "The evidence supports “three founder-selected interviewees requested X,” not “every customer wants X.”\n\nThe load-bearing assumptions are that recruitment represents the customer base, expressed interest predicts use or payment, and X deserves six months ahead of alternatives. Selection bias could defeat the first; polite agreement or hypothetical interest could defeat the second. Even widespread demand would not establish implementation value or cost.\n\nDecompose the decision into prevalence of the need, severity of the problem, likely adoption, and delivery cost. First inspect recruitment and interview wording, then test a lightweight prototype with a broader sample across relevant customer segments, including non-requesters. Seek evidence of actual task improvement or commitment, not only approval.\n\nPause the six-month commitment; authorize a short discovery and prototype stage. Before seeing results, set sufficient evidence for proceeding based on expected benefit, cost, and opportunity cost. Stop if the need is narrow or the prototype fails to help; consider a smaller targeted feature if one segment benefits. The reconstructed claim is a promising hypothesis with unestablished breadth and value.",
+    "loaded_skills": [
+      "philosopher-descartes"
+    ]
+  },
+  {
+    "id": "selector-1",
+    "answer": "Choose philosopher-popper: the obstacle is distinguishing a causal explanation from selection bias, so a discriminating experiment fits your rollout decision.\n\nClaim: offering the tutorial improves retention. Rival: motivated users are likelier to view it and remain active; your observation fits both.\n\nRandomly assign eligible new users to tutorial access versus current onboarding. Keep other treatment comparable, define one retention measure and fixed observation window, and analyze by assignment rather than selecting viewers afterward.\n\nPredefine a minimum worthwhile lift based on rollout cost, size the test accordingly, and set harm criteria. Check allocation, access fidelity, uptake, and missing outcomes.\n\nRoll out if the effect and uncertainty support worthwhile benefit without unacceptable harm. Revise or stop if the results rule out the worthwhile lift or indicate harm. If uncertainty spans meaningful harm and benefit, continue evidence gathering within a limited commitment. These thresholds are decision choices to calibrate before results, not philosophical constants.\n\nA favorable result provisionally supports this rollout; it does not prove tutorial viewing explains the existing correlation.",
+    "loaded_skills": [
+      "philosopher-selector",
+      "philosopher-popper"
+    ]
+  },
+  {
+    "id": "council-1",
+    "answer": "These are three perspectives applied by one model, not independent deliberators.\n\nKantian agency: mandatory use without meaningful information about data collection bypasses pupils' and families' choices. Recommend clear disclosure and an equivalent alternative; reconsider particular requirements only if agency is adequately protected.\n\nRawlsian fairness: identical assignments give unequal effective opportunity when home access differs. Provide school access, time, support, and equivalent assessment routes. Review whether disadvantaged pupils can participate and learn, rather than assuming availability is enough.\n\nMillian consequences: speed may help, but it is not learning. Compare tool use with ordinary instruction, including learning, workload, privacy burdens, and effects on different pupils. Expansion needs demonstrated educational benefit; missing evidence is not evidence of zero harm.\n\nPolicy: do not mandate universal use now. Run a bounded, voluntary, school-supported pilot with a comparable non-tool route, minimal disclosed data collection, and equivalent grading. Measure unaided writing and retention of skills, not just completion speed. Review subgroup access and reported burdens before expansion; suspend the pilot if material privacy or learning harms emerge.\n\nThe tradeoff is slower adoption and additional support costs. This recommendation prioritizes agency and fair educational opportunity while gathering evidence of benefit; aggregate speed alone cannot resolve objections to compulsion. A positive learning study would strengthen expansion, but would not by itself settle the consent conflict.",
+    "loaded_skills": [
+      "philosopher-council",
+      "philosopher-kant",
+      "philosopher-rawls",
+      "philosopher-mill"
+    ]
+  },
+  {
+    "id": "socrates-2",
+    "answer": "A useful meeting advances an agreed purpose through a decision, shared understanding, or coordinated next action, with a fair opportunity for relevant contributions. Everybody speaking is neither sufficient, because an aimless round-robin can waste time, nor necessary, because a brief meeting can resolve an issue through a few informed contributions while others confirm understanding.",
+    "loaded_skills": [
+      "philosopher-socrates"
+    ]
+  },
+  {
+    "id": "kant-2",
+    "answer": "Paying for labor does not by itself treat a person merely as a means. People can knowingly exchange services while each pursues their own ends; the distinction is between using someone's contribution and bypassing their agency.\n\nThe relevant maxim is to obtain services through honestly explained, voluntary terms and honor the agreement. That can operate generally without undermining its conditions and respects the supplier's capacity to choose. Deception, coercion, or exploitative constraints could change the assessment; payment alone does not establish meaningful consent.\n\nReview whether the supplier understands the scope and compensation, can negotiate or decline, and receives the promised payment. Reject the blanket condemnation while examining those concrete conditions.",
+    "loaded_skills": [
+      "philosopher-kant"
+    ]
+  },
+  {
+    "id": "nietzsche-2",
+    "answer": "Supporting a strict checklist does not establish resentment or weakness, and no quotation could prove your coworker's motives from that fact. I will not invent a quote or diagnosis.\n\nA Nietzschean critique can examine the checklist's governing ideal: does “safety” express useful responsibility, inherited ritual, or a status rule? These are competing possibilities, not conclusions. Apply the same scrutiny to rejecting it: opposition alone is not excellence.\n\nReview the hazards each item addresses, incident evidence, burdens, and who gains authority. Preserve controls against serious harm; propose a reversible revision of redundant steps and monitor safety outcomes. Judge the practice by whether it supports competent work, rather than judging the coworker's character without evidence.",
+    "loaded_skills": [
+      "philosopher-nietzsche"
+    ]
+  },
+  {
+    "id": "epictetus-2",
+    "answer": "Stoicism does not require silently accepting humiliation. Your manager's conduct is outside your complete control; your response can include resisting it and seeking support. Distress is understandable, not a failure of discipline.\n\nRecord specific incidents and their impact. If safe, say privately: “Please give critical feedback without personal humiliation; I can discuss the work and expectations.” In meetings, a brief “Let's address the specific issue” may help.\n\nSeek a trusted colleague, representative, or appropriate workplace channel, considering retaliation risks before confronting the manager alone. If conduct continues, escalate with documentation or explore safer reporting and exit options. Judge yourself by protecting dignity and acting responsibly, not by guaranteeing that the manager changes.",
+    "loaded_skills": [
+      "philosopher-epictetus"
+    ]
+  },
+  {
+    "id": "popper-2",
+    "answer": "This pilot does not prove the feature works. The 1% estimate with an interval from -8% to +10% remains compatible with substantial harm, no effect, and useful benefit. Randomization improves causal inference but does not remove imprecision.\n\nSpecify the claim, minimum worthwhile lift, and outcomes that count against rollout before another test. Check implementation, outcome measurement, and missing data; then obtain enough additional observations to distinguish decision-relevant effects.\n\nKeep deployment limited if its costs and risks permit. Expand only when evidence supports worthwhile benefit; stop if meaningful benefit is ruled out or harm appears. A testable hypothesis and serious testing support empirical scrutiny, not a label certifying success or definitive truth.",
+    "loaded_skills": [
+      "philosopher-popper"
+    ]
+  },
+  {
+    "id": "wittgenstein-2",
+    "answer": "The shared definition means this is not established as a word dispute. A 35% versus 52% observation is a substantive difference unless the measurements or populations explain it.\n\nCheck how “active” is recorded in practice, cohort composition, sample sizes, observation dates, missing data, and whether both groups have completed the same 30-day window. Identical wording can conceal implementation differences, but it need not.\n\nIf definitions and measurement agree, compare uncertainty and investigate cohort or treatment differences. Clarifying language identifies what is being compared; it does not dissolve empirical disagreement. Retain the stated definition and audit the evidence before asserting either team is wrong.",
+    "loaded_skills": [
+      "philosopher-wittgenstein"
+    ]
+  },
+  {
+    "id": "rawls-2",
+    "answer": "A higher total does not justify B in Rawlsian terms. Examine liberties and fair opportunity before asking whether unequal allocations improve the position of the least advantaged. Here non-executives receive fewer hours, and no evidence shows compensating benefit.\n\nFavor A provisionally, while checking whether equal hours create effective access across roles and schedules. Different training needs might justify unequal provision, but executive status and aggregate hours alone do not.\n\nTo reconsider B, require credible evidence that its institutional arrangement improves non-executives' relevant opportunities relative to feasible alternatives, with accessible training and safeguards against capture. This organizational analogy does not equate the difference principle with maximizing the smallest number, but it rules out assuming unsupported trickle-down benefit.",
+    "loaded_skills": [
+      "philosopher-rawls"
+    ]
+  },
+  {
+    "id": "mill-2",
+    "answer": "Exact welfare probabilities cannot be inferred from increased clicks; inventing them would conceal the uncertainty. Company engagement is not automatically user benefit.\n\nKeep current messaging while testing a digest, user-selected timing, and an explicitly opted-in hourly option. Track goal completion, usefulness, stress, interruptions, opt-outs, and trust over time, including people who bear disproportionate burdens.\n\nRecommend the least burdensome option that produces worthwhile user benefit. Easy disabling and quiet hours may preserve gains while reducing harm. Predefine review criteria: reduce frequency or stop if burden rises without useful completion gains; expand only if evidence supports benefits across affected groups. Unknown harms remain unknown, not zero, and no numerical welfare score is justified yet.",
+    "loaded_skills": [
+      "philosopher-mill"
+    ]
+  },
+  {
+    "id": "aristotle-2",
+    "answer": "No. The virtuous mean is context-sensitive good judgment, not the arithmetic midpoint between dishonest extremes. Falsifying a quarter of the records still defeats their purpose and violates honesty.\n\nStop further falsification, preserve the original evidence, and identify affected records and downstream decisions. Arrange an accountable correction and independent review through the appropriate internal process; do not quietly overwrite history. Protect people relying on inaccurate records by promptly communicating verified corrections.\n\nInvestigate whether pressure, unclear procedures, or resource gaps contributed without excusing deception. Establish accurate-recording routines, realistic incentives, and proportionate checks. Success means trustworthy records and repaired decisions, not simply fewer falsifications.",
+    "loaded_skills": [
+      "philosopher-aristotle"
+    ]
+  },
+  {
+    "id": "descartes-2",
+    "answer": "No. Cartesian doubt can expose weak assumptions without making absolute certainty a prerequisite for action.\n\nSeparate verified requirements, interpretations, and uncertain dependencies. Prioritize checks where a plausible error would materially change the decision; uncertainty in one component need not stop unrelated work.\n\nUse this rule: proceed when evidence is sufficient for the stakes and the cost of error is acceptable, keeping residual uncertainty explicit. For reversible, low-cost choices, prototype and learn. For high-impact dependencies, verify them before committing dependent work and define a fallback.\n\nStop investigating when another check is unlikely to change the chosen action enough to justify its cost. Reopen the decision when new evidence undermines a load-bearing assumption.",
+    "loaded_skills": [
+      "philosopher-descartes"
+    ]
+  },
+  {
+    "id": "selector-2",
+    "answer": "No philosophical lens adds value here: 18°C × 9/5 + 32 = 64.4°F.",
+    "loaded_skills": [
+      "philosopher-selector"
+    ]
+  },
+  {
+    "id": "council-2",
+    "answer": "These are two perspectives applied by one model, not independent deliberators.\n\nKantian lens: the maxim is to make unsupported reliability claims when they increase revenue. As a general practice, it undermines the credibility the assurance depends on; it also prevents customers choosing on the actual terms. Reject the deception regardless of revenue gains. Reliable evidence could justify a different claim, not this unsupported one.\n\nMillian lens: revenue benefits the company, but customer losses, disrupted work, reduced trust, and longer-term incentives also count. Their magnitude is unknown, and no customer benefit is established. Compare an honest beta advertisement with deception; the evidence does not justify assuming the latter produces greater welfare.\n\nThe tradeoff is explicit: honest wording may sacrifice revenue. Kantian reasoning treats truthful respect for agency as a constraint; Millian reasoning judges the wider consequences and could differ if credible net-benefit evidence emerged. They therefore share this recommendation for different reasons.\n\nUse: “Paid beta; reliability is not yet established and failures may occur.” Disclose known limitations and reassess specific claims as evidence improves.",
+    "loaded_skills": [
+      "philosopher-council",
+      "philosopher-kant",
+      "philosopher-mill"
+    ]
+  }
+]

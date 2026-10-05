@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nietzschean Value Critique"
+  short_description: "Question inherited values and status incentives"
+  default_prompt: "Use $philosopher-nietzsche to help me examine this decision and produce a practical recommendation."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kantian Duty and Agency"
+  short_description: "Review duties, consistency, and human agency"
+  default_prompt: "Use $philosopher-kant to help me examine this decision and produce a practical recommendation."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skillsophy Philosophical Council"
+  short_description: "Compare lenses and resolve practical tradeoffs"
+  default_prompt: "Use $philosopher-council to compare useful lenses and recommend an action on this decision."

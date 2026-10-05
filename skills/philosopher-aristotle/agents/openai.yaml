@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aristotelian Practical Wisdom"
+  short_description: "Develop practical judgment and useful habits"
+  default_prompt: "Use $philosopher-aristotle to help me examine this decision and produce a practical recommendation."

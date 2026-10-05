@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wittgensteinian Language Clarification"
+  short_description: "Resolve ambiguity through concrete uses"
+  default_prompt: "Use $philosopher-wittgenstein to help me examine this decision and produce a practical recommendation."

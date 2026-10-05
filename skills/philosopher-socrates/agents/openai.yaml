@@ -1,0 +1,4 @@
+interface:
+  display_name: "Socratic Inquiry"
+  short_description: "Clarify assumptions through counterexamples"
+  default_prompt: "Use $philosopher-socrates to help me examine this decision and produce a practical recommendation."

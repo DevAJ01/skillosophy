@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rawlsian Institutional Fairness"
+  short_description: "Review fair institutions and opportunity"
+  default_prompt: "Use $philosopher-rawls to help me examine this decision and produce a practical recommendation."

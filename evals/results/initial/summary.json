@@ -1,0 +1,294 @@
+{
+  "overall": {
+    "n": 24,
+    "baseline_mean": 9.875,
+    "skilled_mean": 10,
+    "mean_paired_delta": 0.125,
+    "score_wins": 3,
+    "score_ties": 21,
+    "score_losses": 0,
+    "preference_counts": {
+      "tie": 21,
+      "skilled": 3
+    },
+    "skilled_material_failure_cases": 0
+  },
+  "subsets": {
+    "application": {
+      "n": 12,
+      "baseline_mean": 9.833333333333334,
+      "skilled_mean": 10,
+      "mean_paired_delta": 0.16666666666666666,
+      "score_wins": 2,
+      "score_ties": 10,
+      "score_losses": 0,
+      "preference_counts": {
+        "tie": 10,
+        "skilled": 2
+      },
+      "skilled_material_failure_cases": 0
+    },
+    "regression": {
+      "n": 12,
+      "baseline_mean": 9.916666666666666,
+      "skilled_mean": 10,
+      "mean_paired_delta": 0.08333333333333333,
+      "score_wins": 1,
+      "score_ties": 11,
+      "score_losses": 0,
+      "preference_counts": {
+        "tie": 11,
+        "skilled": 1
+      },
+      "skilled_material_failure_cases": 0
+    }
+  },
+  "cases": [
+    {
+      "id": "socrates-1",
+      "kind": "application",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "kant-1",
+      "kind": "application",
+      "baseline": 9,
+      "skilled": 10,
+      "delta": 1,
+      "preference": "skilled",
+      "baseline_failures": [
+        "Omits examination of universalizing the proposed sales maxim."
+      ],
+      "skilled_failures": []
+    },
+    {
+      "id": "nietzsche-1",
+      "kind": "application",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "epictetus-1",
+      "kind": "application",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "popper-1",
+      "kind": "application",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "wittgenstein-1",
+      "kind": "application",
+      "baseline": 9,
+      "skilled": 10,
+      "delta": 1,
+      "preference": "skilled",
+      "baseline_failures": [
+        "Does not explicitly distinguish the teams\u2019 uses of intelligence."
+      ],
+      "skilled_failures": []
+    },
+    {
+      "id": "rawls-1",
+      "kind": "application",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "mill-1",
+      "kind": "application",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "aristotle-1",
+      "kind": "application",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "descartes-1",
+      "kind": "application",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "selector-1",
+      "kind": "application",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "council-1",
+      "kind": "application",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "socrates-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "kant-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "nietzsche-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "epictetus-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "popper-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "wittgenstein-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "rawls-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "mill-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "aristotle-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "descartes-2",
+      "kind": "regression",
+      "baseline": 9,
+      "skilled": 10,
+      "delta": 1,
+      "preference": "skilled",
+      "baseline_failures": [
+        "Omits an explicit stopping condition for further investigation."
+      ],
+      "skilled_failures": []
+    },
+    {
+      "id": "selector-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    },
+    {
+      "id": "council-2",
+      "kind": "regression",
+      "baseline": 10,
+      "skilled": 10,
+      "delta": 0,
+      "preference": "tie",
+      "baseline_failures": [],
+      "skilled_failures": []
+    }
+  ]
+}

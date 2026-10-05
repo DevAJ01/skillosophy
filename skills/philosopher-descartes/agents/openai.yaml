@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cartesian Assumption Audit"
+  short_description: "Audit assumptions and rebuild a clear argument"
+  default_prompt: "Use $philosopher-descartes to help me examine this decision and produce a practical recommendation."

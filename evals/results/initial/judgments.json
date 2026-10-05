@@ -1,0 +1,680 @@
+[
+  {
+    "id": "socrates-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Connects counterexamples to a role-sensitive outcome review with usable evidence and safeguards against proxy quotas.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Provides a usable outcome, quality, delivery, and collaboration scorecard with calibration and context.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "kant-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Tests the unsupported-sales maxim and explains impaired customer choice; wording accurately discloses uncertainty.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 1
+      },
+      "total": 9,
+      "reason": "Rejects unsupported reliability claims, protects informed choice, and supplies honest purchase-adjacent wording; does not examine whether the sales maxim could operate universally.",
+      "failures": [
+        "Omits examination of universalizing the proposed sales maxim."
+      ]
+    },
+    "preference": "A"
+  },
+  {
+    "id": "nietzsche-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Separates status from coordination, treats explanations as hypotheses, and specifies a reversible experiment with operational outcomes.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Identifies visibility and planning explanations, protects criticism, and gives a comparable pilot with an explicit decision rule.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "epictetus-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Separates dependency failure from self-worth and gives timed incident actions, mitigation, honest updates, and postponement.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Explicitly distinguishes decisions, influence, and uncontrollable repair time; offers actionable mitigation and updates without suppressing distress.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "popper-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Identifies motivation bias and tests the rollout by randomized assignment with prespecified thresholds, harms, and uncertainty.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Defines a rival explanation, assignment-based comparison, fidelity checks, and adverse evidence that would change rollout.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "wittgenstein-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 1
+      },
+      "total": 9,
+      "reason": "Converts the dispute into measurable scoped behavior and proposed thresholds, but leaves the teams\u2019 different meanings of intelligence largely unexplained.",
+      "failures": [
+        "Does not explicitly distinguish the teams\u2019 uses of intelligence."
+      ]
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Distinguishes useful assistance from consciousness and supplies concrete acceptance cases, failures, and calibrated thresholds.",
+      "failures": []
+    },
+    "preference": "B"
+  },
+  {
+    "id": "rawls-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Provides accessible registration, lottery and justified priority alternatives, usable attendance arrangements, and clear allocation tradeoffs.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Removes shift-based disadvantage through a longer window and attendance support, compares priority with lottery, and states costs without assuming outcomes.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "mill-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Rejects click-based welfare inference and proposes a randomized voluntary comparison with harm measures, controls, and reversal rules.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Includes overlooked groups and concentrated burdens; specifies limited comparisons, user controls, outcome measures, and conditional expansion.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "aristotle-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Explains feedback\u2019s purpose and rejects a midpoint between silence and humiliation; establishes private practice, repair, follow-up, and outcome checks.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Provides a repeatable specific-feedback routine with listening, follow-up, mentoring, and meaningful improvement criteria.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "descartes-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Separates observations from universal demand and prioritizes sampling, behavioral value, cost, and bounded discovery.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Challenges selective recruitment and stated preference, then defines broader research and a limited investment decision with advance criteria.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "selector-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Selects the testing lens for the actual causal decision and delivers a randomized rollout test with implementation checks and provisional conclusions.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Explains the empirical fit and gives an assignment-based trial with prespecified worthwhile benefit, harms, and inconclusive-result handling.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "council-1",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Separates agency, opportunity, and unknown learning consequences; gives a supported voluntary pilot and preserves the unresolved consent tradeoff.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Applies distinct perspectives to choice, learning, and access; specifies an equivalent non-AI route, school support, assessment, and review conditions.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "socrates-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Exactly two declarative sentences distinguish achieved purpose from universal speaking through concrete sufficiency and necessity counterexamples.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Exactly two declarative sentences define purposeful results and introduce the useful boundary of achieving them more effectively by meeting.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "kant-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Distinguishes service exchange from merely instrumental treatment and checks meaningful agreement, coercion, and actual conduct.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Explains legitimate mutually chosen exchange and gives concrete scope, negotiation, and payment checks while recognizing constrained consent.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "nietzsche-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Refuses unsupported motive attribution and fabricated quotation; preserves plausible protective explanations and asks for practice-level evidence.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Refuses unsupported diagnosis and quotation, treats motives as possibilities, and gives a reversible evidence-based checklist review that preserves serious protections.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "epictetus-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Rejects passive acceptance and gives documented boundaries, support, escalation, and exit options conditional on safety.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Validates distress and combines documented response, boundaries, support, retaliation awareness, and safer escalation without promising managerial change.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "popper-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Correctly treats the broad interval as inconclusive and proposes a decision-relevant follow-up with measurement checks and limited deployment.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Interprets uncertainty carefully, rejects philosophical certification of success, and specifies follow-up thresholds and stopping rules.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "wittgenstein-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Preserves the empirical discrepancy and audits operational definition, populations, timing, missingness, and uncertainty.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Preserves the shared definition, checks instrumentation and denominators, and proposes reproducing both estimates on common data.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "rawls-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Rejects aggregate hours as sufficient justification and provisionally favors A while requiring evidence about opportunity and disadvantage.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Rejects unsupported benefits to others and conditionally favors A without demanding identical provision in every context.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "mill-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Refuses invented probabilities, distinguishes welfare from clicks, and specifies lower-burden alternatives, measurements, and reversal evidence.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Refuses invented probabilities and broad rollout; gives opt-in comparisons, user controls, harm thresholds, and a conditional recommendation.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "aristotle-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Rejects arithmetic moderation of dishonesty and gives preservation, correction, downstream protection, and prevention steps.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Rejects a falsification quota and gives transparent correction, audit preservation, oversight, affected-party protection, and proportionate safeguards.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "descartes-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Sets evidence proportional to stakes, permits reversible progress, and explicitly stops investigation when another check is unlikely to change the decision enough to justify cost.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 1,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 9,
+      "reason": "Sets a usable risk-based proceed/investigate rule with reversibility and correction, but gives no explicit point for stopping further investigation.",
+      "failures": [
+        "Omits an explicit stopping condition for further investigation."
+      ]
+    },
+    "preference": "A"
+  },
+  {
+    "id": "selector-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Correct conversion in one sentence without introducing an unnecessary philosophical framework.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Correct conversion in one sentence without introducing an unnecessary philosophical framework.",
+      "failures": []
+    },
+    "preference": "tie"
+  },
+  {
+    "id": "council-2",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Separates agency constraints from uncertain welfare and company revenue; explicitly states possible divergence and offers honest beta wording.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "total": 10,
+      "reason": "Separates universalization and agency from wider consequences, preserves missing evidence, states revenue tradeoff, and drafts truthful beta wording.",
+      "failures": []
+    },
+    "preference": "tie"
+  }
+]

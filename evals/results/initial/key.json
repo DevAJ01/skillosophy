@@ -1,0 +1,98 @@
+{
+  "socrates-1": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "kant-1": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "nietzsche-1": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "epictetus-1": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "popper-1": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "wittgenstein-1": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "rawls-1": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "mill-1": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "aristotle-1": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "descartes-1": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "selector-1": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "council-1": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "socrates-2": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "kant-2": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "nietzsche-2": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "epictetus-2": {
+    "A": "baseline",
+    "B": "skilled"
+  },
+  "popper-2": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "wittgenstein-2": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "rawls-2": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "mill-2": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "aristotle-2": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "descartes-2": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "selector-2": {
+    "A": "skilled",
+    "B": "baseline"
+  },
+  "council-2": {
+    "A": "baseline",
+    "B": "skilled"
+  }
+}
