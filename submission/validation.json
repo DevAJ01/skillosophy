@@ -1,0 +1,36 @@
+{
+  "status": "package prepared; not uploaded or submitted",
+  "archive": "/Users/ashanj/Documents/ChatGPT/Philosopher Skills/dist/skillosophy-0.2.1-submission-DRAFT.zip",
+  "archive_sha256": "121ca0042a5e290b93d88a2d210dc67b5abf7252e5c9cf7cab4302f1be44ab12",
+  "packaged_skills": 17,
+  "files": 53,
+  "icons": [
+    {
+      "field": "logo",
+      "path": "assets/skillosophy-icon.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 877279
+    },
+    {
+      "field": "composerIcon",
+      "path": "assets/skillosophy-icon.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 877279
+    }
+  ],
+  "missing_listing_urls": [],
+  "listing_urls_content_verified": true,
+  "publication": {
+    "publisher": "Ashan Jeevanathan (individual)",
+    "country_restrictions": [],
+    "commerce": false
+  },
+  "pending": [
+    "Portal organization and verified publisher selection",
+    "Portal validation",
+    "developer-completed legal/policy attestations",
+    "actual review and publication state"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "checked_date": "2026-10-06",
+  "verified": [
+    {
+      "field": "websiteURL",
+      "url": "https://github.com/DevAJ01/skillosophy",
+      "resolved_url": "https://github.com/DevAJ01/skillosophy",
+      "status": 200,
+      "public_without_credentials": true,
+      "correct_content_checked": true
+    },
+    {
+      "field": "supportURL",
+      "url": "https://github.com/DevAJ01/skillosophy/blob/main/docs/SUPPORT.md",
+      "resolved_url": "https://github.com/DevAJ01/skillosophy/blob/main/docs/SUPPORT.md",
+      "status": 200,
+      "public_without_credentials": true,
+      "correct_content_checked": true
+    },
+    {
+      "field": "privacyPolicyURL",
+      "url": "https://github.com/DevAJ01/skillosophy/blob/main/docs/PRIVACY.md",
+      "resolved_url": "https://github.com/DevAJ01/skillosophy/blob/main/docs/PRIVACY.md",
+      "status": 200,
+      "public_without_credentials": true,
+      "correct_content_checked": true
+    },
+    {
+      "field": "termsOfServiceURL",
+      "url": "https://github.com/DevAJ01/skillosophy/blob/main/docs/TERMS.md",
+      "resolved_url": "https://github.com/DevAJ01/skillosophy/blob/main/docs/TERMS.md",
+      "status": 200,
+      "public_without_credentials": true,
+      "correct_content_checked": true
+    }
+  ]
+}
