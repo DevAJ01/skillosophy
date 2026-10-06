@@ -8,6 +8,10 @@ The startup skill identifies goals, constraints, existing guidance, and the proj
 
 Role instructions are the selected mode. They do not register or launch Codex subagents, choose models, or modify agent settings. Philosophers are one collection in the catalog; the default entry is the broad project starter.
 
+## Implemented in 0.3.0
+
+Search now combines a bundled 180-entry metadata library from seven pinned repositories with the live skills.sh community directory. Other public GitHub repositories can be indexed explicitly. Candidates are inspected at immutable revisions; actual source, license, prerequisites and dependency review produces a separate catalog extension. The installer checks inspected hashes before writing project skills and preserves notices. The library is a discovery aid, not a performance ranking or a claim to include every internet skill.
+
 ## Broaden capability coverage
 
 Add distinct practical specialties according to actual projects and verified sources: design, application frameworks, data systems, testing, operations, writing, research, and other domains. Preserve the portability of skill folders. Avoid adding an entire catalog to each project; choose what the immediate work needs.
@@ -22,4 +26,4 @@ When no existing skill fits, create a focused skill around a repeated project wo
 
 ## Later product additions
 
-Consider richer catalog search and an interactive comparison when the size of the catalog justifies them. Add configurable specialist subagents only if requested as a separate mode, with supported host configuration and verification. A website is optional distribution support; project setup remains a plugin workflow in Codex.
+Consider an interactive comparison interface when project usage demonstrates that it improves selection. Add configurable specialist subagents only if requested as a separate mode, with supported host configuration and verification. A website is optional distribution support; project setup remains a plugin workflow in Codex.

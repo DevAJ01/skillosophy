@@ -20,7 +20,7 @@ manifest=json.loads((ROOT/'plugin.json').read_text())
 output=ROOT/'dist'/f"{manifest['name']}-{manifest['version']}{'-account' if args.account_name else ''}.zip"
 package_name=args.account_name or manifest['name']
 output.parent.mkdir(exist_ok=True)
-paths=[ROOT/'plugin.json',ROOT/'LICENSE',ROOT/'.codex-plugin'/'plugin.json']+sorted((ROOT/'skills').rglob('*'))
+paths=[ROOT/'plugin.json',ROOT/'LICENSE',ROOT/'.codex-plugin'/'plugin.json']+sorted((ROOT/'skills').rglob('*'))+sorted((ROOT/'assets').rglob('*'))
 with ZipFile(output,'w',compression=ZIP_DEFLATED) as archive:
     for path in paths:
         if '__pycache__' in path.parts or path.suffix=='.pyc' or path.name=='.DS_Store':

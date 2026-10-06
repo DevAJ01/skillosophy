@@ -12,6 +12,8 @@ The Skillosophy installer does not upload project files or plans to a publisher 
 
 ## External services
 
+Skill discovery can query the skills.sh community directory using task keywords, and can resolve public GitHub repository commits and download skill sources. Those services receive the query or repository identifiers and ordinary network connection information. Use generic public keywords; do not send private project names, confidential requirements, code, or secrets as search terms. The bundled library supports offline search without network requests. Skillosophy does not run the community Skills CLI or its telemetry system.
+
 When you select a cataloged upstream skill, the installer downloads its source archive at a pinned GitHub revision. GitHub receives ordinary network connection information associated with that request. Project plans and files are not sent in the archive request. Downloaded helpers are not executed during installation.
 
 An installed skill may later use external tools or services for a task you request. Copying the skill does not connect those services. Review the instructions and the applicable service's data practices before using them.

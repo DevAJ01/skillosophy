@@ -1,6 +1,6 @@
 # Catalog guidance
 
-The catalog covers practical project workflows, optional philosopher lenses, and selected external skills. Selection is a judgment of task fit, not an automatic score. Do not assign ratings that the catalog does not contain.
+The directly installable curated catalog is complemented by the broader discovery library and reviewed extensions described in [the library guide](library-guide.md). The catalog covers practical project workflows, optional philosopher lenses, and selected external skills. Selection is a judgment of task fit, not an automatic score. Do not assign ratings that the catalog does not contain.
 
 Start from the artifact and obstacle. A browser application may need browser-flow verification; a notebook needs reproducible notebook work; PDF layout needs rendering checks. A purely local script does not need a deployment skill. A permission or scheduling dispute can benefit from a philosopher, but routine implementation does not need ten philosophical lenses.
 

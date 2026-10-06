@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Check portable package invariants; behavioral effectiveness needs separate evaluation."""
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -70,6 +71,26 @@ def validate(root=ROOT):
         for target in re.findall(r'\]\(([^)]+)\)',md.read_text()):
             if '://' not in target and not (md.parent/target.split('#')[0]).exists():
                 errors.append(f'{md}: unresolved local link {target}')
+    library_path=root/'skills/skillosophy-start/references/library.json'
+    if library_path.exists():
+        library=json.loads(library_path.read_text())
+        sources={s['repo']:s for s in library['sources']}
+        entries=library['entries']
+        if library.get('schema_version')!=1 or len({e['id'] for e in entries})!=len(entries):
+            errors.append('Invalid discovery library schema or duplicate IDs')
+        for source in sources.values():
+            if not re.fullmatch(r'[0-9a-f]{40}',source['revision']):
+                errors.append('Discovery source is not pinned')
+            for notice in source.get('metadata_attribution',[]):
+                file=(library_path.parent/notice['path']).resolve()
+                if not file.is_relative_to(library_path.parent.resolve()) or not file.is_file() or hashlib.sha256(file.read_bytes()).hexdigest()!=notice['sha256']:
+                    errors.append('Missing or changed discovery attribution')
+        for entry in entries:
+            source=sources.get(entry['repo'])
+            if not source or entry['revision']!=source['revision'] or entry.get('install_ready') is not False or entry['evidence']['status']!='unmeasured':
+                errors.append('Invalid discovery source or evidence state')
+            if entry['path'].startswith('/') or any(p in ('.','..') for p in entry['path'].split('/')):
+                errors.append('Unsafe discovery path')
     cases=json.loads((root/'evals'/'cases.json').read_text())
     ids=[c['id'] for c in cases]
     if len(ids)!=len(set(ids)):

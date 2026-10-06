@@ -2,15 +2,21 @@
   "interface": {
     "displayName": "Skillosophy",
     "shortDescription": "Start with the right skills",
-    "longDescription": "Before building, clarify the project goals and working approach, choose a small set of practical and reasoning skills, define specialist roles, and install selected skills into the project. Includes original workflows, philosopher lenses, and pinned upstream skill sources. Roles are instructions; installation does not launch agents or configure services.",
+    "longDescription": "Start Codex projects with a clear working philosophy and useful skills. Search a source-pinned metadata library across seven upstream repositories, query the live community directory, and inspect public GitHub skill packages. Compare task fit, provenance, prerequisites, license and evidence before selecting skills. Install reviewed packages into the project with file-hash receipts and specialist role instructions. Includes philosopher lenses and practical project workflows. Popularity is not proof of improved AI performance. Runtime setup and service connections remain separate.",
     "developerName": "Ashan Jeevanathan",
     "category": "Productivity",
-    "defaultPrompt": "Use Skillosophy before I start this project: determine its working philosophy, select useful skills and specialist roles, and install them into my project.",
+    "defaultPrompt": "Find useful skills for this project, review the best matches, and install them with specialist role instructions.",
+    "websiteURL": "https://github.com/DevAJ01/skillosophy",
+    "logo": "./assets/skillosophy-icon.png",
+    "composerIcon": "./assets/skillosophy-icon.png",
+    "supportURL": "https://github.com/DevAJ01/skillosophy/blob/main/docs/SUPPORT.md",
+    "privacyPolicyURL": "https://github.com/DevAJ01/skillosophy/blob/main/docs/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/DevAJ01/skillosophy/blob/main/docs/TERMS.md",
     "capabilities": []
   },
   "name": "skillosophy",
-  "version": "0.2.0",
-  "description": "Start Codex projects with a working philosophy, relevant practical and reasoning skills, specialist role instructions, and project-local skill installation.",
+  "version": "0.3.0",
+  "description": "Discover relevant skills from a searchable library and live community sources, inspect and install a purposeful project skill set, and define specialist roles.",
   "author": {
     "name": "Ashan Jeevanathan"
   },
@@ -18,7 +24,15 @@
   "skills": "./skills",
   "extensions": {
     "com.openai": {
-      "onboardingSkill": "./skills/skillosophy-start/SKILL.md"
+      "onboardingSkill": "./skills/skillosophy-start/SKILL.md",
+      "publication": {
+        "release_notes": "Add a 180-entry source-pinned discovery library, live skills.sh search, public GitHub indexing, immutable source inspection, reviewed catalog extensions, and hash-verified project installation. Preserve upstream licenses and notices. Source review and popularity are distinguished from measured effectiveness.",
+        "countries": []
+      },
+      "review": {
+        "commerce": false,
+        "commerce_description": "Skillosophy is free and does not sell products or process payments. Third-party services may have their own fees."
+      }
     }
   }
 }

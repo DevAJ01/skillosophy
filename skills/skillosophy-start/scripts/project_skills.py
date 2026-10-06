@@ -35,7 +35,7 @@ def relative(value):
         raise SetupError(f'Unsafe source path: {value}')
     return path
 
-def load_catalog(path=CATALOG_PATH):
+def load_catalog(path=CATALOG_PATH, known_dependencies=()):
     data = json.loads(path.read_text())
     if data.get('schema_version') != 1:
         raise SetupError('Unsupported catalog schema')
@@ -45,7 +45,7 @@ def load_catalog(path=CATALOG_PATH):
     for key, e in entries.items():
         if not NAME.fullmatch(key) or not NAME.fullmatch(e['install_name']):
             raise SetupError('Invalid catalog skill name')
-        if any(d not in entries for d in e['dependencies']):
+        if any(d not in entries and d not in known_dependencies for d in e['dependencies']):
             raise SetupError(f'Unknown dependency for {key}')
         source = e['source']; relative(source['path'])
         if source['type'] == 'github':
@@ -54,6 +54,15 @@ def load_catalog(path=CATALOG_PATH):
             if not re.fullmatch(r'[0-9a-f]{40}', source['revision']):
                 raise SetupError('External sources require an immutable commit')
             relative(source['license_path'])
+            if source.get('license_repo_path'):
+                relative(source['license_repo_path'])
+            for notice in source.get('attribution',[]):
+                relative(notice['repo_path']); relative(notice['destination'])
+            if source.get('review_sha256') is not None:
+                for file, sha in source['review_sha256'].items():
+                    relative(file)
+                    if not re.fullmatch(r'[0-9a-f]{64}',sha):
+                        raise SetupError('Invalid reviewed file hash')
             if not re.fullmatch(r'[0-9a-f]{64}', source['license_sha256']):
                 raise SetupError('Missing checked license digest')
         elif source['type'] != 'bundled':
@@ -154,7 +163,7 @@ def validate_skill(folder, name):
 
 def download_archive(repo, revision):
     url = f'https://codeload.github.com/{repo}/zip/{revision}'
-    request = urllib.request.Request(url, headers={'User-Agent': 'Skillosophy/0.2.0'})
+    request = urllib.request.Request(url, headers={'User-Agent': 'Skillosophy/0.3.0'})
     with urllib.request.urlopen(request, timeout=60) as response:
         data = response.read(MAX_ARCHIVE + 1)
     if len(data) > MAX_ARCHIVE:
@@ -195,6 +204,27 @@ def extract_skill(data, source, target):
             path.chmod(0o755 if mode & 0o111 else 0o644)
     if not (target / 'SKILL.md').is_file():
         raise SetupError('Selected upstream skill not found')
+    if source.get('license_repo_path'):
+        with zipfile.ZipFile(io.BytesIO(data)) as archive:
+            license_member = next(iter(roots)) + '/' + str(relative(source['license_repo_path']))
+            item = archive.getinfo(license_member)
+            if item.file_size > 1024 * 1024 or stat.S_ISLNK(item.external_attr >> 16):
+                raise SetupError('Unsupported repository license')
+            destination = target / str(relative(source['license_path']))
+            if destination.exists() and destination.read_bytes() != archive.read(item):
+                raise SetupError('Repository license would overwrite a skill file')
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(archive.read(item))
+    for notice in source.get('attribution',[]):
+        with zipfile.ZipFile(io.BytesIO(data)) as archive:
+            item = archive.getinfo(next(iter(roots)) + '/' + str(relative(notice['repo_path'])))
+            if item.file_size > 1024 * 1024 or stat.S_ISLNK(item.external_attr >> 16):
+                raise SetupError('Unsupported attribution file')
+            destination = target / str(relative(notice['destination']))
+            content = archive.read(item)
+            if destination.exists() and destination.read_bytes() != content:
+                raise SetupError('Attribution would overwrite a skill file')
+            destination.parent.mkdir(parents=True, exist_ok=True); destination.write_bytes(content)
     license_path = target / source['license_path']
     if not license_path.is_file() or digest(license_path.read_bytes()) != source['license_sha256']:
         raise SetupError('Upstream license differs from reviewed catalog')
@@ -218,11 +248,14 @@ def stage_sources(selected, bundle_root, staging, fetch=download_archive):
                 cache[pair] = fetch(*pair)
             extract_skill(cache[pair], source, target)
         hashes = validate_skill(target, name)
+        if source.get('review_sha256') is not None and hashes != source['review_sha256']:
+            raise SetupError('Source files differ from the inspected review')
         records.append({'id': entry['id'], 'name': name, 'source': source, 'file_sha256': hashes})
     return records
 
-def role_text(role):
-    skills = '\n'.join('- Use $' + name + ' when its method fits the assigned task.' for name in role['skills'])
+def role_text(role, names=None):
+    names = names or {}
+    skills = '\n'.join('- Use $' + names.get(name, name) + ' when its method fits the assigned task.' for name in role['skills'])
     return f"# {role['name']}\n\nMission: {role['mission']}\n\n{skills}\n\nCompletion: {role['done_when']}\n\nThese are role instructions, not a registered or running subagent. Resolve skill resources from their installed project folders. Inherit the user's project constraints and authorization; defining this role does not authorize external actions.\n"
 
 def install(project, plan, entries, bundle_root=BUNDLE_ROOT, apply=False, fetch=download_archive):
@@ -238,11 +271,11 @@ def install(project, plan, entries, bundle_root=BUNDLE_ROOT, apply=False, fetch=
     with tempfile.TemporaryDirectory(prefix='skillosophy-source-') as temp:
         staged = Path(temp)
         records = stage_sources(selected, Path(bundle_root).resolve(), staged, fetch)
-        receipt = {'schema_version': 1, 'installer_version': '0.2.0', 'project': str(project), 'skills': records}
+        receipt = {'schema_version': 1, 'installer_version': '0.3.0', 'project': str(project), 'skills': records}
         setup_id = digest(canonical({'plan': plan, 'receipt': receipt}).encode())[:24]
         setup = metadata_root / ('setup-' + setup_id)
         metadata = {'project-plan.json': canonical(plan), 'skills.lock.json': canonical(receipt)}
-        metadata.update({'roles/' + r['name'] + '.md': role_text(r) for r in plan.get('roles', [])})
+        metadata.update({'roles/' + r['name'] + '.md': role_text(r, {e['id']:e['install_name'] for e in selected}) for r in plan.get('roles', [])})
         created_dirs = []
         for directory in [project/'.agents', skill_root, metadata_root]:
             check_directory(directory)
@@ -309,12 +342,21 @@ def main():
     cmd.add_argument('--plan', required=True, type=Path)
     cmd.add_argument('--bundle-root', type=Path, default=BUNDLE_ROOT)
     cmd.add_argument('--apply', action='store_true')
+    cmd.add_argument('--catalog', type=Path, help='Reviewed external catalog extension; does not replace bundled entries')
     args = parser.parse_args()
     try:
         entries = load_catalog()
         if args.command == 'catalog':
             print(canonical(list(entries.values())), end='')
         else:
+            if args.catalog:
+                extension = load_catalog(args.catalog, known_dependencies=entries)
+                for key, entry in extension.items():
+                    if entry['source']['type'] != 'github' or not entry['source'].get('review_sha256') or entry.get('evidence',{}).get('status') != 'reviewed_source_unmeasured':
+                        raise SetupError('External catalog entries require inspected source hashes and review notes')
+                    if key in entries or entry['install_name'] in {e['install_name'] for e in entries.values()}:
+                        raise SetupError('External catalog collides with an existing skill')
+                    entries[key] = entry
             plan = json.loads(args.plan.read_text())
             print(canonical(install(args.project, plan, entries, args.bundle_root, args.apply)), end='')
     except (SetupError, OSError, ValueError, KeyError, zipfile.BadZipFile) as error:

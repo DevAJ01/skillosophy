@@ -24,9 +24,9 @@ The installer places skill folders in `.agents/skills` and saves the project pla
 
 Installation needs a Codex environment with access to the target project. Chat surfaces without filesystem access can prepare the plan for Codex. Installing a skill does not connect services, install its runtime prerequisites, deploy the project, or launch agents.
 
-## Initial catalog
+## Skill library
 
-The catalog has **22 installable entries**, while the plugin packages 17 workflows including its startup entry.
+Version 0.3.0 includes **180 discoverable skills from seven source-pinned repositories**, live community search through skills.sh, and indexing of additional public GitHub repositories. The directly installable curated catalog has 22 entries; the plugin packages 17 workflows including its startup entry. Discovery results require source, license, dependency, and compatibility review before installation.
 
 | Collection | Included capabilities |
 |---|---|
@@ -37,7 +37,9 @@ The catalog has **22 installable entries**, while the plugin packages 17 workflo
 
 Upstream entries point to checked, immutable revisions of [openai/skills](https://github.com/openai/skills), with per-skill licenses and prerequisites. They are fetched only when selected for installation. Provenance and popularity do not establish measured effectiveness. The [catalog](skills/skillosophy-start/references/catalog.json) records that distinction.
 
-Coverage is intentionally finite. For a missing specialty, Skillosophy can inspect a suitable licensed source or use the host's skill-creator workflow to author a focused project skill. The bundled installer accepts reviewed catalog entries; it does not install arbitrary unreviewed URLs.
+The discovery library spans OpenAI, Anthropic, Vercel, Supabase, Remotion, Superpowers, and Microsoft Azure Skills. It is metadata, not 180 preinstalled or benchmarked packages. Search sends generic public keywords to skills.sh; offline search stays local. Install counts describe popularity, not demonstrated success.
+
+The [library guide](skills/skillosophy-start/references/library-guide.md) explains search, repository indexing, pinned source inspection, and reviewed installation. For a missing specialty, inspect a suitable licensed source or use the host's skill-creator workflow to author a focused project skill. Reviewed extensions preserve source hashes, licenses and notices, and cannot replace existing catalog names.
 
 ## Development and verification
 
@@ -47,7 +49,7 @@ python3 -B -m unittest discover -s tests -v
 python3 scripts/package.py
 ```
 
-Version 0.2.0 adds project setup and installation. Integration tests cover actual writes, repeat installation, preservation, dependencies, source failures, hostile paths, license checks, and rollback. A real pinned upstream skill installation is also checked in a temporary project. Live host invocation remains separate from package validation.
+Version 0.3.0 adds discovery and reviewed catalog extensions. Thirty-three integration tests cover discovery, review, actual writes, repeat installation, preservation, dependencies, source failures, hostile paths, license checks, and rollback. An independent setup trial found, inspected, and installed a pinned Supabase skill alongside two project workflows, with three named specialist roles. See [library verification](docs/LIBRARY_VERIFICATION.md). Live host invocation remains separate from package validation.
 
 The earlier philosopher pilots mostly tied a strong baseline and do not establish reliable overall improvement. New project workflows and upstream entries are not represented as proven performance upgrades. Read [evaluation evidence](evals/RESULTS.md), [installation verification](docs/INSTALLATION_VERIFICATION.md), and [the protocol](evals/README.md).
 

@@ -37,6 +37,8 @@ python3 /absolute/path/to/skillosophy-start/scripts/project_skills.py install --
 
 The first install command is a dry run and writes nothing. The second installs the planned skills and their catalog dependencies. Bundled sources resolve beside this skill in the plugin; use --bundle-root only for an explicit alternative bundle containing the same reviewed skills. External sources require network access and are fetched from their pinned GitHub revision. No downloaded code is executed.
 
+For a reviewed discovery selection, pass `--catalog /absolute/path/to/reviewed-catalog.json` to both install commands. Follow [library inspection and review](library-guide.md) before adding external entries. The extension merges with the original catalog; conflicting IDs or names fail. Role skill IDs resolve to the actual installed invocation names.
+
 The installer refuses changed destination skills and symlinked managed paths. An identical installation is a no-op. Plans, source/hash receipts, and named role Markdown are stored under .skillosophy/setup-<plan-hash>/; this is an immutable setup record, not a Codex configuration file or running agent. Existing AGENTS.md and project settings are preserved. Never report role documents as registered subagents.
 
 The human plan summary should emphasize capabilities and the next action; users do not need internal catalog keys or receipt fields to understand the project approach.
