@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Four-phase debugging methodology with root cause analysis. Use when investigating bugs, fixing test failures, or troubleshooting unexpected behavior. Emphasizes NO FIXES WITHOUT ROOT CAUSE FIRST.",
+  "effectiveness": "unmeasured",
+  "name": "code-showcase-systematic-debugging",
+  "path": "skills/code-showcase-systematic-debugging",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/code-showcase-systematic-debugging",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/code-showcase-systematic-debugging"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

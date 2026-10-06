@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Give agents persistent structural memory of a codebase — navigate dependencies, track public APIs, and understand why connections exist without re-reading the whole repo.",
+  "effectiveness": "unmeasured",
+  "name": "data-structure-protocol",
+  "path": "skills/data-structure-protocol",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/data-structure-protocol",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/data-structure-protocol"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices.",
+  "effectiveness": "unmeasured",
+  "name": "api-security-testing",
+  "path": "skills/api-security-testing",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/api-security-testing",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/api-security-testing"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

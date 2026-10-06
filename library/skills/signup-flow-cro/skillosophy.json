@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+  "effectiveness": "unmeasured",
+  "name": "signup-flow-cro",
+  "path": "skills/signup-flow-cro",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/signup-flow-cro",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/signup-flow-cro"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

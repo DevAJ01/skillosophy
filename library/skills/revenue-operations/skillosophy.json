@@ -1,0 +1,17 @@
+{
+  "category": "business-growth",
+  "description": "Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing sales pipeline coverage, forecasting revenue, evaluating go-to-market performance, reviewing sales metrics, assessing pipeline analysis, tracking forecast accuracy with MAPE, calculating GTM efficiency, or measuring sales efficiency and unit economics for SaaS teams.",
+  "effectiveness": "unmeasured",
+  "name": "revenue-operations",
+  "path": "skills/revenue-operations",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "business-growth/skills/revenue-operations",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/business-growth/skills/revenue-operations"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

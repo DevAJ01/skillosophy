@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Inter-agent communication protocol for C-suite agent teams. Defines invocation syntax, loop prevention, isolation rules, and response formats. Use when C-suite agents need to query each other, coordinate cross-functional analysis, or run board meetings with multiple agent roles.",
+  "effectiveness": "unmeasured",
+  "name": "agent-protocol",
+  "path": "skills/agent-protocol",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/agent-protocol",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/agent-protocol"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

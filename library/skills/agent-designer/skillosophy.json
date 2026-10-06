@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when the user asks to design a multi-agent system, pick an orchestration pattern (supervisor/swarm/pipeline), generate tool schemas for agents, or evaluate agent execution logs for cost, latency, and failure bottlenecks. Examples: 'design an agent architecture for research automation', 'generate Anthropic tool schemas from these tool descriptions', 'analyze these agent run logs for bottlenecks'. NOT for Claude Code workflow files (use workflow-builder) or single-agent prompt design (use agent-workflow-designer).",
+  "effectiveness": "unmeasured",
+  "name": "agent-designer",
+  "path": "skills/agent-designer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/agent-designer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/agent-designer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

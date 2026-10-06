@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Main agent orchestrator that coordinates a specialized squad of agents",
+  "effectiveness": "unmeasured",
+  "name": "agent-squad",
+  "path": "skills/agent-squad",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/agent-squad",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/agent-squad"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

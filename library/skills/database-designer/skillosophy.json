@@ -1,0 +1,18 @@
+{
+  "category": "engineering",
+  "description": "Design a database schema from integrity rules and representative reads/writes; assess index proposals with workload evidence.",
+  "effectiveness": "unmeasured",
+  "name": "database-designer",
+  "path": "skills/database-designer",
+  "review": "pending_behavioral_evaluation",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/database-designer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/database-designer"
+  },
+  "status": "skillosophy_candidate",
+  "unresolved_entrypoint_links": [],
+  "revision_note": "Authored task-specific entrypoint; original tools/resources and baseline retained. Comparative effectiveness not yet established."
+}

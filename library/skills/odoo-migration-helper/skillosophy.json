@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Step-by-step guide for migrating Odoo custom modules between versions (v14→v15→v16→v17). Covers API changes, deprecated methods, and view migration.",
+  "effectiveness": "unmeasured",
+  "name": "odoo-migration-helper",
+  "path": "skills/odoo-migration-helper",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/odoo-migration-helper",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/odoo-migration-helper"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when the user asks to write code efficiently, avoid over-engineering, reduce dependencies, or prevent unnecessary abstractions. Enforces a strict efficiency ladder: YAGNI, reuse, stdlib, native platform, existing deps — before writing any new code.",
+  "effectiveness": "unmeasured",
+  "name": "minimalist",
+  "path": "skills/minimalist",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/minimalist",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/minimalist"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

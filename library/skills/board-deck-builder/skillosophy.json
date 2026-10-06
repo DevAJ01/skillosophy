@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor updates, quarterly business reviews, or fundraising narratives. Covers structure, narrative framework, bad news delivery, and common mistakes.",
+  "effectiveness": "unmeasured",
+  "name": "board-deck-builder",
+  "path": "skills/board-deck-builder",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/board-deck-builder",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/board-deck-builder"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

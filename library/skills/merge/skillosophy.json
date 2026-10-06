@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Merge the winning agent's branch into base, archive losers, and clean up worktrees. Use when the user runs /hub:merge or asks to land the winning AgentHub result and tidy the session.",
+  "effectiveness": "unmeasured",
+  "name": "merge",
+  "path": "skills/merge",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/agenthub/skills/merge",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/agenthub/skills/merge"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

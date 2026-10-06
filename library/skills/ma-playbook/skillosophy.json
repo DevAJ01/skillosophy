@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal structure. Use when evaluating acquisitions, preparing for acquisition, M&A due diligence, integration planning, or deal negotiation.",
+  "effectiveness": "unmeasured",
+  "name": "ma-playbook",
+  "path": "skills/ma-playbook",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/ma-playbook",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/ma-playbook"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

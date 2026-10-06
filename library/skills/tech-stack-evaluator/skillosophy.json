@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Technology stack evaluation and comparison with TCO analysis, security assessment, and ecosystem health scoring. Use when comparing frameworks, evaluating technology stacks, calculating total cost of ownership, assessing migration paths, or analyzing ecosystem viability.",
+  "effectiveness": "unmeasured",
+  "name": "tech-stack-evaluator",
+  "path": "skills/tech-stack-evaluator",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/tech-stack-evaluator",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/tech-stack-evaluator"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

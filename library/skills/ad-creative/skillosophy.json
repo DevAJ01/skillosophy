@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "When the user needs to generate, iterate, or scale ad creative for paid advertising. Use when they say 'write ad copy,' 'generate headlines,' 'create ad variations,' 'bulk creative,' 'iterate on ads,' 'ad copy validation,' 'RSA headlines,' 'Meta ad copy,' 'LinkedIn ad,' or 'creative testing.' This is pure creative production — distinct from paid-ads (campaign strategy). Use ad-creative when you need the copy, not the campaign plan.",
+  "effectiveness": "unmeasured",
+  "name": "ad-creative",
+  "path": "skills/ad-creative",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/ad-creative",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/ad-creative"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

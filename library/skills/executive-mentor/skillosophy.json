@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good options, and forces honest post-mortems. Use when you need someone to find the holes before the board does, make a decision you've been avoiding, or understand what actually went wrong.",
+  "effectiveness": "unmeasured",
+  "name": "executive-mentor",
+  "path": "skills/executive-mentor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/executive-mentor/skills/executive-mentor",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/executive-mentor/skills/executive-mentor"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

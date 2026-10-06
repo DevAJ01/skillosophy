@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.",
+  "effectiveness": "unmeasured",
+  "name": "laravel-security-audit",
+  "path": "skills/laravel-security-audit",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/laravel-security-audit",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/laravel-security-audit"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

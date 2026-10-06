@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Create custom AI subagents with proper plugin structure, persona generation, and companion routing skills.",
+  "effectiveness": "unmeasured",
+  "name": "agent-creator",
+  "path": "skills/agent-creator",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/agent-creator",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/agent-creator"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

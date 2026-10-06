@@ -1,0 +1,22 @@
+{
+  "category": "c-level-agents",
+  "description": "/cs:execute <decision> — Generate a 90-day execution plan with weekly milestones, DRIs, and check-in cadence from an approved decision. Use when a logged decision needs to become an operating plan — e.g. turning an approved market-entry call into weekly milestones with DRIs.",
+  "effectiveness": "unmeasured",
+  "name": "execute",
+  "path": "skills/execute",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-agents/skills/execute",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-agents/skills/execute"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../../c-level-advisor/skills/coo-advisor/SKILL.md",
+    "../../../c-level-advisor/skills/strategic-alignment/SKILL.md",
+    "../../../c-level-advisor/skills/change-management/SKILL.md",
+    "../../agents/cs-coo-advisor.md"
+  ]
+}

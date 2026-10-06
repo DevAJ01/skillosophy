@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Build hosted agents using Azure AI Projects SDK with ImageBasedHostedAgentDefinition. Use when creating container-based agents in Azure AI Foundry.",
+  "effectiveness": "unmeasured",
+  "name": "hosted-agents-v2-py",
+  "path": "skills/hosted-agents-v2-py",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/hosted-agents-v2-py",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/hosted-agents-v2-py"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "product-team",
+  "description": "UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use when creating design systems, generating design tokens, maintaining visual consistency, or facilitating design-dev collaboration and developer handoff.",
+  "effectiveness": "unmeasured",
+  "name": "ui-design-system",
+  "path": "skills/ui-design-system",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "product-team/skills/ui-design-system",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/product-team/skills/ui-design-system"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

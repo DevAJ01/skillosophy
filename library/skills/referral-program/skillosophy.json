@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,' 'word of mouth,' 'refer a friend,' 'incentive program,' 'customer referrals,' 'brand ambassador,' 'partner program,' 'referral link,' or 'growth through referrals.' Covers program mechanics, incentive design, and optimization — not just the idea of referrals but the actual system.",
+  "effectiveness": "unmeasured",
+  "name": "referral-program",
+  "path": "skills/referral-program",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/referral-program",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/referral-program"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "product-team",
+  "description": "Strategic product leadership toolkit for Head of Product covering OKR cascade generation, quarterly planning, competitive landscape analysis, product vision documents, and team scaling proposals. Use when creating quarterly OKR documents, defining product goals or KPIs, building product roadmaps, running competitive analysis, drafting team structure or hiring plans, aligning product strategy across engineering and design, or generating cascaded goal hierarchies from company to team level.",
+  "effectiveness": "unmeasured",
+  "name": "product-strategist",
+  "path": "skills/product-strategist",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "product-team/skills/product-strategist",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/product-team/skills/product-strategist"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

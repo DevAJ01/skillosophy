@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Docker and container development agent skill and plugin for Dockerfile optimization, docker-compose orchestration, multi-stage builds, and container security hardening. Use when: user wants to optimize a Dockerfile, create or improve docker-compose configurations, implement multi-stage builds, audit container security, reduce image size, or follow container best practices. Covers build performance, layer caching, secret management, and production-ready container patterns.",
+  "effectiveness": "unmeasured",
+  "name": "docker-development",
+  "path": "skills/docker-development",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/docker-development/skills/docker-development",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/docker-development/skills/docker-development"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

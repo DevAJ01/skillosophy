@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.",
+  "effectiveness": "unmeasured",
+  "name": "design-taste-frontend",
+  "path": "skills/design-taste-frontend",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/design-taste-frontend",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/design-taste-frontend"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

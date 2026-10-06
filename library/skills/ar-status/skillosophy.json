@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Show experiment dashboard with results, active loops, and progress. Use when the user runs /ar:ar-status or asks how an autoresearch experiment is going.",
+  "effectiveness": "unmeasured",
+  "name": "ar-status",
+  "path": "skills/ar-status",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/autoresearch-agent/skills/ar-status",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/autoresearch-agent/skills/ar-status"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

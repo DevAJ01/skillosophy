@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Security payloads, bypass tables, wordlists, gf pattern names, always-rejected",
+  "effectiveness": "unmeasured",
+  "name": "security-arsenal",
+  "path": "skills/security-arsenal",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/security-arsenal",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/security-arsenal"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

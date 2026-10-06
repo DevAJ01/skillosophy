@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Fix failing or flaky Playwright tests. Use when user says \"fix test\", \"flaky test\", \"test failing\", \"debug test\", \"test broken\", \"test passes sometimes\", or \"intermittent failure\".",
+  "effectiveness": "unmeasured",
+  "name": "fix",
+  "path": "skills/fix",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/playwright-pro/skills/fix",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/playwright-pro/skills/fix"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

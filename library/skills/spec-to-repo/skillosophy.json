@@ -1,0 +1,17 @@
+{
+  "category": "product-team",
+  "description": "Use when the user says 'build me an app', 'create a project from this spec', 'scaffold a new repo', 'generate a starter', 'turn this idea into code', 'bootstrap a project', 'I have requirements and need a codebase', or provides a natural-language project specification and expects a complete, runnable repository. Stack-agnostic: Next.js, FastAPI, Rails, Go, Rust, Flutter, and more.",
+  "effectiveness": "unmeasured",
+  "name": "spec-to-repo",
+  "path": "skills/spec-to-repo",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "product-team/skills/spec-to-repo",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/product-team/skills/spec-to-repo"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

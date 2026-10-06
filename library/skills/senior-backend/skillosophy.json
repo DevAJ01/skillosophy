@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to \"design REST APIs\", \"optimize database queries\", \"implement authentication\", \"build microservices\", \"review backend code\", \"set up GraphQL\", \"handle database migrations\", or \"load test APIs\". Covers Node.js/Express/Fastify development, PostgreSQL optimization, API security, and backend architecture patterns.",
+  "effectiveness": "unmeasured",
+  "name": "senior-backend",
+  "path": "skills/senior-backend",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/senior-backend",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/senior-backend"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "business-operations",
+  "description": "Use when a BizOps lead, COO, or process-improvement owner needs to document an end-to-end business process (procurement, employee onboarding, incident handoff, customer-onboarding, claims adjudication) in BPMN-style notation, measure cycle times by stage, surface where work spends most of its time waiting vs. being worked, and quantify the gap between processing time and total elapsed time. Pairs Lean / Six Sigma / Theory-of-Constraints canon with deterministic stdlib-only Python tools to produce a process map, a ranked bottleneck list (with severity + root-cause hypothesis), and a cycle-time analysis (P50, P90, value-add ratio, Little's-Law throughput). Distinct from sales-pipeline, system-reliability (SLO), and strategic-OKR work — this is tactical process documentation for internal operations.",
+  "effectiveness": "unmeasured",
+  "name": "process-mapper",
+  "path": "skills/process-mapper",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "business-operations/skills/process-mapper",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/business-operations/skills/process-mapper"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

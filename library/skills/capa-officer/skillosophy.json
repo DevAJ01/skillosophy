@@ -1,0 +1,17 @@
+{
+  "category": "ra-qm-team",
+  "description": "CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effectiveness verification, and CAPA metrics. Use when running CAPA investigations, 5-Why analysis, fishbone diagrams, root cause determination, corrective action tracking, effectiveness verification, or CAPA program optimization.",
+  "effectiveness": "unmeasured",
+  "name": "capa-officer",
+  "path": "skills/capa-officer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "ra-qm-team/skills/capa-officer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/ra-qm-team/skills/capa-officer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when the user asks to track technical changes, create change records, manage TC lifecycles, or hand off work between AI sessions. Covers init/create/update/status/resume/close/export workflows for structured code change documentation.",
+  "effectiveness": "unmeasured",
+  "name": "tc-tracker",
+  "path": "skills/tc-tracker",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/tc-tracker",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/tc-tracker"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

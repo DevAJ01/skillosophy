@@ -1,0 +1,20 @@
+{
+  "category": "compliance-os",
+  "description": "/cs:compliance-readiness <program> — Multi-framework compliance officer 6-question forcing interrogation of any compliance program. Use before starting a new framework, planning the annual audit calendar, or preparing for certification stage 1.",
+  "effectiveness": "unmeasured",
+  "name": "compliance-readiness",
+  "path": "skills/compliance-readiness",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "compliance-os/skills/compliance-readiness",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/compliance-os/skills/compliance-readiness"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../agents/cs-compliance-officer.md",
+    "../compliance-os/SKILL.md"
+  ]
+}

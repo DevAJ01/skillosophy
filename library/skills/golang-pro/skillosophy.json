@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.",
+  "effectiveness": "unmeasured",
+  "name": "golang-pro",
+  "path": "skills/golang-pro",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/golang-pro",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/golang-pro"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

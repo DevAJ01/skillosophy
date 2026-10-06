@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference. Detects attack vectors where attacker-controlled input reaches. AI agents running in CI/CD pipelines.",
+  "effectiveness": "unmeasured",
+  "name": "agentic-actions-auditor",
+  "path": "skills/agentic-actions-auditor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/agentic-actions-auditor",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/agentic-actions-auditor"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

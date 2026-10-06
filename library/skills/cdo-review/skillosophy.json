@@ -1,0 +1,20 @@
+{
+  "category": "c-level-agents",
+  "description": "/cs:cdo-review <plan> — Decision-driven Chief Data Officer interrogation of any plan that touches training data, data architecture, data productization, or data team hiring. Use when validating training-data rights before model work, choosing warehouse vs lakehouse vs mesh, or valuing data assets for productization or M&A.",
+  "effectiveness": "unmeasured",
+  "name": "cdo-review",
+  "path": "skills/cdo-review",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-agents/skills/cdo-review",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-agents/skills/cdo-review"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../agents/cs-cdo-advisor.md",
+    "../../../c-level-advisor/skills/chief-data-officer-advisor/SKILL.md"
+  ]
+}

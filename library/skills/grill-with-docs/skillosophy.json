@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Docs-anchored grilling session — challenges a plan against the project's existing language (CONTEXT.md) and recorded decisions (docs/adr/), and updates those files inline as terminology and decisions crystallise. Use when user wants to stress-test a plan against documented domain language, or mentions \"grill with docs\".",
+  "effectiveness": "unmeasured",
+  "name": "grill-with-docs",
+  "path": "skills/grill-with-docs",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/grill-with-docs/skills/grill-with-docs",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/grill-with-docs/skills/grill-with-docs"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

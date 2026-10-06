@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" or \"in-app pricing.\" Distinct from public pricing pages (see page-cro) — this skill focuses on in-product upgrade moments where the user has already experienced value.",
+  "effectiveness": "unmeasured",
+  "name": "paywall-upgrade-cro",
+  "path": "skills/paywall-upgrade-cro",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/paywall-upgrade-cro",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/paywall-upgrade-cro"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

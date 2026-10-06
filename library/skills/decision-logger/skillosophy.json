@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Two-layer memory architecture for board meeting decisions. Manages raw transcripts (Layer 1) and approved decisions (Layer 2). Use when logging decisions after a board meeting, reviewing past decisions with /cs:decisions, or checking overdue action items with /cs:review. Invoked automatically by the board-meeting skill after Phase 5 founder approval.",
+  "effectiveness": "unmeasured",
+  "name": "decision-logger",
+  "path": "skills/decision-logger",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/decision-logger",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/decision-logger"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

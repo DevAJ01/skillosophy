@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Build complete transactional email systems: React Email templates, provider integration (Resend, Postmark, SendGrid, AWS SES), preview server, i18n support, dark mode, spam optimization, analytics tracking. Use when adding transactional email to a new product, migrating between email providers, refactoring legacy email templates for accessibility, or adding internationalization to existing templates.",
+  "effectiveness": "unmeasured",
+  "name": "email-template-builder",
+  "path": "skills/email-template-builder",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/email-template-builder",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/email-template-builder"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Executive leadership guidance for strategic decision-making, organizational development, and stakeholder management. Use when planning strategy, preparing board presentations, managing investors, developing organizational culture, making executive decisions, fundraising, or when user mentions CEO, strategic planning, board meetings, investor updates, organizational leadership, or executive strategy.",
+  "effectiveness": "unmeasured",
+  "name": "ceo-advisor",
+  "path": "skills/ceo-advisor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/ceo-advisor",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/ceo-advisor"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.",
+  "effectiveness": "unmeasured",
+  "name": "azure-cosmos-rust",
+  "path": "skills/azure-cosmos-rust",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/azure-cosmos-rust",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/azure-cosmos-rust"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

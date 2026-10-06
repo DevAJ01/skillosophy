@@ -1,0 +1,22 @@
+{
+  "category": "engineering-team",
+  "description": "Use when planning or executing authorized red team engagements, attack path analysis, or offensive security simulations. Covers MITRE ATT&CK kill-chain planning, technique scoring, choke point identification, OPSEC risk assessment, and crown jewel targeting.",
+  "effectiveness": "unmeasured",
+  "name": "red-team",
+  "path": "skills/red-team",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/red-team",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/red-team"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../threat-detection/SKILL.md",
+    "../incident-response/SKILL.md",
+    "../cloud-security/SKILL.md",
+    "../security-pen-testing/SKILL.md"
+  ]
+}

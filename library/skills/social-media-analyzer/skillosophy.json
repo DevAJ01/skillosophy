@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use when analyzing social media performance, calculating engagement rate, measuring campaign ROI, comparing platform metrics, or benchmarking against industry standards. Also use when the user mentions \"social media audit,\" \"engagement rate,\" or \"which platform performs best.",
+  "effectiveness": "unmeasured",
+  "name": "social-media-analyzer",
+  "path": "skills/social-media-analyzer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/social-media-analyzer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/social-media-analyzer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

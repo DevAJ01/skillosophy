@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Auto-scale LLM inference clusters on Kubernetes using KEDA, custom GPU",
+  "effectiveness": "unmeasured",
+  "name": "llm-inference-scaling",
+  "path": "skills/llm-inference-scaling",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/llm-inference-scaling",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/llm-inference-scaling"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

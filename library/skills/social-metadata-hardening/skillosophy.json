@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging.",
+  "effectiveness": "unmeasured",
+  "name": "social-metadata-hardening",
+  "path": "skills/social-metadata-hardening",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/social-metadata-hardening",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/social-metadata-hardening"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

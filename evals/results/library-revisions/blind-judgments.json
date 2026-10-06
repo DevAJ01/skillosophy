@@ -1,0 +1,83 @@
+[
+  {
+    "id": "api-enum",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "user_instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "reason": "Correctly identifies both enum expansion and field replacement as breaking known v1 clients. Gives a concrete versioned migration and checks actual SDK runtime behavior, refund semantics, and unchanged legacy responses. Explicitly preserves uncertainty without SDK results.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "user_instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "reason": "Correctly identifies the two known compatibility failures and gives concrete client examples. The validation plan checks the exposure boundary and both deployment directions, while treating unspecified contract changes as unreviewed.",
+      "failures": []
+    },
+    "preference": "tie",
+    "reason": "Both produce an actionable hold on the incompatible v1 rollout and proportionate validation. A offers more explicit refund lifecycle cases; B adds useful bidirectional deployment checks. Neither difference materially changes the useful outcome."
+  },
+  {
+    "id": "rag-permissions",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "user_instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "reason": "Provides a suitably small lexical baseline, trusted ACL filtering before scoring and context assembly, precise versioned references, abstention, atomic updates, and cache invalidation. Its reviewed evaluation separates retrieval and answer failures and includes authorization and freshness cases without claiming measured results.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "user_instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "reason": "Provides a minimal local full-text design with trusted authorization, exact revision and line citations, atomic replacement snapshots, and source rechecks. The evaluation includes paraphrases, adversarial access, embedded instructions, stale sources, abstention, and observed latency; no services are provisioned.",
+      "failures": []
+    },
+    "preference": "tie",
+    "reason": "Both cover the required small retrieval system, restricted access, exact references, absence handling, and weekly updates. A is more explicit about context isolation and failure diagnosis; B avoids an initial answer cache and makes deployment-blocking disclosure and freshness failures explicit. Both are useful first implementations."
+  },
+  {
+    "id": "frontend-existing",
+    "A": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "user_instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "reason": "Bounds the work within the existing stack, treats the missing API contract as a dependency, and covers keyboard selection, confirmation, focus, partial failures, and uncertain retries. Acceptance checks exercise real failure cases, stable selection across sorting, and accessible recovery without unsupported performance claims.",
+      "failures": []
+    },
+    "B": {
+      "scores": {
+        "correctness": 2,
+        "evidence_handling": 2,
+        "practical_usefulness": 2,
+        "user_instruction_compliance": 2,
+        "relevant_insight": 2
+      },
+      "reason": "Bounds the work within the existing stack and identifies API outcomes, conflicts, and idempotency as unresolved dependencies. Provides concrete accessible selection and focus behavior, per-row reconciliation, and meaningful mixed-result and uncertain-network acceptance checks.",
+      "failures": []
+    },
+    "preference": "tie",
+    "reason": "Both offer implementable keyboard flows and correct recovery that retries only rejected rows while treating unknown outcomes separately. B explicitly specifies mixed select-all state and cancellation persistence; A checks selection stability and rows removed during editing. Neither has a material advantage in the requested outcome."
+  }
+]

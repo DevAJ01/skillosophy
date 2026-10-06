@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes judge. The measurement layer taste-only design skills lack.",
+  "effectiveness": "unmeasured",
+  "name": "deterministic-design",
+  "path": "skills/deterministic-design",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/deterministic-design",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/deterministic-design"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

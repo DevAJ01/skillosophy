@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Find exploitable vulnerabilities in GitHub Actions workflows. Every finding MUST include a concrete exploitation scenario — if you can't build the attack, don't report it.",
+  "effectiveness": "unmeasured",
+  "name": "gha-security-review",
+  "path": "skills/gha-security-review",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/gha-security-review",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/gha-security-review"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

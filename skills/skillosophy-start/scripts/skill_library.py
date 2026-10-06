@@ -16,6 +16,8 @@ import zipfile
 from project_skills import (SetupError, canonical, digest, download_archive, extract_skill,
                             relative, validate_skill, load_catalog, CATALOG_PATH, NAME)
 
+from metadata_search import DOMAINS, rank_metadata
+
 LIBRARY = Path(__file__).resolve().parents[1] / 'references/library.json'
 REPO = re.compile(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+\Z')
 SHA = re.compile(r'[0-9a-f]{40}\Z')
@@ -113,20 +115,13 @@ def community_search(query,limit=20,fetch=fetch_json):
                         'install_ready':False,'evidence':{'status':'unmeasured','note':'Install count is a popularity signal, not measured effectiveness. Resolve and inspect the GitHub skill before installation.'}})
     return results[:limit]
 
-def search(query,offline=False,limit=20,library=LIBRARY,fetch=fetch_json):
+def search(query,offline=False,limit=20,library=LIBRARY,fetch=fetch_json,domain=None):
     if not 2<=len(query.strip())<=200 or not 1<=limit<=100: raise SetupError('Use 2–200 public keyword characters and a limit of 1–100')
     snapshot=json.loads(Path(library).read_text());base=load_catalog();local=[]
     for e in base.values():
         s=e['source'];local.append({'id':e['id'],'name':e['install_name'],'description':e['description'],'category':e['category'],
                                   'provider':'curated','install_ready':True,'evidence':e['evidence'],'repo':s.get('repo'),'source_url':s.get('url')})
-    tokens=set(re.findall(r'[a-z0-9]+',query.lower()))
-    ranked=[]
-    for e in local+snapshot['entries']:
-        name=e['name'].lower();text=(name+' '+e.get('description','')+' '+e.get('category','')).lower()
-        score=sum((5 if token in name else 1) for token in tokens if token in text)
-        if score: ranked.append({**e,'keyword_fit':score})
-    ranked.sort(key=lambda e:(-e['keyword_fit'],e['name'],e.get('repo') or ''))
-    # Keep upstream versions separate from curated variants; they can have different guidance.
+    ranked=[{**e,'keyword_fit':e['score']} for e in rank_metadata(local+snapshot['entries'],query,limit,domain)]
     result={'query':query,'snapshot_updated_at':snapshot['updated_at'],'offline_results':ranked[:limit],
             'community_results':[],'community_status':'not_requested' if offline else 'ok','warnings':[]}
     if not offline:
@@ -202,14 +197,14 @@ def review(report_path,note,license_label,prerequisites,dependencies,output):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);sub=parser.add_subparsers(dest='command',required=True)
-    cmd=sub.add_parser('search');cmd.add_argument('query');cmd.add_argument('--offline',action='store_true');cmd.add_argument('--limit',type=int,default=20)
+    cmd=sub.add_parser('search');cmd.add_argument('query');cmd.add_argument('--offline',action='store_true');cmd.add_argument('--limit',type=int,default=20);cmd.add_argument('--domain',choices=DOMAINS)
     cmd=sub.add_parser('browse');cmd.add_argument('--repo');cmd.add_argument('--limit',type=int,default=100)
     cmd=sub.add_parser('index');cmd.add_argument('--repo',required=True);cmd.add_argument('--revision');cmd.add_argument('--output',type=Path,required=True)
     cmd=sub.add_parser('inspect');cmd.add_argument('--repo',required=True);cmd.add_argument('--revision');pick=cmd.add_mutually_exclusive_group(required=True);pick.add_argument('--path');pick.add_argument('--name');cmd.add_argument('--output',type=Path,required=True)
     cmd=sub.add_parser('review');cmd.add_argument('--inspection',type=Path,required=True);cmd.add_argument('--note',required=True);cmd.add_argument('--license-label',required=True);cmd.add_argument('--prerequisite',action='append',default=[]);cmd.add_argument('--dependency',action='append',default=[]);cmd.add_argument('--output',type=Path,required=True)
     args=parser.parse_args()
     try:
-        if args.command=='search':result=search(args.query,args.offline,args.limit)
+        if args.command=='search':result=search(args.query,args.offline,args.limit,domain=args.domain)
         elif args.command=='browse':
             library=json.loads(LIBRARY.read_text());result={'updated_at':library['updated_at'],'sources':library['sources'],'entries':[e for e in library['entries'] if not args.repo or e['repo']==args.repo][:args.limit]}
         elif args.command=='index':

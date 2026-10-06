@@ -1,0 +1,17 @@
+{
+  "category": "ra-qm-team",
+  "description": "GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, tracks data subject rights requests with Art. 12(3) one-month deadlines. Use when running GDPR compliance assessments, privacy audits, data protection planning, DPIA generation, or data subject rights (DSAR) management (e.g., 'check this service for GDPR risks', 'track an access request deadline'). Final compliance determinations route to the DPO or legal counsel.",
+  "effectiveness": "unmeasured",
+  "name": "gdpr-dsgvo-expert",
+  "path": "skills/gdpr-dsgvo-expert",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "ra-qm-team/skills/gdpr-dsgvo-expert",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/ra-qm-team/skills/gdpr-dsgvo-expert"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

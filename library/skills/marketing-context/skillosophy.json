@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "Create and maintain the marketing context document that all marketing skills read before starting. Use when the user mentions 'marketing context,' 'brand voice,' 'set up context,' 'target audience,' 'ICP,' 'style guide,' 'who is my customer,' 'positioning,' or wants to avoid repeating foundational information across marketing tasks. Run this at the start of any new project before using other marketing skills.",
+  "effectiveness": "unmeasured",
+  "name": "marketing-context",
+  "path": "skills/marketing-context",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/marketing-context",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/marketing-context"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

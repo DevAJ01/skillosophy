@@ -1,0 +1,21 @@
+{
+  "category": "engineering-team",
+  "description": "Use when assessing cloud infrastructure for security misconfigurations, IAM privilege escalation paths, S3 public exposure, open security group rules, or IaC security gaps. Covers AWS, Azure, and GCP posture assessment with MITRE ATT&CK mapping.",
+  "effectiveness": "unmeasured",
+  "name": "cloud-security",
+  "path": "skills/cloud-security",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/cloud-security",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/cloud-security"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../incident-response/SKILL.md",
+    "../threat-detection/SKILL.md",
+    "../security-pen-testing/SKILL.md"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when writing or reviewing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, io_context, co_spawn, awaitable, async_read/async_write, asio::spawn, yield_context, or pre-C++20 completion-handler callbacks.",
+  "effectiveness": "unmeasured",
+  "name": "boost-asio-pro",
+  "path": "skills/boost-asio-pro",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/boost-asio-pro",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/boost-asio-pro"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

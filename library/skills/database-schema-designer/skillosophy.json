@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when the user asks to create ERD diagrams, normalize database schemas, design table relationships, or plan schema migrations.",
+  "effectiveness": "unmeasured",
+  "name": "database-schema-designer",
+  "path": "skills/database-schema-designer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/database-schema-designer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/database-schema-designer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

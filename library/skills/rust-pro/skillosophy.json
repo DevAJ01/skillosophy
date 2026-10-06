@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming.",
+  "effectiveness": "unmeasured",
+  "name": "rust-pro",
+  "path": "skills/rust-pro",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/rust-pro",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/rust-pro"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

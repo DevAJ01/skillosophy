@@ -1,0 +1,20 @@
+{
+  "category": "engineering-team",
+  "description": "Use when the user asks to perform security audits, penetration testing, vulnerability scanning, OWASP Top 10 checks, or offensive security assessments. Covers static analysis, dependency scanning, secret detection, API security testing, and pen test report generation.",
+  "effectiveness": "unmeasured",
+  "name": "security-pen-testing",
+  "path": "skills/security-pen-testing",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/security-pen-testing",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/security-pen-testing"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "engineering/skills/dependency-auditor/SKILL.md",
+    "../code-reviewer/SKILL.md"
+  ]
+}

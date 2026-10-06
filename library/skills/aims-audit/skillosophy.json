@@ -1,0 +1,20 @@
+{
+  "category": "compliance-os",
+  "description": "/cs:aims-audit <scope> — ISO/IEC 42001 AIMS internal-audit 6-question forcing interrogation. Use before certification stage 1, before annual internal audit cycles, or when onboarding a new AI system into an existing AIMS.",
+  "effectiveness": "unmeasured",
+  "name": "aims-audit",
+  "path": "skills/aims-audit",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "compliance-os/skills/aims-audit",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/compliance-os/skills/aims-audit"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../agents/cs-aims-iso42001.md",
+    "../../../ra-qm-team/skills/iso42001-specialist/SKILL.md"
+  ]
+}

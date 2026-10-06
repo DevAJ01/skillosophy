@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "General Counsel advisory for startups: contract review (MSA, SaaS, NDA, DPA, employment), IP strategy, term sheet decoding, and regulatory landscape mapping. Use when reviewing any contract or term sheet, deciding when to engage outside counsel, defining IP strategy, evaluating regulatory exposure (HIPAA, GDPR, FDA, fintech), or when user mentions general counsel, GC, legal review, contract risk, term sheet, IP assignment, or regulatory exposure. NOT a substitute for licensed counsel — surfaces questions to bring to qualified attorneys.",
+  "effectiveness": "unmeasured",
+  "name": "general-counsel-advisor",
+  "path": "skills/general-counsel-advisor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/general-counsel-advisor/skills/general-counsel-advisor",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/general-counsel-advisor/skills/general-counsel-advisor"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

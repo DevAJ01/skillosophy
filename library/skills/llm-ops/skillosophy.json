@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao.",
+  "effectiveness": "unmeasured",
+  "name": "llm-ops",
+  "path": "skills/llm-ops",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/llm-ops",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/llm-ops"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

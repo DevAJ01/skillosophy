@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and frameworks or asking about React, Next.js, Prisma, or any other popular library.",
+  "effectiveness": "unmeasured",
+  "name": "context7-auto-research",
+  "path": "skills/context7-auto-research",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/context7-auto-research",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/context7-auto-research"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

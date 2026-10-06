@@ -1,0 +1,17 @@
+{
+  "category": "finance",
+  "description": "SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn, LTV, CAC, NRR, or asks how their SaaS business is doing.",
+  "effectiveness": "unmeasured",
+  "name": "saas-metrics-coach",
+  "path": "skills/saas-metrics-coach",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "finance/skills/saas-metrics-coach",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/finance/skills/saas-metrics-coach"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

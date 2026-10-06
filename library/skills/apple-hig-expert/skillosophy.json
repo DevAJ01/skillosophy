@@ -1,0 +1,17 @@
+{
+  "category": "product-team",
+  "description": "Audits and designs iOS/macOS/watchOS/visionOS interfaces against the Apple Human Interface Guidelines, including the Liquid Glass design language (announced WWDC25, shipped with iOS 26/macOS Tahoe, Sept 2025). Use when reviewing an Apple-platform mockup or app for HIG compliance, checking contrast or tap-target sizes, or designing native-feeling Apple UI (e.g., 'audit my iOS app against the HIG', 'is this text readable on Liquid Glass?').",
+  "effectiveness": "unmeasured",
+  "name": "apple-hig-expert",
+  "path": "skills/apple-hig-expert",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "product-team/apple-hig-expert/skills/apple-hig-expert",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/product-team/apple-hig-expert/skills/apple-hig-expert"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

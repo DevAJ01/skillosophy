@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Specialized skill for diagnosing, analyzing, and fixing failing GitHub Actions workflows by parsing run logs and pipeline definitions.",
+  "effectiveness": "unmeasured",
+  "name": "github-actions-debugger",
+  "path": "skills/github-actions-debugger",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/github-actions-debugger",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/github-actions-debugger"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

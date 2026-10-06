@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Diagnose slow React components and suggest targeted performance fixes.",
+  "effectiveness": "unmeasured",
+  "name": "react-component-performance",
+  "path": "skills/react-component-performance",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/react-component-performance",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/react-component-performance"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

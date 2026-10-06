@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance.",
+  "effectiveness": "unmeasured",
+  "name": "seo-dataforseo",
+  "path": "skills/seo-dataforseo",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/seo-dataforseo",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/seo-dataforseo"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Manage environment-variable hygiene and secrets safety across local development and production. Practical auditing, drift awareness, rotation readiness. Use when auditing .env files for committed secrets, planning a credential rotation, debugging missing-env-var production incidents, or hardening a new project against secrets leakage.",
+  "effectiveness": "unmeasured",
+  "name": "env-secrets-manager",
+  "path": "skills/env-secrets-manager",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/env-secrets-manager",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/env-secrets-manager"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "/em:stress-test — Business assumption stress testing. Use before betting on a plan whose core assumptions are unvalidated — e.g. stress-testing 'enterprise buyers will tolerate a 6-month pilot' or a hockey-stick revenue model.",
+  "effectiveness": "unmeasured",
+  "name": "stress-test",
+  "path": "skills/stress-test",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/executive-mentor/skills/stress-test",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/executive-mentor/skills/stress-test"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

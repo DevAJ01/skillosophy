@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Design and implement a distinctive frontend within the product’s existing brand, accessibility, performance and framework constraints.",
+  "effectiveness": "unmeasured",
+  "name": "frontend-design",
+  "path": "skills/frontend-design",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/frontend-design",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/frontend-design"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

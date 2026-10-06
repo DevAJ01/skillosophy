@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when the user wants more human-like AI responses — less robotic, less listy, more authentic. Triggers: 'behuman', 'be real', 'like a human', 'more human', 'less AI', 'talk like a person', 'mirror mode', 'stop being so AI', or when conversations are emotionally charged (grief, job loss, relationship advice, fear). NOT for technical questions, code generation, or factual lookups.",
+  "effectiveness": "unmeasured",
+  "name": "behuman",
+  "path": "skills/behuman",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/behuman/skills/behuman",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/behuman/skills/behuman"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Design GCP architectures for startups and enterprises. Use when asked to design Google Cloud infrastructure, deploy to GKE or Cloud Run, configure BigQuery pipelines, optimize GCP costs, or migrate to GCP. Covers Cloud Run, GKE, Cloud Functions, Cloud SQL, BigQuery, and cost optimization.",
+  "effectiveness": "unmeasured",
+  "name": "gcp-cloud-architect",
+  "path": "skills/gcp-cloud-architect",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/gcp-cloud-architect",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/gcp-cloud-architect"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

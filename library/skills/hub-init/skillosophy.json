@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Create a new AgentHub collaboration session with task, agent count, and evaluation criteria. Use when the user runs /hub:hub-init or asks to start a multi-agent competition on a task.",
+  "effectiveness": "unmeasured",
+  "name": "hub-init",
+  "path": "skills/hub-init",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/agenthub/skills/hub-init",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/agenthub/skills/hub-init"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

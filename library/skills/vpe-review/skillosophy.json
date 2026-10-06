@@ -1,0 +1,20 @@
+{
+  "category": "c-level-agents",
+  "description": "/cs:vpe-review <plan> — Throughput-first VP of Engineering interrogation of any plan that touches delivery, eng hiring, team structure, or production discipline. Use when cycle time balloons, DORA metrics slide, or before committing to an eng hiring wave or a reorg.",
+  "effectiveness": "unmeasured",
+  "name": "vpe-review",
+  "path": "skills/vpe-review",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-agents/skills/vpe-review",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-agents/skills/vpe-review"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../agents/cs-vpe-advisor.md",
+    "../../../c-level-advisor/skills/vpe-advisor/SKILL.md"
+  ]
+}

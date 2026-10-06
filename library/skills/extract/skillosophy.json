@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples. Use when the user runs /si:extract or asks to package a recurring solution from memory into a skill.",
+  "effectiveness": "unmeasured",
+  "name": "extract",
+  "path": "skills/extract",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/self-improving-agent/skills/extract",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/self-improving-agent/skills/extract"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

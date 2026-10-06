@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Run tests on BrowserStack. Use when user mentions \"browserstack\", \"cross-browser\", \"cloud testing\", \"browser matrix\", \"test on safari\", \"test on firefox\", or \"browser compatibility\".",
+  "effectiveness": "unmeasured",
+  "name": "browserstack",
+  "path": "skills/browserstack",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/playwright-pro/skills/browserstack",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/playwright-pro/skills/browserstack"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

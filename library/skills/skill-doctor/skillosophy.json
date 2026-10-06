@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when the user wants their agent setup graded from real conversation history, asks which installed skills are actually working, or wants evidence-backed skill edits — scores recent local Claude Code / Codex sessions against efficiency and code-quality rubrics, then drafts skill changes gated by a deterministic aggregator and renders one local shareable report.",
+  "effectiveness": "unmeasured",
+  "name": "skill-doctor",
+  "path": "skills/skill-doctor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skill-doctor/skills/skill-doctor",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skill-doctor/skills/skill-doctor"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

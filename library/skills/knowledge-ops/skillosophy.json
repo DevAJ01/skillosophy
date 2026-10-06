@@ -1,0 +1,19 @@
+{
+  "category": "business-operations",
+  "description": "Use when a Head of Ops, Knowledge Manager, or TPM-Internal needs to author, validate, or clean up company SOPs and internal runbooks (procurement intake, vendor offboarding, incident-comms cascade, employee onboarding) — including 5W2H completeness checks (Who-What-When-Where-Why-How-HowMuch), cross-link and orphan-page validation across a sprawling Notion/Confluence/Obsidian wiki, KB ingestion + hygiene reporting, and runbook step verification (named owner, expected duration, observable success signal, rollback path, escalation contact). Pairs Ishikawa's 5W2H method, Gawande's *The Checklist Manifesto*, ISO 9001, ITIL v4, and Google SRE Workbook runbook discipline with deterministic stdlib-only Python tools that score completeness, detect anti-patterns, and emit prioritized cleanup lists (e.g., \"validate this runbook before it goes into rotation\", \"audit our Confluence wiki for stale and orphaned SOPs\").",
+  "effectiveness": "unmeasured",
+  "name": "knowledge-ops",
+  "path": "skills/knowledge-ops",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "business-operations/skills/knowledge-ops",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/business-operations/skills/knowledge-ops"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "path"
+  ]
+}

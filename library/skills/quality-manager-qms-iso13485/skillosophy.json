@@ -1,0 +1,19 @@
+{
+  "category": "ra-qm-team",
+  "description": "ISO 13485 Quality Management System implementation and maintenance for medical device organizations. Provides QMS design, documentation control, internal auditing, CAPA management, and certification support. Use when working with medical device quality systems, preparing for ISO 13485 audits, managing regulatory compliance documentation, setting up corrective actions, or building audit preparation programs. Useful for quality management, audit preparation, regulatory compliance, medical device documentation, and corrective action workflows.",
+  "effectiveness": "unmeasured",
+  "name": "quality-manager-qms-iso13485",
+  "path": "skills/quality-manager-qms-iso13485",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "ra-qm-team/skills/quality-manager-qms-iso13485",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/ra-qm-team/skills/quality-manager-qms-iso13485"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../qms-audit-expert/"
+  ]
+}

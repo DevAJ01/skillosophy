@@ -1,0 +1,17 @@
+{
+  "category": "project-management",
+  "description": "Write internal company communications — 3P updates (Progress/Plans/Problems), company-wide newsletters, FAQ roundups, incident reports, leadership updates, status reports, project updates, and general internal comms. Use this skill any time the user asks to draft, edit, or format something meant for internal audiences. Trigger on keywords like \"3P\", \"weekly update\", \"newsletter\", \"FAQ\", \"internal comms\", \"status report\", \"company update\", \"team update\", \"incident report\", or any request to summarize work for leadership, teammates, or the broader company. Even casual requests like \"write my update\" or \"summarize what my team did this week\" should trigger this skill.",
+  "effectiveness": "unmeasured",
+  "name": "team-communications",
+  "path": "skills/team-communications",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "project-management/skills/team-communications",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/project-management/skills/team-communications"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

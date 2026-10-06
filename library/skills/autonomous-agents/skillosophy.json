@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Autonomous agents are AI systems that can independently decompose",
+  "effectiveness": "unmeasured",
+  "name": "autonomous-agents",
+  "path": "skills/autonomous-agents",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/autonomous-agents",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/autonomous-agents"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

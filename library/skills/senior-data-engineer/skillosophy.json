@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack. Includes data modeling, pipeline orchestration, data quality, and DataOps. Use when designing data architectures, building data pipelines, optimizing data workflows, implementing data governance, or troubleshooting data issues.",
+  "effectiveness": "unmeasured",
+  "name": "senior-data-engineer",
+  "path": "skills/senior-data-engineer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/senior-data-engineer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/senior-data-engineer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

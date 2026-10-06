@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Autonomous experiment loop that optimizes any file by a measurable metric. Inspired by Karpathy's autoresearch. The agent edits a target file, runs a fixed evaluation, keeps improvements (git commit), discards failures (git reset), and loops indefinitely. Use when: user wants to optimize code speed, reduce bundle/image size, improve test pass rate, optimize prompts, improve content quality (headlines, copy, CTR), or run any measurable improvement loop. Requires: a target file, an evaluation command that outputs a metric, and a git repo.",
+  "effectiveness": "unmeasured",
+  "name": "autoresearch-agent",
+  "path": "skills/autoresearch-agent",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/autoresearch-agent/skills/autoresearch-agent",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/autoresearch-agent/skills/autoresearch-agent"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

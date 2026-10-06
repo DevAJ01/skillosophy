@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Review Playwright tests for quality. Use when user says \"review tests\", \"check test quality\", \"audit tests\", \"improve tests\", \"test code review\", or \"playwright best practices check\".",
+  "effectiveness": "unmeasured",
+  "name": "pw-review",
+  "path": "skills/pw-review",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/playwright-pro/skills/pw-review",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/playwright-pro/skills/pw-review"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

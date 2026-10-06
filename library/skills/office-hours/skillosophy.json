@@ -1,0 +1,17 @@
+{
+  "category": "c-level-agents",
+  "description": "/cs:office-hours <topic> — YC-style 6-question founder interrogation before any advice. Forces clarity on problem, customer, distribution, defensibility, capital, and founder fit. Use when a founder question is too vague to route — e.g. 'should we grow faster?' — or before drafting a strategy brief.",
+  "effectiveness": "unmeasured",
+  "name": "office-hours",
+  "path": "skills/office-hours",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-agents/skills/office-hours",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-agents/skills/office-hours"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

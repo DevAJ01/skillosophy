@@ -1,0 +1,17 @@
+{
+  "category": "product-team",
+  "description": "Use when defining product KPIs, building metric dashboards, running cohort or retention analysis, or interpreting feature adoption trends across product stages.",
+  "effectiveness": "unmeasured",
+  "name": "product-analytics",
+  "path": "skills/product-analytics",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "product-team/skills/product-analytics",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/product-team/skills/product-analytics"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

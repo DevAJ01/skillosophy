@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Plan and route Domain-Driven Design work from strategic modeling to tactical implementation and evented architecture patterns.",
+  "effectiveness": "unmeasured",
+  "name": "domain-driven-design",
+  "path": "skills/domain-driven-design",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/domain-driven-design",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/domain-driven-design"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Run parallel feature work safely with Git worktrees. Standardizes branch isolation, port allocation, environment sync, and cleanup so each worktree behaves like an independent local app. Optimized for multi-agent workflows where each agent or terminal session owns one worktree. Use when running multiple feature branches simultaneously, isolating experimental work, or coordinating multi-agent development across the same repo.",
+  "effectiveness": "unmeasured",
+  "name": "git-worktree-manager",
+  "path": "skills/git-worktree-manager",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/git-worktree-manager",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/git-worktree-manager"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

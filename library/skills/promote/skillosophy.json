@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement. Use when the user runs /si:promote or asks to make a learned behavior permanent.",
+  "effectiveness": "unmeasured",
+  "name": "promote",
+  "path": "skills/promote",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/self-improving-agent/skills/promote",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/self-improving-agent/skills/promote"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

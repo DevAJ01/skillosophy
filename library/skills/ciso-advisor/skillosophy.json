@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Security leadership for growth-stage companies. Risk quantification in dollars, compliance roadmap (SOC 2/ISO 27001/HIPAA/GDPR), security architecture strategy, incident response leadership, and board-level security reporting. Use when building security programs, justifying security budget, selecting compliance frameworks, managing incidents, assessing vendor risk, or when user mentions CISO, security strategy, compliance roadmap, zero trust, or board security reporting.",
+  "effectiveness": "unmeasured",
+  "name": "ciso-advisor",
+  "path": "skills/ciso-advisor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/ciso-advisor",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/ciso-advisor"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

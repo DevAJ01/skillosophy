@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution. Covers strategy articulation, cascade mapping, orphan goal detection, silo identification, communication gap analysis, and realignment protocols. Use when teams are pulling in different directions, OKRs don't connect, departments optimize locally at company expense, or when user mentions alignment, strategy cascade, silo, conflicting OKRs, or strategy communication.",
+  "effectiveness": "unmeasured",
+  "name": "strategic-alignment",
+  "path": "skills/strategic-alignment",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/strategic-alignment",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/strategic-alignment"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

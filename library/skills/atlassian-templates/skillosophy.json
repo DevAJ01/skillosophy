@@ -1,0 +1,17 @@
+{
+  "category": "project-management",
+  "description": "Atlassian Template and Files Creator/Modifier expert for creating, modifying, and managing Jira and Confluence templates, blueprints, custom layouts, reusable components, and standardized content structures. Use when building org-wide templates, custom blueprints, page layouts, and automated content generation.",
+  "effectiveness": "unmeasured",
+  "name": "atlassian-templates",
+  "path": "skills/atlassian-templates",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "project-management/skills/atlassian-templates",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/project-management/skills/atlassian-templates"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

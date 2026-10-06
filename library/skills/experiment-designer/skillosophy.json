@@ -1,0 +1,17 @@
+{
+  "category": "product-team",
+  "description": "Use when planning product experiments, writing testable hypotheses, estimating sample size, prioritizing tests, or interpreting A/B outcomes with practical statistical rigor.",
+  "effectiveness": "unmeasured",
+  "name": "experiment-designer",
+  "path": "skills/experiment-designer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "product-team/skills/experiment-designer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/product-team/skills/experiment-designer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

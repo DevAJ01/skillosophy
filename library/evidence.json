@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "structural_validation": "validation.json",
+  "integration_tests": 43,
+  "authored_entrypoints": 12,
+  "bounded_forward_tasks": 12,
+  "paired_cases": 3,
+  "paired_results": {
+    "revised_wins": 0,
+    "ties": 3,
+    "baseline_wins": 0
+  },
+  "behavioral_improvement_proven": false,
+  "artifacts": "../evals/results/library-revisions",
+  "remaining_goal": "At least 500 independently evaluated authored revisions; not yet achieved."
+}

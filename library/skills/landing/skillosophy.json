@@ -1,0 +1,17 @@
+{
+  "category": "marketing",
+  "description": "Generates a premium single-page HTML landing page with 3D CSS animations, GSAP scroll effects, and mouse-parallax depth. Forcing intake (product + elevator pitch, audience register, brand overrides, tone) locks down positioning before any copy or markup is written, so the page reflects the actual product rather than generic boilerplate. Use whenever the user says 'landing for X', 'create a landing page', 'build a landing page', 'make a landing page for X', 'I need a web page for Y', or provides product/service details and wants a polished website. Also triggers on 'promotional page', 'product page', 'one-pager', 'web presence', 'sales page'. Outputs a single self-contained HTML file (Claude Code) or HTML artifact (Claude.ai). Supports configurable brand colors via CSS custom property overrides.",
+  "effectiveness": "unmeasured",
+  "name": "landing",
+  "path": "skills/landing",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing/landing/skills/landing",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing/landing/skills/landing"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

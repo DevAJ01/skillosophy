@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.",
+  "effectiveness": "unmeasured",
+  "name": "ai-agent-development",
+  "path": "skills/ai-agent-development",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/ai-agent-development",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/ai-agent-development"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

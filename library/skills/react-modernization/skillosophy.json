@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation.",
+  "effectiveness": "unmeasured",
+  "name": "react-modernization",
+  "path": "skills/react-modernization",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/react-modernization",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/react-modernization"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

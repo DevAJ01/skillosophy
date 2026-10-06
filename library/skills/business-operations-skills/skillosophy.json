@@ -1,0 +1,17 @@
+{
+  "category": "business-operations",
+  "description": "Use when running, diagnosing, or designing internal business operations — process documentation, vendor SLAs, capacity planning, internal comms, SOP/runbook authoring, procurement spend. Triggers on \"BizOps review\", \"where's the bottleneck\", \"vendor health\", \"internal SOP\", \"all-hands deck\", \"spend categorization\", \"capacity for Q3\", \"process mapping\". Forks context to route to one of six BizOps sub-skills (process-mapper, vendor-management, capacity-planner, internal-comms, knowledge-ops, procurement-optimizer) and returns a digest. Distinct from business-growth (external sales motion) and c-level-advisor (strategic, not operational).",
+  "effectiveness": "unmeasured",
+  "name": "business-operations-skills",
+  "path": "skills/business-operations-skills",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "business-operations/skills/business-operations-skills",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/business-operations/skills/business-operations-skills"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

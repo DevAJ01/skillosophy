@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Multi-agent board meeting protocol for strategic decisions. Runs a structured 6-phase deliberation: context loading, independent C-suite contributions (isolated, no cross-pollination), critic analysis, synthesis, founder review, and decision extraction. Use when the user invokes /cs:boardroom, calls a board meeting, or wants structured multi-perspective executive deliberation on a strategic question.",
+  "effectiveness": "unmeasured",
+  "name": "board-meeting",
+  "path": "skills/board-meeting",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/board-meeting",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/board-meeting"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

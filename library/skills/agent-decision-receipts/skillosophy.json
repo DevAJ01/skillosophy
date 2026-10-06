@@ -1,0 +1,17 @@
+{
+  "category": "ra-qm-team",
+  "description": "Mint a tamper-evident, post-quantum-signed receipt for a consequential agent action (deploy, delete, pay, grant-access, model decision) so it can be verified later from the certificate alone. Use when an autonomous agent takes a side-effecting action that may need to be proven later, or when satisfying EU AI Act Article 12 record-keeping. Three decisions: whether an action needs a receipt, minting it, verifying it. Signing is delegated to the open-source OpenAgentOntology package. Not after-the-fact log analysis; not a hosted notary; not a legal opinion.",
+  "effectiveness": "unmeasured",
+  "name": "agent-decision-receipts",
+  "path": "skills/agent-decision-receipts",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "ra-qm-team/skills/agent-decision-receipts",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/ra-qm-team/skills/agent-decision-receipts"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

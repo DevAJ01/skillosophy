@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns.",
+  "effectiveness": "unmeasured",
+  "name": "fastapi-pro",
+  "path": "skills/fastapi-pro",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/fastapi-pro",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/fastapi-pro"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

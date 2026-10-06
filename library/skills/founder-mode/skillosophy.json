@@ -1,0 +1,21 @@
+{
+  "category": "c-level-agents",
+  "description": "/cs:founder-mode <question> — Auto-routes any founder question to the right C-role advisor or to /cs:boardroom for multi-role topics. The single-command entry point. Use when a founder asks any strategic question without knowing which advisor or command fits — e.g. 'runway pressure' routes to the CFO, 'gross retention dropped' routes to the CCO.",
+  "effectiveness": "unmeasured",
+  "name": "founder-mode",
+  "path": "skills/founder-mode",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-agents/skills/founder-mode",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-agents/skills/founder-mode"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../agents/cs-chief-of-staff.md",
+    "../../../c-level-advisor/skills/chief-of-staff/SKILL.md",
+    "../../../c-level-advisor/skills/context-engine/SKILL.md"
+  ]
+}

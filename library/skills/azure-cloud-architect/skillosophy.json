@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Design Azure architectures for startups and enterprises. Use when asked to design Azure infrastructure, create Bicep/ARM templates, optimize Azure costs, set up Azure DevOps pipelines, or migrate to Azure. Covers AKS, App Service, Azure Functions, Cosmos DB, and cost optimization.",
+  "effectiveness": "unmeasured",
+  "name": "azure-cloud-architect",
+  "path": "skills/azure-cloud-architect",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/azure-cloud-architect",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/azure-cloud-architect"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

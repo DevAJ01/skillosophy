@@ -1,0 +1,19 @@
+{
+  "category": "marketing-skill",
+  "description": "App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store. Use when the user asks about ASO, app store rankings, app metadata, app titles and descriptions, app store listings, app visibility, or mobile app marketing on iOS or Android. Supports keyword research and scoring, competitor keyword analysis, metadata optimization, A/B test planning, launch checklists, and tracking ranking changes.",
+  "effectiveness": "unmeasured",
+  "name": "app-store-optimization",
+  "path": "skills/app-store-optimization",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/app-store-optimization",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/app-store-optimization"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../marketing-demand-acquisition/"
+  ]
+}

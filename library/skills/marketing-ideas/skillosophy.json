@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 proven marketing approaches organized by category.",
+  "effectiveness": "unmeasured",
+  "name": "marketing-ideas",
+  "path": "skills/marketing-ideas",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/marketing-ideas",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/marketing-ideas"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

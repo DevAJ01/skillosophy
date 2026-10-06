@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Reference BASIC-tier skill used as a fixture by skill-tester. Counts words and characters and applies basic text transformations. Use when validating skill-tester itself or when you need a minimal, known-good skill layout to copy. Not a production skill.",
+  "effectiveness": "unmeasured",
+  "name": "sample-text-processor",
+  "path": "skills/sample-text-processor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/skill-tester/assets/sample-skill",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/skill-tester/assets/sample-skill"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

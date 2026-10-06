@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator. Use when the user runs /ar:setup or asks to start optimizing a file with the autoresearch loop.",
+  "effectiveness": "unmeasured",
+  "name": "setup",
+  "path": "skills/setup",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/autoresearch-agent/skills/setup",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/autoresearch-agent/skills/setup"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

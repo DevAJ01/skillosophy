@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for quarterly refresh. Generates ~/.claude/company-context.md used by all C-suite advisor skills. Use when setting up the C-suite advisors for the first time, or when company context is missing or more than 90 days old — e.g. after a fundraise or pivot.",
+  "effectiveness": "unmeasured",
+  "name": "cs-onboard",
+  "path": "skills/cs-onboard",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/cs-onboard",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/cs-onboard"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,20 @@
+{
+  "category": "compliance-os",
+  "description": "/cs:fda-qsr-audit-prep <scope> — FDA 21 CFR 820 (QSR / QMSR) audit 6-question forcing interrogation. Post-Feb 2026 substantially harmonized with ISO 13485. Use before annual internal QSR audit, pre-FDA-inspection readiness, or Form 483 response.",
+  "effectiveness": "unmeasured",
+  "name": "fda-qsr-audit-prep",
+  "path": "skills/fda-qsr-audit-prep",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "compliance-os/skills/fda-qsr-audit-prep",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/compliance-os/skills/fda-qsr-audit-prep"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../agents/cs-fda-qsr-auditor.md",
+    "../../../ra-qm-team/skills/fda-consultant-specialist/SKILL.md"
+  ]
+}

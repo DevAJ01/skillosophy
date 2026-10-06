@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports.",
+  "effectiveness": "unmeasured",
+  "name": "godot-4-migration",
+  "path": "skills/godot-4-migration",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/godot-4-migration",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/godot-4-migration"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

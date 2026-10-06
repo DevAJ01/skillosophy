@@ -1,0 +1,17 @@
+{
+  "category": "markdown-html",
+  "description": "Converts a markdown PR writeup or code review (one with ```diff fenced blocks and severity-tagged > [!BLOCKER]/[!MAJOR]/[!MINOR]/[!NIT] callouts) into a single-file 2-column HTML review — unified-diff on the left, severity-tagged annotation cards on the right, top jump-nav listing every finding, mandatory named reviewer footer. Triggers when the markdown-html-orchestrator classifies an input as REVIEW, or when invoked directly via /cs:md-review. Refuses without explicit --reviewer (a code review must name a human), refuses if no diff hunks present (route to md-document instead), and refuses to encode severity in color only (every badge ships color + icon + aria-label per WCAG 1.4.1). Use after orchestrator routing.",
+  "effectiveness": "unmeasured",
+  "name": "md-review",
+  "path": "skills/md-review",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "markdown-html/skills/md-review",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/markdown-html/skills/md-review"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

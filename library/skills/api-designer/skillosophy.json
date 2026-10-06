@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Generates complete, production-ready REST API endpoint specifications for any system or domain the user describes.",
+  "effectiveness": "unmeasured",
+  "name": "api-designer",
+  "path": "skills/api-designer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/api-designer",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/api-designer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

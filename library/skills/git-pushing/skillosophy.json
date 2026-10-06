@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Safely stage, commit, and push intended git changes with conventional commit messages. Use for ordinary non-release pushes when explicitly asked to push, save work remotely, or share a completed change.",
+  "effectiveness": "unmeasured",
+  "name": "git-pushing",
+  "path": "skills/git-pushing",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/git-pushing",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/git-pushing"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "product-team",
+  "description": "Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. Use when writing user stories, creating acceptance criteria, planning sprints, estimating story points, breaking down epics, or prioritizing the backlog.",
+  "effectiveness": "unmeasured",
+  "name": "agile-product-owner",
+  "path": "skills/agile-product-owner",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "product-team/agile-product-owner/skills/agile-product-owner",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/product-team/agile-product-owner/skills/agile-product-owner"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

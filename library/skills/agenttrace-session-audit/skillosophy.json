@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Audit local AI coding-agent sessions with agenttrace for cost, tool failures, latency, anomalies, health, diffs, and CI gates.",
+  "effectiveness": "unmeasured",
+  "name": "agenttrace-session-audit",
+  "path": "skills/agenttrace-session-audit",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/agenttrace-session-audit",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/agenttrace-session-audit"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

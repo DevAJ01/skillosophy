@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Convert OpenAPI 3.x or Swagger 2.0 specs (YAML or JSON) into complete, import-ready Postman Collection v2.1 JSON files.",
+  "effectiveness": "unmeasured",
+  "name": "postman-openapi-converter",
+  "path": "skills/postman-openapi-converter",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/postman-openapi-converter",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/postman-openapi-converter"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

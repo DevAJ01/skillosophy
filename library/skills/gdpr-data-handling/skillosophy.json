@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls.",
+  "effectiveness": "unmeasured",
+  "name": "gdpr-data-handling",
+  "path": "skills/gdpr-data-handling",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/gdpr-data-handling",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/gdpr-data-handling"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "project-management",
+  "description": "Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use when setting up or configuring Jira projects, writing JQL and advanced searches, creating dashboards, designing workflows, or performing technical Jira operations.",
+  "effectiveness": "unmeasured",
+  "name": "jira-expert",
+  "path": "skills/jira-expert",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "project-management/skills/jira-expert",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/project-management/skills/jira-expert"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

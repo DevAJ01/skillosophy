@@ -1,0 +1,19 @@
+{
+  "category": "engineering",
+  "description": "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, build, or author a new skill.",
+  "effectiveness": "unmeasured",
+  "name": "write-a-skill",
+  "path": "skills/write-a-skill",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/write-a-skill/skills/write-a-skill",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/write-a-skill/skills/write-a-skill"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "REFERENCE.md"
+  ]
+}

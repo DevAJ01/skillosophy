@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Deploy frontend and full-stack apps on Vercel with previews, edge functions,",
+  "effectiveness": "unmeasured",
+  "name": "vercel-deployments",
+  "path": "skills/vercel-deployments",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/vercel-deployments",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/vercel-deployments"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

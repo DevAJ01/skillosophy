@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Validates whether an API request is correct based on provided inputs (method, URL, headers, body, auth, query params).",
+  "effectiveness": "unmeasured",
+  "name": "api-analyzer",
+  "path": "skills/api-analyzer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/api-analyzer",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/api-analyzer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

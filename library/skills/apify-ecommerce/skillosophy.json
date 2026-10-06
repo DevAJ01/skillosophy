@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Extract product data, prices, reviews, and seller information from any e-commerce platform using Apify's E-commerce Scraping Tool.",
+  "effectiveness": "unmeasured",
+  "name": "apify-ecommerce",
+  "path": "skills/apify-ecommerce",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/apify-ecommerce",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/apify-ecommerce"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,20 @@
+{
+  "category": "engineering-team",
+  "description": "Use when hunting for threats in an environment, analyzing IOCs, or detecting behavioral anomalies in telemetry. Covers hypothesis-driven threat hunting, IOC sweep generation, z-score anomaly detection, and MITRE ATT&CK-mapped signal prioritization.",
+  "effectiveness": "unmeasured",
+  "name": "threat-detection",
+  "path": "skills/threat-detection",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/threat-detection",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/threat-detection"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../incident-response/SKILL.md",
+    "../security-pen-testing/SKILL.md"
+  ]
+}

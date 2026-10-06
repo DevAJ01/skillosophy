@@ -1,0 +1,17 @@
+{
+  "category": "productivity",
+  "description": "Mentor Swedish language learners by selecting YouTube video clips and podcast episodes by CEFR level and skill (listening, reading, writing, speaking), and building a simple learning path. Use when the user asks about a Swedish learning path, YouTube clips or podcasts for Swedish, SFI videos, level assessment for svenska, or requests for Peter SFI / Lätt Svenska med Oskar / Radio Sweden på lätt svenska / Klartext-style recommendations.",
+  "effectiveness": "unmeasured",
+  "name": "swedish-mentor",
+  "path": "skills/swedish-mentor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "productivity/swedish-mentor",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/productivity/swedish-mentor"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

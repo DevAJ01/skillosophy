@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when expanding to new countries, evaluating international markets, planning localization, or building regional teams.",
+  "effectiveness": "unmeasured",
+  "name": "intl-expansion",
+  "path": "skills/intl-expansion",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/intl-expansion",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/intl-expansion"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,392 @@
+{
+  "authored_revisions": 12,
+  "behavioral_improvement_proven": false,
+  "checked_files": 4211,
+  "entrypoint_resource_issues": [
+    {
+      "links": [
+        "engineering-team/playwright-pro/"
+      ],
+      "name": "self-improving-agent"
+    },
+    {
+      "links": [
+        "../threat-detection/SKILL.md",
+        "../incident-response/SKILL.md",
+        "../cloud-security/SKILL.md",
+        "../security-pen-testing/SKILL.md"
+      ],
+      "name": "red-team"
+    },
+    {
+      "links": [
+        "../../DESIGN.md"
+      ],
+      "name": "agent-memory"
+    },
+    {
+      "links": [
+        "REFERENCE.md"
+      ],
+      "name": "write-a-skill"
+    },
+    {
+      "links": [
+        "../incident-response/SKILL.md",
+        "../threat-detection/SKILL.md",
+        "../security-pen-testing/SKILL.md"
+      ],
+      "name": "cloud-security"
+    },
+    {
+      "links": [
+        "../threat-detection/SKILL.md",
+        "../incident-response/SKILL.md",
+        "../security-pen-testing/SKILL.md"
+      ],
+      "name": "ai-security"
+    },
+    {
+      "links": [
+        "../code-reviewer/SKILL.md",
+        "../senior-security/SKILL.md",
+        "../../../productivity/andreessen/skills/andreessen/SKILL.md"
+      ],
+      "name": "named-persona-adversarial-review"
+    },
+    {
+      "links": [
+        "../incident-response/SKILL.md",
+        "../security-pen-testing/SKILL.md"
+      ],
+      "name": "threat-detection"
+    },
+    {
+      "links": [
+        "../content-production/",
+        "../content-strategy/",
+        "../content-production/",
+        "../content-production/",
+        "../social-content/"
+      ],
+      "name": "content-creator"
+    },
+    {
+      "links": [
+        "./pages/01-user-mgmt-list.md"
+      ],
+      "name": "code-to-prd"
+    },
+    {
+      "links": [
+        "engineering/skills/dependency-auditor/SKILL.md",
+        "../code-reviewer/SKILL.md"
+      ],
+      "name": "security-pen-testing"
+    },
+    {
+      "links": [
+        "../marketing-demand-acquisition/"
+      ],
+      "name": "app-store-optimization"
+    },
+    {
+      "links": [
+        "../../references/examples-bank.md",
+        "../../references/interview-to-config.md"
+      ],
+      "name": "interview"
+    },
+    {
+      "links": [
+        "../../references/loops-and-workflows.md"
+      ],
+      "name": "run-without-you"
+    },
+    {
+      "links": [
+        "../../agents/cs-soc2-auditor.md",
+        "../../../ra-qm-team/skills/soc2-compliance/SKILL.md",
+        "../../../ra-qm-team/skills/soc2-compliance/references/soc2_audit_playbook.md"
+      ],
+      "name": "soc2-audit-prep"
+    },
+    {
+      "links": [
+        "../../../c-level-advisor/skills/cs-onboard/SKILL.md",
+        "../../references/llm-wiki-bridge.md",
+        "../../../c-level-advisor/skills/cs-onboard/SKILL.md",
+        "../../../c-level-advisor/skills/context-engine/SKILL.md",
+        "../../references/llm-wiki-bridge.md"
+      ],
+      "name": "onboard"
+    },
+    {
+      "links": [
+        "../../../c-level-advisor/skills/general-counsel-advisor/SKILL.md",
+        "../../agents/cs-general-counsel-advisor.md"
+      ],
+      "name": "gc-review"
+    },
+    {
+      "links": [
+        "../../../c-level-advisor/skills/decision-logger/SKILL.md",
+        "../../agents/cs-chief-of-staff.md"
+      ],
+      "name": "freeze"
+    },
+    {
+      "links": [
+        "../../agents/cs-ai-act-compliance.md",
+        "../../../ra-qm-team/skills/eu-ai-act-specialist/SKILL.md"
+      ],
+      "name": "ai-act-readiness"
+    },
+    {
+      "links": [
+        "../../../agents/c-level/cs-cto-advisor.md",
+        "../../../c-level-advisor/skills/cto-advisor/SKILL.md"
+      ],
+      "name": "cto-review"
+    },
+    {
+      "links": [
+        "../../../c-level-advisor/skills/board-meeting/SKILL.md",
+        "../../../c-level-advisor/executive-mentor/"
+      ],
+      "name": "cross-eval"
+    },
+    {
+      "links": [
+        "../quality-manager-qms-iso13485/",
+        "../capa-officer/",
+        "../regulatory-affairs-head/",
+        "../quality-documentation-manager/"
+      ],
+      "name": "risk-management-specialist"
+    },
+    {
+      "links": [
+        "../../agents/cs-caio-advisor.md",
+        "../../../c-level-advisor/skills/chief-ai-officer-advisor/SKILL.md"
+      ],
+      "name": "caio-review"
+    },
+    {
+      "links": [
+        "../../agents/cs-chief-of-staff.md",
+        "../../../c-level-advisor/skills/context-engine/SKILL.md",
+        "../../../c-level-advisor/skills/board-meeting/SKILL.md"
+      ],
+      "name": "brief"
+    },
+    {
+      "links": [
+        "../../references/cma-primitives.md",
+        "../../references/loops-and-workflows.md"
+      ],
+      "name": "agent-launcher-orchestrator"
+    },
+    {
+      "links": [
+        "../../agents/cs-cro-advisor.md",
+        "../../../c-level-advisor/skills/cro-advisor/SKILL.md"
+      ],
+      "name": "cro-review"
+    },
+    {
+      "links": [
+        "../quality-manager-qms-iso13485/",
+        "../qms-audit-expert/",
+        "../quality-documentation-manager/"
+      ],
+      "name": "quality-manager-qmr"
+    },
+    {
+      "links": [
+        "../../agents/cs-compliance-officer.md",
+        "../compliance-os/SKILL.md"
+      ],
+      "name": "compliance-readiness"
+    },
+    {
+      "links": [
+        "../../agents/cs-chief-of-staff.md",
+        "../../../c-level-advisor/skills/chief-of-staff/SKILL.md",
+        "../../../c-level-advisor/skills/context-engine/SKILL.md"
+      ],
+      "name": "founder-mode"
+    },
+    {
+      "links": [
+        "path"
+      ],
+      "name": "knowledge-ops"
+    },
+    {
+      "links": [
+        "../../../c-level-advisor/skills/decision-logger/SKILL.md",
+        "../../agents/cs-chief-of-staff.md",
+        "../../references/llm-wiki-bridge.md"
+      ],
+      "name": "decide"
+    },
+    {
+      "links": [
+        "../gdpr-dsgvo-expert/SKILL.md",
+        "../information-security-manager-iso27001/SKILL.md",
+        "../isms-audit-expert/SKILL.md"
+      ],
+      "name": "soc2-compliance"
+    },
+    {
+      "links": [
+        "../../agents/cs-cqm-iso13485.md",
+        "../../../ra-qm-team/skills/qms-audit-expert/SKILL.md",
+        "../../../ra-qm-team/skills/qms-audit-expert/references/iso13485_audit_playbook.md"
+      ],
+      "name": "iso13485-audit-prep"
+    },
+    {
+      "links": [
+        "../../agents/cs-cpo-advisor.md",
+        "../../../c-level-advisor/skills/cpo-advisor/SKILL.md"
+      ],
+      "name": "cpo-review"
+    },
+    {
+      "links": [
+        "../../agents/cs-ciso-iso27001.md",
+        "../../../ra-qm-team/skills/isms-audit-expert/SKILL.md",
+        "../../../ra-qm-team/skills/isms-audit-expert/references/iso27001_audit_playbook.md"
+      ],
+      "name": "iso27001-audit-prep"
+    },
+    {
+      "links": [
+        "../00-fundacao/identidade.md"
+      ],
+      "name": "arquiteto-de-empresa"
+    },
+    {
+      "links": [
+        "../../agents/cs-aims-iso42001.md",
+        "../../../ra-qm-team/skills/iso42001-specialist/SKILL.md"
+      ],
+      "name": "aims-audit"
+    },
+    {
+      "links": [
+        "../../agents/cs-dpo-gdpr.md",
+        "../../../ra-qm-team/skills/gdpr-dsgvo-expert/SKILL.md",
+        "../../../ra-qm-team/skills/gdpr-dsgvo-expert/references/gdpr_audit_playbook.md"
+      ],
+      "name": "gdpr-audit-prep"
+    },
+    {
+      "links": [
+        "../../agents/cs-cfo-advisor.md",
+        "../../../c-level-advisor/skills/cfo-advisor/SKILL.md"
+      ],
+      "name": "cfo-review"
+    },
+    {
+      "links": [
+        "../qms-audit-expert/"
+      ],
+      "name": "quality-manager-qms-iso13485"
+    },
+    {
+      "links": [
+        "../../agents/cs-cdo-advisor.md",
+        "../../../c-level-advisor/skills/chief-data-officer-advisor/SKILL.md"
+      ],
+      "name": "cdo-review"
+    },
+    {
+      "links": [
+        "../../agents/cs-cco-advisor.md",
+        "../../../c-level-advisor/skills/chief-customer-officer-advisor/SKILL.md"
+      ],
+      "name": "cco-review"
+    },
+    {
+      "links": [
+        "../../../c-level-advisor/skills/decision-logger/SKILL.md",
+        "../../agents/cs-chief-of-staff.md",
+        "../../../c-level-advisor/executive-mentor/skills/postmortem/SKILL.md"
+      ],
+      "name": "post-mortem"
+    },
+    {
+      "links": [
+        "../../references/loops-and-workflows.md",
+        "../../references/cma-primitives.md"
+      ],
+      "name": "grade-iterate"
+    },
+    {
+      "links": [
+        "../../../c-level-advisor/skills/coo-advisor/SKILL.md",
+        "../../../c-level-advisor/skills/strategic-alignment/SKILL.md",
+        "../../../c-level-advisor/skills/change-management/SKILL.md",
+        "../../agents/cs-coo-advisor.md"
+      ],
+      "name": "execute"
+    },
+    {
+      "links": [
+        "../../agents/cs-fda-qsr-auditor.md",
+        "../../../ra-qm-team/skills/fda-consultant-specialist/SKILL.md"
+      ],
+      "name": "fda-qsr-audit-prep"
+    },
+    {
+      "links": [
+        "../../agents/cs-vpe-advisor.md",
+        "../../../c-level-advisor/skills/vpe-advisor/SKILL.md"
+      ],
+      "name": "vpe-review"
+    },
+    {
+      "links": [
+        "url",
+        "url"
+      ],
+      "name": "md-document"
+    },
+    {
+      "links": [
+        "../../agents/cs-chief-of-staff.md",
+        "../../../c-level-advisor/skills/board-meeting/SKILL.md",
+        "../../../c-level-advisor/executive-mentor/"
+      ],
+      "name": "boardroom"
+    },
+    {
+      "links": [
+        "../../agents/cs-ciso-advisor.md",
+        "../../../c-level-advisor/skills/ciso-advisor/SKILL.md"
+      ],
+      "name": "ciso-review"
+    },
+    {
+      "links": [
+        "../../references/persona-voices.md",
+        "../../references/llm-wiki-bridge.md",
+        "../../../CLAUDE.md",
+        "../../../c-level-advisor/executive-mentor/"
+      ],
+      "name": "c-level-agents"
+    },
+    {
+      "links": [
+        "../../agents/cs-cmo-advisor.md",
+        "../../../c-level-advisor/skills/cmo-advisor/SKILL.md"
+      ],
+      "name": "cmo-review"
+    }
+  ],
+  "failures": [],
+  "skill_folders": 600
+}

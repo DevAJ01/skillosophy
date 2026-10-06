@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.",
+  "effectiveness": "unmeasured",
+  "name": "azure-storage-file-share-py",
+  "path": "skills/azure-storage-file-share-py",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/azure-storage-file-share-py",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/azure-storage-file-share-py"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

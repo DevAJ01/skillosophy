@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "F1-inspired test EXECUTOR + reporter. Runs a test plan, finds and reproduces bugs, audits suite signal integrity, then files a WJTTC report (Brake/Engine/Aero/Tyre/Pit) with a tier verdict.",
+  "effectiveness": "unmeasured",
+  "name": "wjttc-tester",
+  "path": "skills/wjttc-tester",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/wjttc-tester",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/wjttc-tester"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

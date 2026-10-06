@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman.",
+  "effectiveness": "unmeasured",
+  "name": "caveman",
+  "path": "skills/caveman",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/caveman/skills/caveman",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/caveman/skills/caveman"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

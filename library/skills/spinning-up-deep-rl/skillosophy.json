@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Knowledge base from \\\"Spinning Up in Deep RL\\\" by Joshua Achiam (OpenAI, MIT-licensed). Use when applying Achiam's frameworks for RL fundamentals and MDPs, the model-free algorithm taxonomy, policy gradient derivations, the six reference algorithms (VPG, TRPO, PPO, DDPG, TD3, SAC), debugging silently-failing RL code, or running rigorous multi-seed RL experiments.",
+  "effectiveness": "unmeasured",
+  "name": "spinning-up-deep-rl",
+  "path": "skills/spinning-up-deep-rl",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/spinning-up-deep-rl/skills/spinning-up-deep-rl",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/spinning-up-deep-rl/skills/spinning-up-deep-rl"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

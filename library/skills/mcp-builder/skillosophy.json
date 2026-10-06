@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.",
+  "effectiveness": "unmeasured",
+  "name": "mcp-builder",
+  "path": "skills/mcp-builder",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/mcp-builder",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/mcp-builder"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

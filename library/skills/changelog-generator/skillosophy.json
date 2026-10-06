@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Produce consistent, auditable release notes from Conventional Commits. Separates commit parsing, semantic-bump logic, and changelog rendering for automated releases with editorial control. Use when cutting a release, generating CHANGELOG.md from git history, computing the next semantic version from commits, automating release notes in CI, or planning a hotfix/rollback. Examples: 'generate the changelog for v1.4.0', 'what version bump do these commits require', 'we need an emergency hotfix process'.",
+  "effectiveness": "unmeasured",
+  "name": "changelog-generator",
+  "path": "skills/changelog-generator",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/changelog-generator",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/changelog-generator"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

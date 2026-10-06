@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot overview, and offline firmware analysis.",
+  "effectiveness": "unmeasured",
+  "name": "hardware-security",
+  "path": "skills/hardware-security",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/hardware-security",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/hardware-security"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

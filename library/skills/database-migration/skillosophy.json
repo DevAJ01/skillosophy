@@ -1,0 +1,18 @@
+{
+  "category": "practical",
+  "description": "Prepare and validate database changes with writer compatibility, restartable backfills and explicit recovery limits.",
+  "effectiveness": "unmeasured",
+  "name": "database-migration",
+  "path": "skills/database-migration",
+  "review": "pending_behavioral_evaluation",
+  "source": {
+    "license": "MIT",
+    "path": "skills/database-migration",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/database-migration"
+  },
+  "status": "skillosophy_candidate",
+  "unresolved_entrypoint_links": [],
+  "revision_note": "Authored task-specific entrypoint; original tools/resources and baseline retained. Comparative effectiveness not yet established."
+}

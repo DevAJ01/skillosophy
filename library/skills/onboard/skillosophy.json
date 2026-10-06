@@ -1,0 +1,23 @@
+{
+  "category": "c-level-agents",
+  "description": "/cs:onboard — Founder interview that populates ~/.claude/company-context.md using the canonical 7-dimension cs-onboard schema. The first command to run when starting with c-level-agents. Use when setting up the virtual C-suite for a new company, or when advisors lack company context — e.g. before a first /cs:boardroom or after a fundraise changes the numbers.",
+  "effectiveness": "unmeasured",
+  "name": "onboard",
+  "path": "skills/onboard",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-agents/skills/onboard",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-agents/skills/onboard"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../../c-level-advisor/skills/cs-onboard/SKILL.md",
+    "../../references/llm-wiki-bridge.md",
+    "../../../c-level-advisor/skills/cs-onboard/SKILL.md",
+    "../../../c-level-advisor/skills/context-engine/SKILL.md",
+    "../../references/llm-wiki-bridge.md"
+  ]
+}

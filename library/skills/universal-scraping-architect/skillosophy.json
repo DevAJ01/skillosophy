@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use for web scraping, crawling, document extraction, API parsing, or building validation-heavy data pipelines using Firecrawl or local Python scripts.",
+  "effectiveness": "unmeasured",
+  "name": "universal-scraping-architect",
+  "path": "skills/universal-scraping-architect",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/universal-scraping-architect/skills/universal-scraping-architect",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/universal-scraping-architect/skills/universal-scraping-architect"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

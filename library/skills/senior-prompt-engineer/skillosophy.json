@@ -1,0 +1,18 @@
+{
+  "category": "engineering-team",
+  "description": "Revise prompts through controlled task evaluation, measuring useful output and regressions rather than prompt style.",
+  "effectiveness": "unmeasured",
+  "name": "senior-prompt-engineer",
+  "path": "skills/senior-prompt-engineer",
+  "review": "pending_behavioral_evaluation",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/senior-prompt-engineer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/senior-prompt-engineer"
+  },
+  "status": "skillosophy_candidate",
+  "unresolved_entrypoint_links": [],
+  "revision_note": "Authored task-specific entrypoint; original tools/resources and baseline retained. Comparative effectiveness not yet established."
+}

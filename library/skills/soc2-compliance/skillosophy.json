@@ -1,0 +1,21 @@
+{
+  "category": "ra-qm-team",
+  "description": "Use when the user asks to prepare for SOC 2 audits, map Trust Service Criteria, build control matrices, collect audit evidence, perform gap analysis, or assess SOC 2 Type I vs Type II readiness.",
+  "effectiveness": "unmeasured",
+  "name": "soc2-compliance",
+  "path": "skills/soc2-compliance",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "ra-qm-team/skills/soc2-compliance",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/ra-qm-team/skills/soc2-compliance"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../gdpr-dsgvo-expert/SKILL.md",
+    "../information-security-manager-iso27001/SKILL.md",
+    "../isms-audit-expert/SKILL.md"
+  ]
+}

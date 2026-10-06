@@ -1,0 +1,20 @@
+{
+  "category": "c-level-agents",
+  "description": "/cs:cfo-review <plan> — Numerate-skeptic interrogation of any plan that touches money. Unit economics, runway, dilution, capital allocation. Use when a plan commits meaningful spend — e.g. a hiring wave, a fundraise decision, or a new channel budget.",
+  "effectiveness": "unmeasured",
+  "name": "cfo-review",
+  "path": "skills/cfo-review",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-agents/skills/cfo-review",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-agents/skills/cfo-review"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../agents/cs-cfo-advisor.md",
+    "../../../c-level-advisor/skills/cfo-advisor/SKILL.md"
+  ]
+}

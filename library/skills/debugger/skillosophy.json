@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Debugging specialist for errors, test failures, and unexpected",
+  "effectiveness": "unmeasured",
+  "name": "debugger",
+  "path": "skills/debugger",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/debugger",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/debugger"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

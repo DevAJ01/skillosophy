@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when designing, reviewing, or paying for an agent memory system — adding memory to an agent, choosing between long-context / RAG / graph / agentic memory, auditing what a CLAUDE.md or memory directory actually holds, deciding what to keep and what to expire, or when a memory store keeps growing and nobody has said what leaves it. Prices the write path, picks which cost to pay, classifies records as facts / skills / logs, and refuses a design that has no forgetting policy.",
+  "effectiveness": "unmeasured",
+  "name": "memory-engineering",
+  "path": "skills/memory-engineering",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/memory-engineering/skills/memory-engineering",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/memory-engineering/skills/memory-engineering"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

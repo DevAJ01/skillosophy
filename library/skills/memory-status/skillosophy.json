@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations. Use when the user runs /si:memory-status or asks how full or healthy the agent memory is.",
+  "effectiveness": "unmeasured",
+  "name": "memory-status",
+  "path": "skills/memory-status",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/self-improving-agent/skills/memory-status",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/self-improving-agent/skills/memory-status"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

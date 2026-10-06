@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when the user asks to capture a full-page screenshot, long screenshot, or complete page capture of a web page. Handles SPA scroll containers, lazy-loaded images, and very tall pages via Chrome DevTools Protocol with zero external dependencies.",
+  "effectiveness": "unmeasured",
+  "name": "full-page-screenshot",
+  "path": "skills/full-page-screenshot",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/full-page-screenshot",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/full-page-screenshot"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

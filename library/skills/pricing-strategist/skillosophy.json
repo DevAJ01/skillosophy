@@ -1,0 +1,17 @@
+{
+  "category": "commercial",
+  "description": "Use when designing or revisiting product pricing — selecting a pricing model (subscription seat-based, usage-based, value-based, freemium, or hybrid), running Van Westendorp Price Sensitivity Meter analysis on WTP survey data, or designing Good/Better/Best packaging tiers. Recommends a model and a price range with trade-offs, never a single number. For Commercial leads, Product Marketing, and CMOs at the pricing-design moment — not deal-by-deal discounting, not brand positioning.",
+  "effectiveness": "unmeasured",
+  "name": "pricing-strategist",
+  "path": "skills/pricing-strategist",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "commercial/skills/pricing-strategist",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/commercial/skills/pricing-strategist"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

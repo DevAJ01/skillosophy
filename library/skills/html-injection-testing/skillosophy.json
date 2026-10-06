@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML content into web applications. This vulnerability enables attackers to modify page appearance, create phishing pages, and steal user credentials through injected forms.",
+  "effectiveness": "unmeasured",
+  "name": "html-injection-testing",
+  "path": "skills/html-injection-testing",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/html-injection-testing",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/html-injection-testing"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Set up Playwright in a project. Use when user says \"set up playwright\", \"add e2e tests\", \"configure playwright\", \"testing setup\", \"init playwright\", or \"add test infrastructure\".",
+  "effectiveness": "unmeasured",
+  "name": "pw-init",
+  "path": "skills/pw-init",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/playwright-pro/skills/pw-init",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/playwright-pro/skills/pw-init"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

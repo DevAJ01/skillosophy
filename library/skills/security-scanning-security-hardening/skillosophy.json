@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls.",
+  "effectiveness": "unmeasured",
+  "name": "security-scanning-security-hardening",
+  "path": "skills/security-scanning-security-hardening",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/security-scanning-security-hardening",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/security-scanning-security-hardening"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

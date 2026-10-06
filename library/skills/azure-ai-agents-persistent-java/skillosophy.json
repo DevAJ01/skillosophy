@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.",
+  "effectiveness": "unmeasured",
+  "name": "azure-ai-agents-persistent-java",
+  "path": "skills/azure-ai-agents-persistent-java",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/azure-ai-agents-persistent-java",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/azure-ai-agents-persistent-java"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

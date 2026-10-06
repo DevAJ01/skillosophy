@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus.",
+  "effectiveness": "unmeasured",
+  "name": "unit-testing-test-generate",
+  "path": "skills/unit-testing-test-generate",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/unit-testing-test-generate",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/unit-testing-test-generate"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

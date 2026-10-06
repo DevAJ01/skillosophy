@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Launch N parallel subagents in isolated git worktrees to compete on the session task. Use when the user runs /hub:spawn or asks to start the competing agents for an initialized AgentHub session.",
+  "effectiveness": "unmeasured",
+  "name": "spawn",
+  "path": "skills/spawn",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/agenthub/skills/spawn",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/agenthub/skills/spawn"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "ra-qm-team",
+  "description": "Document control system management for medical device QMS. Covers document numbering, version control, change management, and 21 CFR Part 11 compliance. Use when working on document control procedures, change control workflows, document numbering, version management, electronic signature compliance, or regulatory documentation review.",
+  "effectiveness": "unmeasured",
+  "name": "quality-documentation-manager",
+  "path": "skills/quality-documentation-manager",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "ra-qm-team/skills/quality-documentation-manager",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/ra-qm-team/skills/quality-documentation-manager"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,22 @@
+{
+  "category": "ra-qm-team",
+  "description": "Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production information analysis. Use when user mentions risk management, ISO 14971, risk analysis, FMEA, fault tree analysis, hazard identification, risk control, risk matrix, benefit-risk analysis, residual risk, risk acceptability, or post-market risk.",
+  "effectiveness": "unmeasured",
+  "name": "risk-management-specialist",
+  "path": "skills/risk-management-specialist",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "ra-qm-team/skills/risk-management-specialist",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/ra-qm-team/skills/risk-management-specialist"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../quality-manager-qms-iso13485/",
+    "../capa-officer/",
+    "../regulatory-affairs-head/",
+    "../quality-documentation-manager/"
+  ]
+}

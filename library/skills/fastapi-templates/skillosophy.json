@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects.",
+  "effectiveness": "unmeasured",
+  "name": "fastapi-templates",
+  "path": "skills/fastapi-templates",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/fastapi-templates",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/fastapi-templates"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

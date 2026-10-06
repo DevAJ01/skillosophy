@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Use when writing Snowflake SQL, building data pipelines with Dynamic Tables or Streams/Tasks, using Cortex AI functions, creating Cortex Agents, writing Snowpark Python, configuring dbt for Snowflake, or troubleshooting Snowflake errors.",
+  "effectiveness": "unmeasured",
+  "name": "snowflake-development",
+  "path": "skills/snowflake-development",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/snowflake-development/skills/snowflake-development",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/snowflake-development/skills/snowflake-development"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

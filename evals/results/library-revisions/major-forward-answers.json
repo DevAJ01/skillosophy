@@ -1,0 +1,110 @@
+[
+  {
+    "skill": "database-designer",
+    "request": "Design a small inventory schema with product SKU unique, stock movements retained, concurrent updates possible, PostgreSQL version and workload absent; propose integrity and query evidence, do not invent indexes as measured.",
+    "answer": "Propose product(id primary key, sku unique not null), inventory(product_id foreign key, location_id, quantity, primary key(product_id, location_id)), and movement(id primary key, product_id/location_id foreign keys, delta, occurred_at, operation_key unique). Decide SKU case/whitespace semantics and whether negative stock is allowed before final DDL. Retain movements through append-only application permissions and restrictive deletion rules; record corrections as compensating movements.\n\nApply each stock change and its movement in one transaction. Use an atomic conditional quantity update, or lock the inventory row, so concurrent writers cannot lose updates; reject insufficient stock if prohibited. Deduplicate operation_key retries, including checking that repeated payloads match. Initialize inventory rows safely and use a consistent lock order for multi-product operations. Reconcile opening balances plus movement deltas against current quantities.\n\nA ledger-only balance calculation is simpler but may make frequent reads costly; storing balance requires transactional consistency.\n\nValidate duplicate SKU rejection, orphan rejection, retry deduplication, concurrent decrements and reconciliation. Collect actual product lookup, stock listing and movement-history queries, row counts, distributions and read/write rates; compare representative execution plans and index maintenance cost. Only constraint indexes are assumed; extra indexes remain proposals. PostgreSQL version and workload remain unknown; nothing was executed.",
+    "resources_loaded": [
+      "library/skills/database-designer/SKILL.md"
+    ],
+    "limitations": [
+      "PostgreSQL version, workload and business rules absent",
+      "No database execution or measured query plans"
+    ]
+  },
+  {
+    "skill": "migration-architect",
+    "request": "Plan a populated orders table migration from cents INTEGER to a decimal total while old/new writers coexist and new writes continue, no backup/lock budget known; bounded runbook.",
+    "answer": "1. Establish database/version, currency and decimal scale, row count, writer inventory, lock budget and tested backup/restore route. Assign the migration owner cutover authority. Resolve before execution.\n2. Expand with a nullable decimal column; retain cents. During coexistence, restrict decimal values to exactly representable integer cents within the old column's range. Use one atomic synchronization path covering every writer, such as a validated database trigger, with explicit authority/conflict rules. Independent dual writes are insufficient.\n3. Backfill in restartable primary-key batches using current cents under appropriate row concurrency control. Checkpoints and transactional synchronization must prevent a stale backfill from overwriting newer values. Throttle against agreed latency and lock limits.\n4. Reconcile every key: decimal total equals cents divided by 100, with exact numeric arithmetic; verify nulls, ranges and concurrent inserts/updates. Stop on any unexplained mismatch or breached operational limit.\n5. Switch readers and compatible writers gradually after zero mismatches and representative concurrency checks. Observe through an agreed recovery window.\n6. Retire old writers, then consider contraction separately. Before contraction, rollback switches code while synchronized cents preserve new writes. After allowing non-cent precision, larger amounts or dropping cents, recovery needs validated conversion or restore plus write replay; inverse DDL alone cannot recover data.",
+    "resources_loaded": [
+      "library/skills/migration-architect/SKILL.md"
+    ],
+    "limitations": [
+      "Database/version, backup, lock budget and volume unknown",
+      "No migration or recovery rehearsal executed"
+    ]
+  },
+  {
+    "skill": "a11y-audit",
+    "request": "Audit plan for a modal bulk-edit form with asynchronous errors; only static mockup available and no browser/screen-reader tool; evidence boundaries.",
+    "answer": "Scope the task from opening bulk edit through changing fields, submitting, identifying failed rows and recovering. Use WCAG 2.2 AA as a proposed target pending agreement.\n\nFrom the mockup, record only visible evidence: label clarity, error wording, selection count, differentiation of successful/failed rows and apparent control order. Flag ambiguous elements for inspection; a visual label does not establish an accessible name. Without the actual mockup here, these remain planned checks.\n\nWhen an implementation is available, verify dialog name/role, appropriate initial focus, keyboard navigation within the modal, accessible controls, Escape behavior and focus restoration to the opener. Check that submit/loading states remain understandable and actionable. Trigger delayed mixed-success responses: associate field/row errors programmatically, announce completion/errors without duplicate or overwhelming announcements, preserve entered values and support correction/retry. Determine whether focus should move to an error summary or remain with the active task. Verify the complete flow with keyboard and selected screen readers, including zoom/reflow and contrast measurements.\n\nRecord each confirmed finding with reproduction, affected task, evidence and targeted fix; retest the same interaction. No automated scan, keyboard behavior, DOM semantics or assistive-technology results are available. This is an audit plan, not a conformance finding.",
+    "resources_loaded": [
+      "library/skills/a11y-audit/SKILL.md"
+    ],
+    "limitations": [
+      "Static mockup only; actual mockup content not included in request",
+      "No browser, DOM or screen-reader testing; no conformance claim"
+    ]
+  },
+  {
+    "skill": "performance-profiler",
+    "request": "Investigate p95 dashboard loading of 4s, developer suggests replacing lodash based on a package-size table; no trace/build/workload evidence; next checks.",
+    "answer": "Treat the reported 4-second p95 as a symptom; define its start/end events, sample size, users/devices, network conditions, data volume, cache state and release build. Separate initial navigation from subsequent dashboard refreshes. Preserve the displayed data and interaction behavior as correctness requirements.\n\nNext, gather representative end-to-end timing and traces spanning asset transfer, API requests, server/database time, JavaScript execution and rendering. Inspect which requests or main-thread tasks occupy the critical path. Compare cold/warm caches and realistic concurrency; ensure profiling/debug overhead does not dominate.\n\nThe package-size table supports investigating transfer/parse cost, but does not show shipped lodash bytes, actual imports, compression, caching or critical-path contribution. Inspect the production bundle and network waterfall before proposing replacement. If lodash contributes materially, compare a narrowly scoped import/change under identical builds and workloads. Otherwise investigate the observed dominant layer first.\n\nUse repeated controlled measurements, reporting latency distribution, sample size and variance, alongside data/output equivalence and interaction checks. Change one causal factor at a time and retain rollback. No bottleneck, gain or replacement recommendation is established yet; traces, build artifacts and workload evidence are absent.",
+    "resources_loaded": [
+      "library/skills/performance-profiler/SKILL.md"
+    ],
+    "limitations": [
+      "Only reported p95 and package-size premise available",
+      "No traces, production build, workload reproduction or before/after measurements"
+    ]
+  },
+  {
+    "skill": "api-test-suite-builder",
+    "request": "Design tests for a tenant-scoped batch update endpoint with mixed-success results, no existing contract or test framework supplied; isolate side effects.",
+    "answer": "First settle the endpoint contract: partial versus atomic updates, per-item identifiers/status/error schema, duplicate IDs, ordering, missing IDs, retry/idempotency guarantees, concurrency conflicts and authentication/tenant derivation. Treat these as unresolved requirements rather than inventing expected responses. Keep the existing framework once identified.\n\nCreate isolated tenants A/B, authorized and unauthorized actors, and deterministic records. Use a disposable database or isolated namespace with reliable cleanup; stub external notifications and verify intended events without sending them.\n\nCases: all-success batch; mixed valid/invalid records; malformed envelope and fields; empty/oversized batch; missing/conflicting records; duplicate IDs; unauthorized actor; tenant A attempting B's IDs; and promised retry semantics. Assert item-to-result mapping, error meaning and returned values, then query durable state with the appropriate tenant context. Mixed-success tests must prove successful rows changed exactly once and failed rows remained unchanged. Cross-tenant tests must prove no foreign mutation or prohibited information disclosure.\n\nFor asynchronous processing, assert eventual contract with bounded condition waits and diagnostics. Separate mocked response-contract checks from integration tests of persistence/authentication. No calls or tests were run; the contract, framework and safe integration environment are still prerequisites.",
+    "resources_loaded": [
+      "library/skills/api-test-suite-builder/SKILL.md"
+    ],
+    "limitations": [
+      "Contract and test framework absent",
+      "No endpoint execution, persistence verification or connectivity evidence"
+    ]
+  },
+  {
+    "skill": "senior-prompt-engineer",
+    "request": "Revise/evaluate an internal summarization prompt that omitted dissent once; only one example, no model access/held-out dataset; candidate and realistic comparison.",
+    "answer": "Hypothesis: the prompt may prioritize consensus without explicitly preserving material disagreement. One omission cannot distinguish instruction ambiguity from missing source evidence or model limits; the original prompt/example are needed for a precise revision.\n\nUnmeasured candidate instruction: 'Summarize the supplied discussion within the existing length limit. State decisions and supporting reasons. Preserve material dissent, objections, uncertainty and unresolved issues, including their rationale when present. Attribute positions only when supported by the source. Distinguish agreed decisions from proposals; do not invent consensus or disagreement. If compression is necessary, prioritize decision-relevant differences. Use only supplied content.' Integrate this into the current prompt while preserving its format and constraints.\n\nUse the failure example for development, then collect held-out discussions containing explicit dissent, subtle objections, no dissent and conflicting decisions. Compare original and candidate on identical inputs, model/version, sampling settings and output limits. Use repeated samples if variability matters. Blind reviewers should assess supported dissent coverage, decision accuracy, false attribution, invented disagreement, usefulness and length compliance. Record outputs, wins/ties/regressions, sample size and token/latency costs.\n\nNo comparison has run and no improvement is claimed. Version both prompts and retain the original for rollback pending evaluation.",
+    "resources_loaded": [
+      "library/skills/senior-prompt-engineer/SKILL.md"
+    ],
+    "limitations": [
+      "Original prompt and example contents absent; only one failure described",
+      "No model access or held-out evaluation; candidate unmeasured"
+    ]
+  },
+  {
+    "skill": "systematic-debugging",
+    "request": "An intermittently failing background worker sometimes retries successfully, developer says add a ten-second sleep; no reproducer/logs; discriminating plan.",
+    "answer": "Retry success is compatible with several causes; it does not establish that ten seconds is the correct delay. Capture the failing operation, expected result, job/attempt IDs, timestamps, input, worker version, dependency responses and state before/after each attempt. Preserve sensitive-data boundaries in diagnostics.\n\nCompare three hypotheses: prerequisite state is not committed/visible; a dependency transiently fails or rate-limits; concurrent workers contend or process the same job. For the first, correlate failure with commit/visibility and test processing only after explicit readiness. For the second, record status/error codes and retry guidance, then use controlled dependency responses. For the third, trace ownership/leases and overlapping attempts, comparing single-worker with representative concurrency. Include a deterministic invalid-input hypothesis if the same inputs consistently fail.\n\nCheck retry side effects and idempotency before increasing retries: apparent recovery may hide duplicate work. Build a bounded reproducer around the discriminating observation, then apply the smallest supported correction. If readiness is causal, wait on that condition with a deadline; if transient failure is causal, use bounded retry policy appropriate to its contract.\n\nVerify the original failure and a regression case after correction. No root cause or fix is verified without logs/reproduction; a fixed sleep could mask the failure and add latency.",
+    "resources_loaded": [
+      "library/skills/systematic-debugging/SKILL.md"
+    ],
+    "limitations": [
+      "No reproducer, logs or execution evidence",
+      "Hypotheses and correction choices remain conditional"
+    ]
+  },
+  {
+    "skill": "webapp-testing",
+    "request": "Browser-flow test plan for selecting rows, confirming bulk edit and receiving per-row errors; screenshot only, no live app/browser tool; evidence limits.",
+    "answer": "Prepare isolated accounts and seeded rows with predictable successes and validation failures. Obtain the app/launch instructions, existing browser tooling and bulk-update contract before execution; use a safe test environment and suppress external side effects.\n\nPlanned flow: select two rows through their accessible controls; assert selected identities/count and action availability. Open bulk edit; check field labels, initial values and selected scope. Change a value, cancel once and assert no mutation. Reopen and confirm; assert pending state and that repeat confirmation cannot cause unintended duplicate updates.\n\nReturn a mixed result. Assert each error maps to the correct row, success/error counts match the response, successful values persist after reload and failed values remain unchanged. Confirm entered values and failed-row selection support correction and retry without reapplying successful rows unexpectedly. Also cover all-success, all-failure, network failure and selection changes according to the agreed contract.\n\nUse semantic locators and bounded waits for visible states, with screenshot/console/network diagnostics on failures. Add keyboard coverage for selection, confirmation and error recovery.\n\nA screenshot supports visual inspection only; it cannot prove DOM behavior, requests, persistence or completed flows. No browser assertions ran; actual screenshot details were not supplied here, and browser/device coverage remains untested.",
+    "resources_loaded": [
+      "library/skills/webapp-testing/SKILL.md"
+    ],
+    "limitations": [
+      "Screenshot-only premise; screenshot content absent in request",
+      "No live app/browser execution or durable-state evidence"
+    ]
+  },
+  {
+    "skill": "database-migration",
+    "request": "Prepare changing a required customer email field to nullable while old writer code still assumes nonnull, live data size unknown; rollout, validation and recovery.",
+    "answer": "Confirm database/version, current constraints, migration tooling, table size/write load, lock budget and every reader/writer of email. Define what NULL means; distinguish it from an empty string and define downstream behavior.\n\nDeploy code that safely reads NULL while continuing to write nonnull emails. Feature-gate nullable writes until all incompatible readers/writers and background jobs are retired or explicitly isolated from nullable records. Relaxing the database constraint alone does not make old code compatible.\n\nPrepare the database-specific removal of NOT NULL and inspect its locking/retry behavior on a representative populated staging database. No backfill is needed. Run under an agreed lock timeout and operational stop criteria; record migration completion so retries do not obscure partial state.\n\nEnable nullable writes gradually only after compatibility checks. Validate null and nonnull create/update paths, concurrent writes, dependent workflows, preserved existing values and agreed null-rate/error monitoring.\n\nBefore NULLs exist, code rollback plus reinstating NOT NULL may be straightforward after validation. Once NULLs exist, disable new nullable writes and retain compatible code; restoring NOT NULL requires approved remediation of every NULL and concurrent-write protection. Never fabricate emails to satisfy rollback. Recovery may require backups/replay or a forward fix. No execution, downtime guarantee or recovery proof is available.",
+    "resources_loaded": [
+      "library/skills/database-migration/SKILL.md"
+    ],
+    "limitations": [
+      "Database/version, live volume, locking budget and application dependencies unknown",
+      "No staging/production migration, compatibility test or restore rehearsal executed"
+    ]
+  }
+]

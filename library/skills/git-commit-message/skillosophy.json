@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Generates conventional-commit messages from staged changes: type prefix + English imperative subject (≤50 chars) + optional body explaining why. Use when the user asks to write, generate, or polish a git commit message.",
+  "effectiveness": "unmeasured",
+  "name": "git-commit-message",
+  "path": "skills/git-commit-message",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/git-commit-message",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/git-commit-message"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

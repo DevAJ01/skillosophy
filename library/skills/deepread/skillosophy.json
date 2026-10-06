@@ -1,0 +1,17 @@
+{
+  "category": "research",
+  "description": "Use when the user asks to deeply read a book, article, PDF, or document set; extract claims and evidence; build a knowledge map; or learn through Feynman explanation and recall. Covers quick, deep, map, Feynman, and whole-book reading modes.",
+  "effectiveness": "unmeasured",
+  "name": "deepread",
+  "path": "skills/deepread",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "research/deepread",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/research/deepread"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

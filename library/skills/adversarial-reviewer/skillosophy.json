@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Adversarial code review that breaks the self-review monoculture. Use when you want a genuinely critical review of recent changes, before merging a PR, or when you suspect Claude is being too agreeable about code quality. Forces perspective shifts through hostile reviewer personas that catch blind spots the author's mental model shares with the reviewer.",
+  "effectiveness": "unmeasured",
+  "name": "adversarial-reviewer",
+  "path": "skills/adversarial-reviewer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/adversarial-reviewer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/adversarial-reviewer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

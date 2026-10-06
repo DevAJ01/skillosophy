@@ -1,0 +1,14 @@
+{
+  "api-enum": {
+    "A": "baseline",
+    "B": "revised"
+  },
+  "rag-permissions": {
+    "A": "revised",
+    "B": "baseline"
+  },
+  "frontend-existing": {
+    "A": "baseline",
+    "B": "revised"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "category": "compliance-os",
+  "description": "/cs:gdpr-audit-prep <scope> — GDPR audit 6-question Article-cited forcing interrogation. Use before annual internal GDPR review, post-breach internal audit, DPA investigation readiness, or acquisition due diligence.",
+  "effectiveness": "unmeasured",
+  "name": "gdpr-audit-prep",
+  "path": "skills/gdpr-audit-prep",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "compliance-os/skills/gdpr-audit-prep",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/compliance-os/skills/gdpr-audit-prep"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../agents/cs-dpo-gdpr.md",
+    "../../../ra-qm-team/skills/gdpr-dsgvo-expert/SKILL.md",
+    "../../../ra-qm-team/skills/gdpr-dsgvo-expert/references/gdpr_audit_playbook.md"
+  ]
+}

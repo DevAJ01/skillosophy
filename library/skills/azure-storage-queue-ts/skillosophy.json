@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use for sending, receiving, peeking, and deleting messages in queues.",
+  "effectiveness": "unmeasured",
+  "name": "azure-storage-queue-ts",
+  "path": "skills/azure-storage-queue-ts",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/azure-storage-queue-ts",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/azure-storage-queue-ts"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

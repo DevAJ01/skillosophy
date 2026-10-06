@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.",
+  "effectiveness": "unmeasured",
+  "name": "agent-manager-skill",
+  "path": "skills/agent-manager-skill",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/agent-manager-skill",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/agent-manager-skill"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

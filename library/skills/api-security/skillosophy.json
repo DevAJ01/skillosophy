@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Authorized security assessment of REST, GraphQL, WebSocket, and SOAP APIs: discovery, authentication and authorization flaws (BOLA/IDOR, JWT/OAuth), rate-limit testing, and a structured multi-phase methodology.",
+  "effectiveness": "unmeasured",
+  "name": "api-security",
+  "path": "skills/api-security",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/api-security",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/api-security"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

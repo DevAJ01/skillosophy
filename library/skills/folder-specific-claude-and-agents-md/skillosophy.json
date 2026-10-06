@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Create folder-scoped CLAUDE.md and AGENTS.md guidance for future agents working in that area.",
+  "effectiveness": "unmeasured",
+  "name": "folder-specific-claude-and-agents-md",
+  "path": "skills/folder-specific-claude-and-agents-md",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/folder-specific-claude-and-agents-md",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/folder-specific-claude-and-agents-md"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

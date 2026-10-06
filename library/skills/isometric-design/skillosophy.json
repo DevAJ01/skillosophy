@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.",
+  "effectiveness": "unmeasured",
+  "name": "isometric-design",
+  "path": "skills/isometric-design",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/design-it/isometric-design",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/design-it/isometric-design"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

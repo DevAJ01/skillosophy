@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Multi-agent collaboration plugin that spawns N parallel subagents competing on the same task via git worktree isolation. Agents work independently, results are evaluated by metric or LLM judge, and the best branch is merged. Use when: user wants multiple approaches tried in parallel — code optimization, content variation, research exploration, or any task that benefits from parallel competition. Requires: a git repo.",
+  "effectiveness": "unmeasured",
+  "name": "agenthub",
+  "path": "skills/agenthub",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/agenthub/skills/agenthub",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/agenthub/skills/agenthub"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

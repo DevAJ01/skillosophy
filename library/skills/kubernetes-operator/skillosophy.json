@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when building a Kubernetes Operator — custom controllers that reconcile CRD state. Triggers on \"build an operator\", \"CRD design\", \"reconcile loop\", \"controller-runtime\", \"kubebuilder\", \"operator-sdk\", \"metacontroller\", \"KOPF\", \"operator capability levels\", or \"custom resource\". Ships CRD validator, reconcile-loop linter, and OperatorHub capability auditor (all stdlib Python), 4 references on the operator pattern + CRD design + reconcile patterns + tooling landscape, and a /operator-audit slash command. NOT a generic k8s skill — specifically the Operator pattern.",
+  "effectiveness": "unmeasured",
+  "name": "kubernetes-operator",
+  "path": "skills/kubernetes-operator",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/kubernetes-operator/skills/kubernetes-operator",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/kubernetes-operator/skills/kubernetes-operator"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

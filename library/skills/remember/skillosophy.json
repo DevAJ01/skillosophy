@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Explicitly save important knowledge to auto-memory with timestamp and context. Use when a discovery is too important to rely on auto-capture.",
+  "effectiveness": "unmeasured",
+  "name": "remember",
+  "path": "skills/remember",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/self-improving-agent/skills/remember",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/self-improving-agent/skills/remember"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

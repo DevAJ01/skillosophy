@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Generate failing tests for the TDD red phase to define expected behavior and edge cases.",
+  "effectiveness": "unmeasured",
+  "name": "tdd-workflows-tdd-red",
+  "path": "skills/tdd-workflows-tdd-red",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/tdd-workflows-tdd-red",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/tdd-workflows-tdd-red"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

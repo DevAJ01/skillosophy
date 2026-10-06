@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Chief Data Officer advisory for startups: AI training data rights and consent provenance, data product strategy (warehouse vs lakehouse vs mesh, build-vs-buy), B2B customer-data-as-asset valuation and M&A readiness, data team org evolution. Use when deciding whether to train models on customer data, choosing data architecture, valuing data for fundraising or M&A, sequencing data hires, or when user mentions CDO, chief data officer, data strategy, data mesh, lakehouse, training data, data product, data monetization, or customer data asset. NOT a tactical data engineering skill — strategic decisions only.",
+  "effectiveness": "unmeasured",
+  "name": "chief-data-officer-advisor",
+  "path": "skills/chief-data-officer-advisor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/chief-data-officer-advisor/skills/chief-data-officer-advisor",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/chief-data-officer-advisor/skills/chief-data-officer-advisor"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

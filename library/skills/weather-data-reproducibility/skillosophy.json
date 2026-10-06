@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Record and verify provenance manifests for weather-data inputs and derived artifacts, including object identity, selections, software versions, transformations, and hashes.",
+  "effectiveness": "unmeasured",
+  "name": "weather-data-reproducibility",
+  "path": "skills/weather-data-reproducibility",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/weather-data-reproducibility",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/weather-data-reproducibility"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

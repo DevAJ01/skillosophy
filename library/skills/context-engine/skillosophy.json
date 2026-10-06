@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches context during conversations, and enforces privacy/anonymization rules before external API calls. Use when starting any C-suite advisor session, when context looks stale or missing, or before sending company data to an external service.",
+  "effectiveness": "unmeasured",
+  "name": "context-engine",
+  "path": "skills/context-engine",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/context-engine",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/context-engine"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

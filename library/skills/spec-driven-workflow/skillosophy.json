@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when the user asks to write specs before code, define acceptance criteria, plan features before implementation, generate tests from specifications, or follow spec-first development practices.",
+  "effectiveness": "unmeasured",
+  "name": "spec-driven-workflow",
+  "path": "skills/spec-driven-workflow",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/spec-driven-workflow",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/spec-driven-workflow"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

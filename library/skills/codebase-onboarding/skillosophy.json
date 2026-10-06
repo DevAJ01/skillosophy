@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Analyze a codebase and generate onboarding documentation for engineers, tech leads, and contractors. Fast fact-gathering and repeatable onboarding outputs. Use when onboarding a new engineer, writing architecture-overview docs for a new project, or producing tech-lead briefings for unfamiliar repos.",
+  "effectiveness": "unmeasured",
+  "name": "codebase-onboarding",
+  "path": "skills/codebase-onboarding",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/codebase-onboarding",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/codebase-onboarding"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

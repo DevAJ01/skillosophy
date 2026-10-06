@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Launch Codex CLI as an isolated subagent for bounded coding, review, or verification tasks.",
+  "effectiveness": "unmeasured",
+  "name": "codex-subagent",
+  "path": "skills/codex-subagent",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/codex-subagent",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/codex-subagent"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

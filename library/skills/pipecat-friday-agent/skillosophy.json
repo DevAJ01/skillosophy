@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI.",
+  "effectiveness": "unmeasured",
+  "name": "pipecat-friday-agent",
+  "path": "skills/pipecat-friday-agent",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/pipecat-friday-agent",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/pipecat-friday-agent"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

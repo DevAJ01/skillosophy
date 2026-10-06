@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Generate adult (18+) images, image-to-video clips and image edits through the SpicyAPI API, with a cost quote before every paid run and adults-only / consent rules.",
+  "effectiveness": "unmeasured",
+  "name": "nsfw-ai-spicyapi",
+  "path": "skills/nsfw-ai-spicyapi",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/nsfw-ai-spicyapi",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/nsfw-ai-spicyapi"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

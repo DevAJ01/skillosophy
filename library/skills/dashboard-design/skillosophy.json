@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Web and App implementation guide for Dashboard Design. Trigger when user wants analytics-focused layouts, data visualization, and modular overview screens.",
+  "effectiveness": "unmeasured",
+  "name": "dashboard-design",
+  "path": "skills/dashboard-design",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/design-it/dashboard-design",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/design-it/dashboard-design"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

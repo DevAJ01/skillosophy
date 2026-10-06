@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "Directory and router for the marketing skills library. Use when you need to find the right marketing skill for a task, see what marketing capabilities exist, or get oriented in this plugin. 44 specialist skills across 8 pods (content, SEO + AEO, CRO, channels, growth, intelligence, sales enablement, ops), 59 stdlib Python tools. Routes to one skill — it does not execute marketing work itself.",
+  "effectiveness": "unmeasured",
+  "name": "marketing-skills",
+  "path": "skills/marketing-skills",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/marketing-skills",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/marketing-skills"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

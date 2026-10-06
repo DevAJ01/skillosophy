@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Operations leadership for scaling companies. Process design, OKR execution, operational cadence, and scaling playbooks. Use when designing operations, setting up OKRs, building processes, scaling teams, analyzing bottlenecks, planning operational cadence, or when user mentions COO, operations, process improvement, OKRs, scaling, operational efficiency, or execution.",
+  "effectiveness": "unmeasured",
+  "name": "coo-advisor",
+  "path": "skills/coo-advisor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/coo-advisor",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/coo-advisor"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

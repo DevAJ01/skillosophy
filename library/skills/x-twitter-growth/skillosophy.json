@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "X/Twitter growth engine for building audience, crafting viral content, and analyzing engagement. Use when the user wants to grow on X/Twitter, write tweets or threads, analyze their X profile, research competitors on X, plan a posting strategy, or optimize engagement. Complements social-content (generic multi-platform) with X-specific depth: algorithm mechanics, thread engineering, reply strategy, profile optimization, and competitive intelligence via web search.",
+  "effectiveness": "unmeasured",
+  "name": "x-twitter-growth",
+  "path": "skills/x-twitter-growth",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/x-twitter-growth",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/x-twitter-growth"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

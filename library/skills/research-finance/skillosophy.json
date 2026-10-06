@@ -1,0 +1,17 @@
+{
+  "category": "research-ops",
+  "description": "Use when managing the money for an internal R&D program or portfolio — building a multi-period program budget with the F&A (indirect) split, tracking burn rate and runway against value-inflection milestones, or routing R&D cost items to a capitalize-vs-expense determination. Every budget output surfaces its assumptions block; capitalize-vs-expense is decision-support only and routes to a named finance owner — it never books an entry or decides accounting treatment. Distinct from finance/financial-analysis (corporate DCF, close, valuation) and research/grants (funding discovery — this manages money already won).",
+  "effectiveness": "unmeasured",
+  "name": "research-finance",
+  "path": "skills/research-finance",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "research-ops/skills/research-finance",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/research-ops/skills/research-finance"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

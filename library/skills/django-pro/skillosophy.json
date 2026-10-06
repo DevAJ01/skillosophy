@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.",
+  "effectiveness": "unmeasured",
+  "name": "django-pro",
+  "path": "skills/django-pro",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/django-pro",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/django-pro"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

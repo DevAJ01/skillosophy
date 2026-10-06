@@ -1,0 +1,22 @@
+{
+  "category": "c-level-agents",
+  "description": "Founder-mode executive team. 13 cs-* C-suite agents (CFO, CMO, CRO, CPO, COO, CHRO, CISO, GC, CDO, CAIO, CCO, VPE, Chief of Staff) and 21 /cs:* slash commands for forcing-question office hours, multi-role boardroom deliberation, strategic sprint pipeline, and meta routing. Use when the founder needs a virtual executive team, when invoking /cs:* commands, or when orchestrating multi-role decisions.",
+  "effectiveness": "unmeasured",
+  "name": "c-level-agents",
+  "path": "skills/c-level-agents",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-agents/skills/c-level-agents",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-agents/skills/c-level-agents"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../references/persona-voices.md",
+    "../../references/llm-wiki-bridge.md",
+    "../../../CLAUDE.md",
+    "../../../c-level-advisor/executive-mentor/"
+  ]
+}

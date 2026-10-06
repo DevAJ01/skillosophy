@@ -1,0 +1,20 @@
+{
+  "category": "compliance-os",
+  "description": "/cs:ai-act-readiness <system> — EU AI Act 6-question forcing interrogation. Use during AI-system intake, before EU deployment, or during annual compliance refresh as Article 113 obligations phase in (2025-02-02 / 2025-08-02 / 2026-08-02 / 2027-08-02).",
+  "effectiveness": "unmeasured",
+  "name": "ai-act-readiness",
+  "path": "skills/ai-act-readiness",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "compliance-os/skills/ai-act-readiness",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/compliance-os/skills/ai-act-readiness"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../agents/cs-ai-act-compliance.md",
+    "../../../ra-qm-team/skills/eu-ai-act-specialist/SKILL.md"
+  ]
+}

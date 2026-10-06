@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when coordinating across content, SEO, CRO, channels, and analytics. Also use when the user mentions 'marketing help,' 'campaign plan,' 'what should I do next,' 'marketing priorities,' or 'coordinate marketing.",
+  "effectiveness": "unmeasured",
+  "name": "marketing-ops",
+  "path": "skills/marketing-ops",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/marketing-ops",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/marketing-ops"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

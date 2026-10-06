@@ -1,0 +1,21 @@
+{
+  "category": "ra-qm-team",
+  "description": "Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides quality system governance, management review leadership, regulatory compliance oversight, and quality performance monitoring per ISO 13485 Clause 5.5.2. Use when leading management reviews, setting quality policy and objectives, monitoring quality KPIs and cost of quality, or exercising QMR governance and regulatory oversight responsibilities.",
+  "effectiveness": "unmeasured",
+  "name": "quality-manager-qmr",
+  "path": "skills/quality-manager-qmr",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "ra-qm-team/skills/quality-manager-qmr",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/ra-qm-team/skills/quality-manager-qmr"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../quality-manager-qms-iso13485/",
+    "../qms-audit-expert/",
+    "../quality-documentation-manager/"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Board meeting preparation for the adversarial scenario, not the friendly one. Forces numbers-cold mastery, anticipates hard questions, builds a narrative that acknowledges weakness without losing the room. Use when preparing for a board meeting, an investor update, fundraising presentation, or any high-stakes adversarial review where every number must live in your head not just on a slide.",
+  "effectiveness": "unmeasured",
+  "name": "board-prep",
+  "path": "skills/board-prep",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/executive-mentor/skills/board-prep",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/executive-mentor/skills/board-prep"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

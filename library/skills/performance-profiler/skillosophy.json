@@ -1,0 +1,18 @@
+{
+  "category": "engineering",
+  "description": "Investigate a measured application bottleneck with representative profiling and controlled comparisons, preserving output correctness.",
+  "effectiveness": "unmeasured",
+  "name": "performance-profiler",
+  "path": "skills/performance-profiler",
+  "review": "pending_behavioral_evaluation",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/performance-profiler",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/performance-profiler"
+  },
+  "status": "skillosophy_candidate",
+  "unresolved_entrypoint_links": [],
+  "revision_note": "Authored task-specific entrypoint; original tools/resources and baseline retained. Comparative effectiveness not yet established."
+}

@@ -1,0 +1,21 @@
+{
+  "category": "engineering-team",
+  "description": "Use when assessing AI/ML systems for prompt injection, jailbreak vulnerabilities, model inversion risk, data poisoning exposure, or agent tool abuse. Covers MITRE ATLAS technique mapping, injection signature detection, and adversarial robustness scoring.",
+  "effectiveness": "unmeasured",
+  "name": "ai-security",
+  "path": "skills/ai-security",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/ai-security",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/ai-security"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../threat-detection/SKILL.md",
+    "../incident-response/SKILL.md",
+    "../security-pen-testing/SKILL.md"
+  ]
+}

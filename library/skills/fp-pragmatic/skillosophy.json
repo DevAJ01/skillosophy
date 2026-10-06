@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead",
+  "effectiveness": "unmeasured",
+  "name": "fp-pragmatic",
+  "path": "skills/fp-pragmatic",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/fp-pragmatic",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/fp-pragmatic"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

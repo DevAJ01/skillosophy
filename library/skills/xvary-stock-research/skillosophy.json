@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Thesis-driven equity analysis from public SEC EDGAR and market data; /analyze, /score, /compare workflows with bundled Python tools (Claude Code, Cursor, Codex).",
+  "effectiveness": "unmeasured",
+  "name": "xvary-stock-research",
+  "path": "skills/xvary-stock-research",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/xvary-stock-research",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/xvary-stock-research"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

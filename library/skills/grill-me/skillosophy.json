@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\".",
+  "effectiveness": "unmeasured",
+  "name": "grill-me",
+  "path": "skills/grill-me",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/grill-me/skills/grill-me",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/grill-me/skills/grill-me"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

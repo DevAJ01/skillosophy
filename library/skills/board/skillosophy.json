@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Read, write, and browse the AgentHub message board for agent coordination. Use when the user runs /hub:board or asks to post, read, or inspect coordination messages between competing AgentHub agents.",
+  "effectiveness": "unmeasured",
+  "name": "board",
+  "path": "skills/board",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/agenthub/skills/board",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/agenthub/skills/board"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

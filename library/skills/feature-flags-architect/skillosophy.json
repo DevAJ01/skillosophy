@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when adding, retiring, or auditing feature flags. Triggers on \"add a flag\", \"ship behind a flag\", \"rollout plan\", \"kill switch\", \"stale flags\", \"flag debt\", \"LaunchDarkly\", \"GrowthBook\", \"Statsig\", \"Unleash\", \"Flipt\", or any progressive-delivery question. Ships flag debt scanner, rollout planner, and kill-switch auditor (all stdlib Python), 4 references on flag taxonomy + provider trade-offs + rollout strategies + lifecycle, plus a /flag-cleanup slash command.",
+  "effectiveness": "unmeasured",
+  "name": "feature-flags-architect",
+  "path": "skills/feature-flags-architect",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/feature-flags-architect/skills/feature-flags-architect",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/feature-flags-architect/skills/feature-flags-architect"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

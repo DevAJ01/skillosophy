@@ -1,0 +1,17 @@
+{
+  "category": "markdown-html",
+  "description": "Converts a markdown deck (slides separated by `",
+  "effectiveness": "unmeasured",
+  "name": "md-slides",
+  "path": "skills/md-slides",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "markdown-html/skills/md-slides",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/markdown-html/skills/md-slides"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

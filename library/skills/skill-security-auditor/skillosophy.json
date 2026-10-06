@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Security audit and vulnerability scanner for AI agent skills before installation. Use when: (1) evaluating a skill from an untrusted source, (2) auditing a skill directory or git repo URL for malicious code, (3) pre-install security gate for Claude Code plugins, OpenClaw skills, or Codex skills, (4) scanning Python scripts for dangerous patterns like os.system, eval, subprocess, network exfiltration, (5) detecting prompt injection in SKILL.md files, (6) checking dependency supply chain risks, (7) verifying file system access stays within skill boundaries. Triggers: \"audit this skill\", \"is this skill safe\", \"scan skill for security\", \"check skill before install\", \"skill security check\", \"skill vulnerability scan\".",
+  "effectiveness": "unmeasured",
+  "name": "skill-security-auditor",
+  "path": "skills/skill-security-auditor",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/skill-security-auditor",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/skill-security-auditor"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

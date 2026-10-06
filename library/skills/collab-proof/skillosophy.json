@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when you want to understand what Claude contributed vs what you drove in a session. Triggers on: /collab-proof, session retrospective, ai contribution analysis, collaboration evidence, what did claude do.",
+  "effectiveness": "unmeasured",
+  "name": "collab-proof",
+  "path": "skills/collab-proof",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/collab-proof/skills/collab-proof",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/collab-proof/skills/collab-proof"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities",
+  "effectiveness": "unmeasured",
+  "name": "api-security-best-practices",
+  "path": "skills/api-security-best-practices",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/api-security-best-practices",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/api-security-best-practices"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

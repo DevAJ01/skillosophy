@@ -5,7 +5,7 @@ Use `scripts/skill_library.py` relative to this startup skill. It uses Python's 
 ## Search and browse
 
 ```sh
-python3 /absolute/path/to/skill_library.py search "react performance"
+python3 /absolute/path/to/skill_library.py search "react performance" --domain frontend
 python3 /absolute/path/to/skill_library.py search "database" --offline
 python3 /absolute/path/to/skill_library.py browse --repo supabase/agent-skills
 python3 /absolute/path/to/skill_library.py index --repo owner/repository --output /tmp/repository-index.json
@@ -13,7 +13,7 @@ python3 /absolute/path/to/skill_library.py index --repo owner/repository --outpu
 
 Use generic public task keywords. The live directory receives the query; do not send private names, proprietary requirements, code, or secrets. Offline mode makes no network requests. Directory failures are reported as unavailable while offline results remain usable; they are not reported as zero matches.
 
-Keyword scores describe textual fit; install counts describe popularity. Neither proves effectiveness, compatibility, or license permission. Explain project fit, provenance, evidence status, and prerequisites. Unsupported non-GitHub sources are excluded from this installer rather than guessed.
+Split multi-domain project briefs into the immediate capabilities (for example frontend, API, database, testing), search each with the relevant `--domain`, and deduplicate overlapping candidates. Broad mixed-keyword searches can rank irrelevant scaffolding or specialties; inspect fit before choosing. BM25-style keyword scores describe textual fit; install counts describe popularity. Neither proves effectiveness, compatibility, or license permission. Explain project fit, provenance, evidence status, and prerequisites. Unsupported non-GitHub sources are excluded from this installer rather than guessed.
 
 ## Inspect a candidate
 

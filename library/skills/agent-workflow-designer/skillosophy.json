@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Design production-grade multi-agent workflows with clear pattern choice (sequential, parallel, hierarchical), handoff contracts, failure handling, and cost/context controls. Use when architecting a multi-step agent pipeline, choosing between single-agent vs multi-agent approaches, or refactoring an LLM workflow that suffers from context bloat or unreliable handoffs.",
+  "effectiveness": "unmeasured",
+  "name": "agent-workflow-designer",
+  "path": "skills/agent-workflow-designer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/agent-workflow-designer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/agent-workflow-designer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

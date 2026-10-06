@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.",
+  "effectiveness": "unmeasured",
+  "name": "burp-suite-testing",
+  "path": "skills/burp-suite-testing",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/burp-suite-testing",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/burp-suite-testing"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Design and ship production-ready MCP (Model Context Protocol) servers from OpenAPI contracts instead of hand-written tool wrappers. Python and TypeScript support, schema validation, safe evolution. Use when exposing an existing API as an MCP server, building tool integrations for Claude or Codex or Cursor, or scaffolding an MCP project from scratch.",
+  "effectiveness": "unmeasured",
+  "name": "mcp-server-builder",
+  "path": "skills/mcp-server-builder",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/mcp-server-builder",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/mcp-server-builder"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

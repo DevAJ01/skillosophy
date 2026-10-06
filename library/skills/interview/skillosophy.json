@@ -1,0 +1,20 @@
+{
+  "category": "agent-launcher",
+  "description": "Phase 1 of building a Claude Managed Agent — interview the founder about the one job the agent should do, then produce a build sheet (CMA primitives table + v1/v2 deferrals + eval plan) WITHOUT needing their API key yet. Use when the user says \"help me scope an agent\", \"I have an idea for an agent\", \"what should this agent be\", or when the orchestrator routes phase=interview. Drives the six intake slots (job, trigger, inputs, actions, definition-of-done, recurrence) via AskUserQuestion, maps them to primitives with interview_planner.py, assembles build-sheet.json with build_sheet_builder.py, and validates limits with primitives_validator.py. Connectors are mockable in v0 (schema-true custom tools); real MCP servers become v1 deferrals. Distinct from stage-launch (which turns the sheet into payloads).",
+  "effectiveness": "unmeasured",
+  "name": "interview",
+  "path": "skills/interview",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "agent-launcher/skills/interview",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/agent-launcher/skills/interview"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../references/examples-bank.md",
+    "../../references/interview-to-config.md"
+  ]
+}

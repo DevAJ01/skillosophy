@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Works with React 18/19, Next.js 14/15.",
+  "effectiveness": "unmeasured",
+  "name": "fp-react",
+  "path": "skills/fp-react",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/fp-react",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/fp-react"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

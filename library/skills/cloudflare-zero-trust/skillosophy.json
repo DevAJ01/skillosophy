@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Protect internal apps with Cloudflare Access, device posture, and Zero",
+  "effectiveness": "unmeasured",
+  "name": "cloudflare-zero-trust",
+  "path": "skills/cloudflare-zero-trust",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/cloudflare-zero-trust",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/cloudflare-zero-trust"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Comprehensive incident response framework from detection through resolution and post-incident review. Battle-tested SRE/DevOps practices: severity classification, timeline reconstruction, structured post-incident analysis. Use when declaring an incident, coordinating multi-team response during an outage, leading a post-mortem, or setting up on-call practices for a new service.",
+  "effectiveness": "unmeasured",
+  "name": "incident-commander",
+  "path": "skills/incident-commander",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/incident-commander",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/incident-commander"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

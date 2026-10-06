@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "You are a documentation expert specializing in creating comprehensive, maintainable documentation from code. Generate API docs, architecture diagrams, user guides, and technical references using AI-powered analysis and industry best practices.",
+  "effectiveness": "unmeasured",
+  "name": "documentation-generation-doc-generate",
+  "path": "skills/documentation-generation-doc-generate",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/documentation-generation-doc-generate",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/documentation-generation-doc-generate"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Hunt shadow / zombie / undocumented API surface (OWASP API9 Improper",
+  "effectiveness": "unmeasured",
+  "name": "hunt-shadow-api",
+  "path": "skills/hunt-shadow-api",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/hunt-shadow-api",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/hunt-shadow-api"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Use when the user asks to write SQL queries, optimize database performance, generate migrations, explore database schemas, or work with ORMs like Prisma, Drizzle, TypeORM, or SQLAlchemy.",
+  "effectiveness": "unmeasured",
+  "name": "sql-database-assistant",
+  "path": "skills/sql-database-assistant",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/sql-database-assistant",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/sql-database-assistant"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

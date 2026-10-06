@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Index of 37 advanced engineering agent skills for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Use when browsing or choosing among the POWERFUL-tier engineering skills: agent design, RAG, MCP servers, CI/CD, database design, observability, security auditing, changelog/release automation, reliability (SLO/chaos/flags/operators), platform ops.",
+  "effectiveness": "unmeasured",
+  "name": "engineering-advanced-skills",
+  "path": "skills/engineering-advanced-skills",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/engineering-advanced-skills",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/engineering-advanced-skills"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

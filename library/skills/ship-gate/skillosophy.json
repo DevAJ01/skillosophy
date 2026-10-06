@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Pre-production audit that scans a codebase for security, database, deployment, code quality, AI/LLM, dependency, frontend, and observability issues. Intercepts deploy commands and blocks until critical items pass. Stack-agnostic. Use for \"run ship gate\", \"am I ready to ship\", \"pre-launch audit\", \"can I deploy\", \"push to production\", \"go live checklist\", \"preflight check\". Not for CI/CD setup or infra provisioning.",
+  "effectiveness": "unmeasured",
+  "name": "ship-gate",
+  "path": "skills/ship-gate",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/ship-gate",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/ship-gate"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

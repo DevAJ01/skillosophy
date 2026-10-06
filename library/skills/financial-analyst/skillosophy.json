@@ -1,0 +1,17 @@
+{
+  "category": "finance",
+  "description": "Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when analyzing financial statements, building valuation models, assessing budget variances, or constructing financial projections and forecasts. Also applicable when users mention financial modeling, cash flow analysis, company valuation, financial projections, or spreadsheet analysis.",
+  "effectiveness": "unmeasured",
+  "name": "financial-analyst",
+  "path": "skills/financial-analyst",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "finance/skills/financial-analyst",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/finance/skills/financial-analyst"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

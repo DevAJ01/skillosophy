@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time.",
+  "effectiveness": "unmeasured",
+  "name": "api-design-principles",
+  "path": "skills/api-design-principles",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/api-design-principles",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/api-design-principles"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

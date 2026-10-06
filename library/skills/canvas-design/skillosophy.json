@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.",
+  "effectiveness": "unmeasured",
+  "name": "canvas-design",
+  "path": "skills/canvas-design",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/canvas-design",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/canvas-design"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Build table storage applications using the Azure Tables SDK for Java. Works with both Azure Table Storage and Cosmos DB Table API.",
+  "effectiveness": "unmeasured",
+  "name": "azure-data-tables-java",
+  "path": "skills/azure-data-tables-java",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/azure-data-tables-java",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/azure-data-tables-java"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

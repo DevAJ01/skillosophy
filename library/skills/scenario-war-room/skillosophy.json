@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity across all business functions simultaneously. Use when facing complex risk scenarios, strategic decisions with major downside, or when the user asks 'what if X AND Y both happen?",
+  "effectiveness": "unmeasured",
+  "name": "scenario-war-room",
+  "path": "skills/scenario-war-room",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/skills/scenario-war-room",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/skills/scenario-war-room"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

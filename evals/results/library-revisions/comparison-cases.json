@@ -1,0 +1,17 @@
+[
+  {
+    "id": "api-enum",
+    "skill": "api-design-reviewer",
+    "prompt": "Review this proposed change to an existing REST endpoint. The v1 API returns status as one of pending or paid. Existing TypeScript SDK callers use an exhaustive switch and throw on other values. Proposed v1 response adds refunded. The backend and SDK currently use snake_case and path versioning. The author wants to rename all fields to camelCase to improve our API score. We have no SDK test results. Produce a compatibility review and proportionate validation plan. Do not run helpers or modify files. Keep under 350 words."
+  },
+  {
+    "id": "rag-permissions",
+    "skill": "rag-architect",
+    "prompt": "Design the smallest useful retrieval system for internal policy questions. There are 100 plain-text policy documents with a clear title/date and department ACL. Employees can access only their department documents plus shared policies. Documents can be replaced or deleted weekly. We need exact source references and a clear response when the answer is absent. No vector store, service contract, performance measurement or evaluation data exists. Produce a design and first evaluation plan without provisioning services. Keep under 350 words."
+  },
+  {
+    "id": "frontend-existing",
+    "skill": "senior-frontend",
+    "prompt": "We already have a React 18/TypeScript dashboard using Vite and our own component library. A bulk-edit form must let keyboard users select rows, update a shared value, confirm, and recover if the API rejects one row. Do not replace our stack or add dependencies. We have no current API contract or performance trace. Produce a bounded implementation plan and meaningful acceptance checks. Do not scaffold or run commands. Keep under 350 words."
+  }
+]

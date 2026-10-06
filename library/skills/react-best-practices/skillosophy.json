@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Use when writing new React components or Next.js pages, implementing data fetching (client or server-side), or reviewing code for performance issues.",
+  "effectiveness": "unmeasured",
+  "name": "react-best-practices",
+  "path": "skills/react-best-practices",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/react-best-practices",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/react-best-practices"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

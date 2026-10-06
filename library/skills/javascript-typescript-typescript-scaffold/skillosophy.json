@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N",
+  "effectiveness": "unmeasured",
+  "name": "javascript-typescript-typescript-scaffold",
+  "path": "skills/javascript-typescript-typescript-scaffold",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/javascript-typescript-typescript-scaffold",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/javascript-typescript-typescript-scaffold"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

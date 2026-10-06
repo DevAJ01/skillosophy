@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns.",
+  "effectiveness": "unmeasured",
+  "name": "event-store-design",
+  "path": "skills/event-store-design",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/event-store-design",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/event-store-design"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

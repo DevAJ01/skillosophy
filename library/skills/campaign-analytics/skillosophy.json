@@ -1,0 +1,17 @@
+{
+  "category": "marketing-skill",
+  "description": "Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when analyzing marketing campaigns, ad performance, attribution models, conversion rates, or calculating marketing ROI, ROAS, CPA, and campaign metrics across channels.",
+  "effectiveness": "unmeasured",
+  "name": "campaign-analytics",
+  "path": "skills/campaign-analytics",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing-skill/skills/campaign-analytics",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing-skill/skills/campaign-analytics"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

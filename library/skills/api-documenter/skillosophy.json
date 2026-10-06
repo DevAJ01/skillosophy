@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals.",
+  "effectiveness": "unmeasured",
+  "name": "api-documenter",
+  "path": "skills/api-documenter",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/api-documenter",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/api-documenter"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

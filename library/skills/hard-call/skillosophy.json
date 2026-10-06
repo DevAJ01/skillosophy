@@ -1,0 +1,17 @@
+{
+  "category": "c-level-advisor",
+  "description": "/em:hard-call — Framework for decisions with no good options. Use when every option is painful and a structured 10/10/10 + regret-minimization pass is needed — e.g. choosing between a layoff and a down round, or killing a beloved product line.",
+  "effectiveness": "unmeasured",
+  "name": "hard-call",
+  "path": "skills/hard-call",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-advisor/executive-mentor/skills/hard-call",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-advisor/executive-mentor/skills/hard-call"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Start an autonomous experiment loop with user-selected interval (10min, 1h, daily, weekly, monthly). Uses CronCreate for scheduling. Use when the user runs /ar:loop or asks to run an autoresearch experiment continuously on a schedule.",
+  "effectiveness": "unmeasured",
+  "name": "loop",
+  "path": "skills/loop",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/autoresearch-agent/skills/loop",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/autoresearch-agent/skills/loop"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

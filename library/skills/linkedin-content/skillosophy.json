@@ -1,0 +1,17 @@
+{
+  "category": "marketing",
+  "description": "Use when someone wants to write, edit, or lint a LinkedIn post — a story, how-to, opinion piece, carousel script, video script, or poll — or wants an article, talk, or transcript repurposed into posts. Triggers on \"write a LinkedIn post\", \"is this hook any good\", \"review my post\", \"turn this into LinkedIn posts\", \"carousel\", \"what format should this be\". Lints posts 0-100 on mechanics, hook, integrity, and accessibility; picks the format the material actually supports; and splits long sources into standalone units with a reuse ledger.",
+  "effectiveness": "unmeasured",
+  "name": "linkedin-content",
+  "path": "skills/linkedin-content",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "marketing/linkedin/skills/linkedin-content",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/marketing/linkedin/skills/linkedin-content"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

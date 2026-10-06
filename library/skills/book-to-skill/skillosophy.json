@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Converts books, documentation folders, and source collections (PDF, EPUB, DOCX, HTML, Markdown, RST, AsciiDoc, RTF, MOBI/AZW) into structured agent skills — extracting named frameworks, principles, techniques, and anti-patterns into a master SKILL.md plus on-demand chapter files, a glossary, a patterns file, and a decision cheatsheet. Use when the user wants to study a document with an agent, apply an author's frameworks while working, turn internal docs or standards into a reusable knowledge base, or package a compiled book skill as a claude-skills plugin.",
+  "effectiveness": "unmeasured",
+  "name": "book-to-skill",
+  "path": "skills/book-to-skill",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/book-to-skill/skills/book-to-skill",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/book-to-skill/skills/book-to-skill"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

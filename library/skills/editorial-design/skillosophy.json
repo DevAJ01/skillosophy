@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.",
+  "effectiveness": "unmeasured",
+  "name": "editorial-design",
+  "path": "skills/editorial-design",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/design-it/editorial-design",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/design-it/editorial-design"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

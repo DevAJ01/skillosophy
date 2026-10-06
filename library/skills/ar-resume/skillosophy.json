@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating. Use when the user runs /ar:ar-resume or asks to pick up a previously started autoresearch experiment.",
+  "effectiveness": "unmeasured",
+  "name": "ar-resume",
+  "path": "skills/ar-resume",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/autoresearch-agent/skills/ar-resume",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/autoresearch-agent/skills/ar-resume"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

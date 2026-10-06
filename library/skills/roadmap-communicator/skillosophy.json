@@ -1,0 +1,17 @@
+{
+  "category": "product-team",
+  "description": "Use when preparing roadmap narratives, release notes, changelogs, or stakeholder updates tailored for executives, engineering teams, and customers.",
+  "effectiveness": "unmeasured",
+  "name": "roadmap-communicator",
+  "path": "skills/roadmap-communicator",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "product-team/skills/roadmap-communicator",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/product-team/skills/roadmap-communicator"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

@@ -1,0 +1,17 @@
+{
+  "category": "project-management",
+  "description": "Analyzes meeting transcripts and recordings to surface behavioral patterns, communication anti-patterns, and actionable coaching feedback. Use this skill whenever the user uploads or points to meeting transcripts (.txt, .md, .vtt, .srt, .docx), asks about their communication habits, wants feedback on how they run meetings, requests speaking ratio analysis, mentions filler words or conflict avoidance, or wants to compare their communication across time periods. Also trigger when users mention tools like Granola, Otter, Fireflies, or Zoom transcripts. Even if the user just says \"look at my meetings\" or \"how do I come across in meetings\" — use this skill.",
+  "effectiveness": "unmeasured",
+  "name": "meeting-analyzer",
+  "path": "skills/meeting-analyzer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "project-management/skills/meeting-analyzer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/project-management/skills/meeting-analyzer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

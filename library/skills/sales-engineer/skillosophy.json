@@ -1,0 +1,17 @@
+{
+  "category": "business-growth",
+  "description": "Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for pre-sales engineering. Use when responding to RFPs, bids, or proposal requests; comparing product features against competitors; planning or scoring a customer POC or sales demo; preparing a technical proposal; or performing win/loss competitor analysis. Handles tasks described as 'RFP response', 'bid response', 'proposal response', 'competitor comparison', 'feature matrix', 'POC planning', 'sales demo prep', or 'pre-sales engineering'.",
+  "effectiveness": "unmeasured",
+  "name": "sales-engineer",
+  "path": "skills/sales-engineer",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "business-growth/skills/sales-engineer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/business-growth/skills/sales-engineer"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

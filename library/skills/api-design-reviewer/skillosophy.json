@@ -1,0 +1,18 @@
+{
+  "category": "engineering",
+  "description": "Review a proposed API change for compatibility, semantics and client impact; distinguish convention scores from actual breaking behavior.",
+  "effectiveness": "unmeasured",
+  "name": "api-design-reviewer",
+  "path": "skills/api-design-reviewer",
+  "review": "pending_behavioral_evaluation",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/api-design-reviewer",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/api-design-reviewer"
+  },
+  "status": "skillosophy_candidate",
+  "unresolved_entrypoint_links": [],
+  "revision_note": "Authored task-specific entrypoint; original tools/resources and baseline retained. Comparative effectiveness not yet established."
+}

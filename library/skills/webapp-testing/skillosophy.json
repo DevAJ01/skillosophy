@@ -1,0 +1,18 @@
+{
+  "category": "practical",
+  "description": "Verify a supplied web application through representative browser flows with meaningful assertions and explicit coverage limits.",
+  "effectiveness": "unmeasured",
+  "name": "webapp-testing",
+  "path": "skills/webapp-testing",
+  "review": "pending_behavioral_evaluation",
+  "source": {
+    "license": "MIT",
+    "path": "skills/webapp-testing",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/webapp-testing"
+  },
+  "status": "skillosophy_candidate",
+  "unresolved_entrypoint_links": [],
+  "revision_note": "Authored task-specific entrypoint; original tools/resources and baseline retained. Comparative effectiveness not yet established."
+}

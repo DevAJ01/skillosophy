@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or stubs, or mentions testing frameworks like Jest, pytest, or JUnit.",
+  "effectiveness": "unmeasured",
+  "name": "tdd-guide",
+  "path": "skills/tdd-guide",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/skills/tdd-guide",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/skills/tdd-guide"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

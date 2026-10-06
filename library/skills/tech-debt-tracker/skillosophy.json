@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintenance cost estimation.",
+  "effectiveness": "unmeasured",
+  "name": "tech-debt-tracker",
+  "path": "skills/tech-debt-tracker",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/tech-debt-tracker",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/tech-debt-tracker"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

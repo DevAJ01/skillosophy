@@ -1,0 +1,17 @@
+{
+  "category": "productivity",
+  "description": "Use when someone wants to decide whether a meeting is worth calling, price a meeting in dollars, build a timeboxed agenda with desired outcomes, or turn messy meeting notes into owned action items — or says \"should this be a meeting\", \"/cs:meeting-prep\", or \"/cs:meeting-actions\". Runs a cost gate (ASYNC / NOT-READY / MEET), builds a decision-first agenda, and extracts an owner + due-date checklist that flags every orphan.",
+  "effectiveness": "unmeasured",
+  "name": "meetings",
+  "path": "skills/meetings",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "productivity/meetings/skills/meetings",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/productivity/meetings/skills/meetings"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

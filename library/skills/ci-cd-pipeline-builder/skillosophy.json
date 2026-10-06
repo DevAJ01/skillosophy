@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Generate pragmatic CI/CD pipelines from detected project stack signals — fast baseline generation, repeatable checks, environment-aware deployment stages. Use when setting up CI for a new project, refactoring existing pipelines, or standardizing deployment workflows across multiple repos.",
+  "effectiveness": "unmeasured",
+  "name": "ci-cd-pipeline-builder",
+  "path": "skills/ci-cd-pipeline-builder",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/ci-cd-pipeline-builder",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/ci-cd-pipeline-builder"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

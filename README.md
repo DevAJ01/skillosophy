@@ -24,7 +24,16 @@ The installer places skill folders in `.agents/skills` and saves the project pla
 
 Installation needs a Codex environment with access to the target project. Chat surfaces without filesystem access can prepare the plan for Codex. Installing a skill does not connect services, install its runtime prerequisites, deploy the project, or launch agents.
 
-## Skill library
+## Full repository library
+
+The repository now contains [600 complete skill folders](library/README.md), in addition to the original 17 plugin workflows. Twelve major workflows have authored Skillosophy revisions; the rest are attributed upstream candidates. Full resources, licenses, source revisions and hashes are retained. The [evaluation program](library/EVALUATION.md) tracks the remaining work toward 500 independently evaluated revisions. File validation is separate from AI performance testing.
+
+```sh
+python3 scripts/library/select.py search "PostgreSQL schema API compatibility" --limit 8
+python3 scripts/library/select.py inspect database-designer
+```
+
+## Additional discovery sources
 
 Version 0.3.0 includes **180 discoverable skills from seven source-pinned repositories**, live community search through skills.sh, and indexing of additional public GitHub repositories. The directly installable curated catalog has 22 entries; the plugin packages 17 workflows including its startup entry. Discovery results require source, license, dependency, and compatibility review before installation.
 

@@ -1,0 +1,17 @@
+{
+  "category": "engineering-team",
+  "description": "Analyze test coverage gaps. Use when user says \"test coverage\", \"what's not tested\", \"coverage gaps\", \"missing tests\", \"coverage report\", or \"what needs testing\".",
+  "effectiveness": "unmeasured",
+  "name": "coverage",
+  "path": "skills/coverage",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering-team/playwright-pro/skills/coverage",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering-team/playwright-pro/skills/coverage"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

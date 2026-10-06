@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "Deploy, manage, and optimize vector databases for AI applications.",
+  "effectiveness": "unmeasured",
+  "name": "vector-database-ops",
+  "path": "skills/vector-database-ops",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/vector-database-ops",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/vector-database-ops"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

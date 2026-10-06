@@ -1,0 +1,17 @@
+{
+  "category": "practical",
+  "description": "You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices.",
+  "effectiveness": "unmeasured",
+  "name": "docker-expert",
+  "path": "skills/docker-expert",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "skills/docker-expert",
+    "repo": "sickn33/agentic-awesome-skills",
+    "revision": "bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5",
+    "url": "https://github.com/sickn33/agentic-awesome-skills/tree/bdacd76ed9e388733b5f91a5c75a4e8183a7c0b5/skills/docker-expert"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

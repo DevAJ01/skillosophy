@@ -1,0 +1,17 @@
+{
+  "category": "engineering",
+  "description": "Honestly evaluate AI work quality using a two-axis scoring system. Use after completing a task, code review, or work session to get an unbiased assessment. Detects score inflation, forces devil's advocate reasoning, and persists scores across sessions.",
+  "effectiveness": "unmeasured",
+  "name": "self-eval",
+  "path": "skills/self-eval",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "engineering/skills/self-eval",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/engineering/skills/self-eval"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

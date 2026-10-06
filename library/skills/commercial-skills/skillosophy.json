@@ -1,0 +1,17 @@
+{
+  "category": "commercial",
+  "description": "Use when reviewing, approving, or designing commercial motion — pricing models, deal review, discount approval, partnership economics, channel mix, commercial policy, RFP/RFI response, bookings forecast. Triggers on \"review this deal\", \"should we discount\", \"pricing model\", \"partner economics\", \"RFP response\", \"bookings forecast\", \"channel mix\". Forks context to route to one of seven Commercial sub-skills (pricing-strategist, deal-desk, partnerships-architect, channel-economics, commercial-policy, rfp-responder, commercial-forecaster) and returns a digest. Distinct from business-growth (sales execution) and c-level-advisor/cro-advisor (strategic CRO judgment).",
+  "effectiveness": "unmeasured",
+  "name": "commercial-skills",
+  "path": "skills/commercial-skills",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "commercial/skills/commercial-skills",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/commercial/skills/commercial-skills"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": []
+}

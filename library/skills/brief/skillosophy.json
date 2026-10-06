@@ -1,0 +1,21 @@
+{
+  "category": "c-level-agents",
+  "description": "/cs:brief <topic> — Generate a one-page strategy brief from an office-hours intake. First step in the strategic sprint pipeline. Use when a strategic question needs to be framed before boardroom deliberation — e.g. locking options, assumptions, and success criteria for a pricing change or a market-entry decision.",
+  "effectiveness": "unmeasured",
+  "name": "brief",
+  "path": "skills/brief",
+  "review": "pending",
+  "source": {
+    "license": "MIT",
+    "path": "c-level-agents/skills/brief",
+    "repo": "alirezarezvani/claude-skills",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "url": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/c-level-agents/skills/brief"
+  },
+  "status": "upstream_candidate",
+  "unresolved_entrypoint_links": [
+    "../../agents/cs-chief-of-staff.md",
+    "../../../c-level-advisor/skills/context-engine/SKILL.md",
+    "../../../c-level-advisor/skills/board-meeting/SKILL.md"
+  ]
+}
