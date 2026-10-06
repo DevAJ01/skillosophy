@@ -1,6 +1,6 @@
 # Skillosophy public submission preparation
 
-Status: **package prepared; not uploaded or submitted**. The account plugin remains private. Public submission preparation is separate from the existing private release.
+Status: **draft uploaded; metadata check passed; skill checks pending; not submitted or published**. The account plugin remains private. Public submission preparation is separate from the existing private release.
 
 The user selected Ashan Jeevanathan as an individual publisher, free access, all supported countries, and GitHub Issues for support. The publication country list is explicitly empty, removing country restrictions. Publisher identity still needs verification and selection in the Portal.
 
@@ -24,7 +24,7 @@ This is a skills-only plugin: no MCP app cases, demo recording, or reviewer cred
 
 ## Pending online stage
 
-On 6 October 2026, opening the Plugins dashboard reached the OpenAI Platform sign-in screen. No submission draft was created or uploaded. Sign in at https://platform.openai.com/plugins using the intended publisher account, then inspect the organization, verified individual identity, and any existing submission before uploading.
+On 6 October 2026, the package was uploaded under the selected verified individual identity. The Portal imported the correct developer name, package name, version, listing, four URLs, and 17 skills. Metadata reported No Issues; 16 of 17 automated skill checks passed, with skillosophy-start still checking. Internal submission identifiers remain in ignored local records. Inspect the saved draft in the [Plugins dashboard](https://platform.openai.com/plugins). The existing private account plugin remains unchanged.
 
 Upload creates a draft, not a public release. Check imported metadata and automated findings against the exact saved version. The authorized developer must complete identity verification and legal/policy attestations. Submission for review and publication of an approved release are separate states.
 

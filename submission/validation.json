@@ -1,5 +1,5 @@
 {
-  "status": "package prepared; not uploaded or submitted",
+  "status": "draft uploaded; inspect recorded review and publication state",
   "archive": "/Users/ashanj/Documents/ChatGPT/Philosopher Skills/dist/skillosophy-0.2.1-submission-DRAFT.zip",
   "archive_sha256": "58214e7279d4105fbcc0ff1f9ecfc151fcd6d4fa1900170cb63041cc10becc8a",
   "packaged_skills": 17,
@@ -28,9 +28,15 @@
     "commerce": false
   },
   "pending": [
-    "Portal organization and verified publisher selection",
-    "Portal validation",
+    "remaining automated checks",
     "developer-completed legal/policy attestations",
-    "actual review and publication state"
-  ]
+    "submission and publication"
+  ],
+  "portal": {
+    "version": "0.2.1",
+    "metadata_checks": "No Issues",
+    "skill_checks": "16 of 17 passed; skillosophy-start checking",
+    "review": "Not submitted",
+    "publication": "Not published"
+  }
 }

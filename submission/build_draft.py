@@ -81,5 +81,12 @@ report = {'status': ('package prepared; not uploaded or submitted' if urls_check
                           'commerce': extension.get('review',{}).get('commerce')},
           'pending': ['Portal organization and verified publisher selection', 'Portal validation',
                       'developer-completed legal/policy attestations', 'actual review and publication state']}
+portal_path = ROOT / 'dist' / 'private-portal-status.json'
+if portal_path.exists():
+    portal = json.loads(portal_path.read_text())
+    if portal.get('archive_sha256') == report['archive_sha256']:
+        report['portal'] = {k: portal[k] for k in ['version', 'metadata_checks', 'skill_checks', 'review', 'publication']}
+        report['status'] = 'draft uploaded; inspect recorded review and publication state'
+        report['pending'] = ['remaining automated checks', 'developer-completed legal/policy attestations', 'submission and publication']
 (PREP / 'validation.json').write_text(json.dumps(report, indent=2)+'\n')
 print(json.dumps(report, indent=2))
