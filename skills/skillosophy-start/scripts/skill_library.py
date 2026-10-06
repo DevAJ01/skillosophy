@@ -27,7 +27,7 @@ def clean(value):
     return ''.join(c for c in str(value) if ord(c)>=32 and ord(c)!=127)[:2000]
 
 def fetch_json(url):
-    request=urllib.request.Request(url,headers={'User-Agent':'Skillosophy/0.3.0','Accept':'application/json'})
+    request=urllib.request.Request(url,headers={'User-Agent':'Skillosophy/0.4.0','Accept':'application/json'})
     with urllib.request.urlopen(request,timeout=30) as response:
         data=response.read(16*1024*1024+1)
     if len(data)>16*1024*1024: raise SetupError('Discovery response exceeds size limit')
@@ -151,6 +151,14 @@ def inspect(repo,revision,path=None,name=None,output=None,data=None):
     if not license_repo_path: raise SetupError('No applicable license found; do not install an unlicensed source')
     inside=license_repo_path.startswith(path+'/')
     license_destination=license_repo_path[len(path)+1:] if inside else 'UPSTREAM-LICENSE.txt'
+    if not inside:
+        with zipfile.ZipFile(io.BytesIO(data)) as licenses:
+            existing=members.get(root+'/'+path+'/'+license_destination)
+            if existing and licenses.read(existing)!=license_bytes:
+                license_destination='REPOSITORY-LICENSE.txt'
+                alternate=members.get(root+'/'+path+'/'+license_destination)
+                if alternate and licenses.read(alternate)!=license_bytes:
+                    license_destination='REPOSITORY-LICENSE-'+digest(license_bytes)[:12]+'.txt'
     source={'type':'github','repo':repo,'revision':revision,'path':path,'url':candidate['source_url'],
             'license_path':license_destination,'license_sha256':digest(license_bytes)}
     if not inside: source['license_repo_path']=license_repo_path

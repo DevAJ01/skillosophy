@@ -35,7 +35,7 @@ python3 scripts/library/select.py inspect database-designer
 
 ## Additional discovery sources
 
-Version 0.3.0 includes **180 discoverable skills from seven source-pinned repositories**, live community search through skills.sh, and indexing of additional public GitHub repositories. The directly installable curated catalog has 22 entries; the plugin packages 17 workflows including its startup entry. Discovery results require source, license, dependency, and compatibility review before installation.
+Version 0.4.0 includes **780 discovery entries: 600 in-repository folders and 180 additional entries from seven upstream repositories**, live community search through skills.sh, and indexing of additional public GitHub repositories. The directly installable curated catalog has 22 entries; the plugin packages 17 workflows including its startup entry. Discovery results require source, license, dependency, and compatibility review before installation.
 
 | Collection | Included capabilities |
 |---|---|
@@ -58,7 +58,7 @@ python3 -B -m unittest discover -s tests -v
 python3 scripts/package.py
 ```
 
-Version 0.3.0 adds discovery and reviewed catalog extensions. Thirty-three integration tests cover discovery, review, actual writes, repeat installation, preservation, dependencies, source failures, hostile paths, license checks, and rollback. An independent setup trial found, inspected, and installed a pinned Supabase skill alongside two project workflows, with three named specialist roles. See [library verification](docs/LIBRARY_VERIFICATION.md). Live host invocation remains separate from package validation.
+Version 0.4.0 adds the full repository library and domain routing. Forty-four integration tests cover discovery, review, actual writes, repeat installation, preservation, dependencies, source failures, hostile paths, license checks, and rollback. An independent setup trial found, inspected, and installed a pinned Supabase skill alongside two project workflows, with three named specialist roles. See [library verification](docs/LIBRARY_VERIFICATION.md). Live host invocation remains separate from package validation.
 
 The earlier philosopher pilots mostly tied a strong baseline and do not establish reliable overall improvement. New project workflows and upstream entries are not represented as proven performance upgrades. Read [evaluation evidence](evals/RESULTS.md), [installation verification](docs/INSTALLATION_VERIFICATION.md), and [the protocol](evals/README.md).
 

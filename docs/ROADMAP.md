@@ -12,6 +12,10 @@ Role instructions are the selected mode. They do not register or launch Codex su
 
 Search now combines a bundled 180-entry metadata library from seven pinned repositories with the live skills.sh community directory. Other public GitHub repositories can be indexed explicitly. Candidates are inspected at immutable revisions; actual source, license, prerequisites and dependency review produces a separate catalog extension. The installer checks inspected hashes before writing project skills and preserves notices. The library is a discovery aid, not a performance ranking or a claim to include every internet skill.
 
+## Implemented in 0.4.0
+
+The repository contains 600 full attributed skill folders with resources, licenses and hashes. Twelve major workflow entrypoints have authored revisions and bounded forward-task outputs. Shared metadata ranking supports domain shortlists; a project capability brief produces separate candidate lists. The plugin indexes those actual pinned folders alongside additional upstream metadata and live discovery. Three blinded comparisons tied, so effectiveness remains unmeasured. The target of 500 independently evaluated authored revisions is still open; see [the evaluation program](../library/EVALUATION.md).
+
 ## Broaden capability coverage
 
 Add distinct practical specialties according to actual projects and verified sources: design, application frameworks, data systems, testing, operations, writing, research, and other domains. Preserve the portability of skill folders. Avoid adding an entire catalog to each project; choose what the immediate work needs.

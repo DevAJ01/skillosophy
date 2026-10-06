@@ -8,7 +8,7 @@ The existing private account plugin has the immutable machine identifier `skills
 
 Publish standalone skill folders with their references and scripts. The startup workflow uses the complete bundled collection for its local-source selections. The six original external catalog entries and the broader metadata library are source pointers; the installer fetches selected skills at pinned revisions and retains their licenses and notices.
 
-For public OpenAI directory submission, follow the current [submission documentation](https://developers.openai.com/plugins/deploy/submission) and [plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines), including required icons, listing details, examples, support/contact information, and attestations. The earlier 0.2.1 Portal draft is obsolete and on hold; it must be replaced with the complete 0.3.0 package and checked before submission. Public directory review has not been completed. For other skills directories, verify their current rules; a GitHub push does not automatically submit a listing.
+For public OpenAI directory submission, follow the current [submission documentation](https://developers.openai.com/plugins/deploy/submission) and [plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines), including required icons, listing details, examples, support/contact information, and attestations. The earlier 0.2.1 Portal draft is obsolete and on hold; it must be replaced with the complete 0.4.0 package and checked before submission. Public directory review has not been completed. For other skills directories, verify their current rules; a GitHub push does not automatically submit a listing.
 
 ## Hosted CI status
 

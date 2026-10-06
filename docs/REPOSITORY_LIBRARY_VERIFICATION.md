@@ -1,0 +1,13 @@
+# Full repository library verification — 0.4.0
+
+GitHub contains 600 actual skill folders under `library/skills`, plus the original 17 plugin workflows. Twelve major entrypoints have authored Skillosophy revisions with preserved upstream baselines. Every library file is inventoried and checked; 52 candidates have unresolved entrypoint resource links and are blocked by the repository installer. Transitive resource and tool requirements still need review.
+
+Forty-four deterministic integration tests passed. A fresh project-setup agent installed two reviewed skills, verified 26 copied files and repeat behavior, and produced a bounded bulk-edit acceptance proposal. It found routing/resource/license issues that led to narrow corrections. Nine additional planning-level task outputs and three paired baseline/revised tasks cover all twelve authored entrypoints. A fresh blinded judge tied all three pairs; no comparative improvement was established. Actual artifacts are in `evals/results/library-revisions` and `evals/results/repository-start`.
+
+The portable plugin indexes 780 discovery entries: the 600 real repository folders and 180 other upstream entries, plus live community search. Shared BM25-style ranking reads metadata first and supports capability-domain shortlists. Domain filtering reduces incidental keyword matches; AI still needs to assess task fit, prerequisites and overlap. A JSON capability brief can produce separate project shortlists. No automatic global installation or agent launching occurs.
+
+A real pinned GitHub archive of this repository was inspected, reviewed and installed in a temporary project. The authored frontend skill installed successfully, all 19 copied-file hashes matched, and both original upstream and repository MIT licenses were preserved. Initial testing exposed a license filename collision; the helper now preserves distinct notices rather than overwriting one, with a regression test.
+
+This release is a foundation for the requested 500 independently evaluated authored revisions. It does not claim to have achieved that target, proven universal improvement, executed every upstream helper or made every candidate portable. The public directory draft remains on hold; the private plugin and GitHub prerelease are separate distribution states.
+
+The saved private 0.4.0 archive was downloaded and its full 780-entry catalog, ranking module, discovery helper and startup entrypoint matched the local source byte for byte. Portable ZIP SHA256: `7dad538970e66a9003229abde237b73572677043a94f4477973c8cc4f5cb8eea`. This verifies stored contents, not public directory acceptance or every host invocation.

@@ -66,6 +66,12 @@ class LibraryTests(unittest.TestCase):
         self.assertEqual((folder/'UPSTREAM-LICENSE.txt').read_bytes(),LICENSE)
         self.assertTrue((folder/'UPSTREAM-NOTICE').exists());self.assertTrue((folder/'scripts/helper.py').exists())
         self.assertFalse(r['downloaded_code_executed']);self.assertEqual(r['status'],'requires_agent_review')
+    def test_repository_license_does_not_replace_existing_upstream_notice(self):
+        data=fixture([('root/skills/data-audit/UPSTREAM-LICENSE.txt',b'Original author MIT notice',0o100644)])
+        report=self.inspection(data);folder=self.root/'inspection/skill'
+        self.assertEqual((folder/'UPSTREAM-LICENSE.txt').read_bytes(),b'Original author MIT notice')
+        self.assertEqual((folder/'REPOSITORY-LICENSE.txt').read_bytes(),LICENSE)
+        self.assertEqual(report['source']['license_path'],'REPOSITORY-LICENSE.txt')
     def test_unlicensed_source_cannot_be_inspected_as_installable(self):
         data=archive([('root/skills/data-audit/SKILL.md',SKILL,0o100644)])
         with self.assertRaisesRegex(setup.SetupError,'license'):self.inspection(data)

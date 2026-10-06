@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "structural_validation": "validation.json",
-  "integration_tests": 43,
+  "integration_tests": 44,
   "authored_entrypoints": 12,
   "bounded_forward_tasks": 12,
   "paired_cases": 3,

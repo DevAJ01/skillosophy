@@ -2,7 +2,7 @@
   "interface": {
     "displayName": "Skillosophy",
     "shortDescription": "Start with the right skills",
-    "longDescription": "Start Codex projects with a clear working philosophy and useful skills. Search a source-pinned metadata library across seven upstream repositories, query the live community directory, and inspect public GitHub skill packages. Compare task fit, provenance, prerequisites, license and evidence before selecting skills. Install reviewed packages into the project with file-hash receipts and specialist role instructions. Includes philosopher lenses and practical project workflows. Popularity is not proof of improved AI performance. Runtime setup and service connections remain separate.",
+    "longDescription": "Start Codex projects with a clear working philosophy and a small useful skill set. Discover 600 actual attributed repository skill folders, additional source-pinned metadata and live community matches. Domain shortlists use metadata first, then selected instructions and resources are inspected before installation. Twelve major workflows have authored Skillosophy revisions and bounded task outputs. Candidates remain labeled unmeasured: the initial three paired comparisons tied the baseline. Install reviewed skills with file-hash receipts and specialist role instructions. Runtime setup, service connections and agent execution remain separate.",
     "developerName": "Ashan Jeevanathan",
     "category": "Productivity",
     "defaultPrompt": "Find useful skills for this project, review the best matches, and install them with specialist role instructions.",
@@ -15,8 +15,8 @@
     "capabilities": []
   },
   "name": "skillosophy",
-  "version": "0.3.0",
-  "description": "Discover relevant skills from a searchable library and live community sources, inspect and install a purposeful project skill set, and define specialist roles.",
+  "version": "0.4.0",
+  "description": "Select project skills from 600 actual repository folders and additional live sources, inspect candidates, and install a minimal set with specialist role instructions.",
   "author": {
     "name": "Ashan Jeevanathan"
   },
@@ -26,7 +26,7 @@
     "com.openai": {
       "onboardingSkill": "./skills/skillosophy-start/SKILL.md",
       "publication": {
-        "release_notes": "Add a 180-entry source-pinned discovery library, live skills.sh search, public GitHub indexing, immutable source inspection, reviewed catalog extensions, and hash-verified project installation. Preserve upstream licenses and notices. Source review and popularity are distinguished from measured effectiveness.",
+        "release_notes": "Add 600 actual attributed skill folders in GitHub, twelve authored workflow revisions, domain-based metadata shortlists, additional live discovery and honest evaluation records. Forty-four integration tests passed; three blinded comparisons tied. No universal AI improvement claim.",
         "countries": []
       },
       "review": {

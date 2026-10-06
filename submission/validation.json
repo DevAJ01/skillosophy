@@ -1,9 +1,9 @@
 {
   "status": "package prepared; not uploaded or submitted",
-  "archive": "/Users/ashanj/Documents/ChatGPT/Philosopher Skills/dist/skillosophy-0.3.0-submission-DRAFT.zip",
-  "archive_sha256": "e028d0a7d85bab44ca49bf7e929e08bf6e9a51768010addfd253b9d266f1d019",
+  "archive": "/Users/ashanj/Documents/ChatGPT/Philosopher Skills/dist/skillosophy-0.4.0-submission-DRAFT.zip",
+  "archive_sha256": "258085de6ac1c02989935a4b50980406f58d06e395a7d109faf95270b2fa9acf",
   "packaged_skills": 17,
-  "files": 59,
+  "files": 63,
   "icons": [
     {
       "field": "logo",

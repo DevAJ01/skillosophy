@@ -163,7 +163,7 @@ def validate_skill(folder, name):
 
 def download_archive(repo, revision):
     url = f'https://codeload.github.com/{repo}/zip/{revision}'
-    request = urllib.request.Request(url, headers={'User-Agent': 'Skillosophy/0.3.0'})
+    request = urllib.request.Request(url, headers={'User-Agent': 'Skillosophy/0.4.0'})
     with urllib.request.urlopen(request, timeout=60) as response:
         data = response.read(MAX_ARCHIVE + 1)
     if len(data) > MAX_ARCHIVE:
@@ -271,7 +271,7 @@ def install(project, plan, entries, bundle_root=BUNDLE_ROOT, apply=False, fetch=
     with tempfile.TemporaryDirectory(prefix='skillosophy-source-') as temp:
         staged = Path(temp)
         records = stage_sources(selected, Path(bundle_root).resolve(), staged, fetch)
-        receipt = {'schema_version': 1, 'installer_version': '0.3.0', 'project': str(project), 'skills': records}
+        receipt = {'schema_version': 1, 'installer_version': '0.4.0', 'project': str(project), 'skills': records}
         setup_id = digest(canonical({'plan': plan, 'receipt': receipt}).encode())[:24]
         setup = metadata_root / ('setup-' + setup_id)
         metadata = {'project-plan.json': canonical(plan), 'skills.lock.json': canonical(receipt)}

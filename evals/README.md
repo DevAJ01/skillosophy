@@ -34,3 +34,7 @@ The initial run's answers, blinding key, scoring records, and [report](results/i
 ## Library workflow verification
 
 The 0.3.0 release adds 15 discovery/review integration tests to the earlier 18 installer tests. The [independent library setup report](results/library-start/REPORT.md) records a fresh agent using the actual startup skill on a hypothetical PostgreSQL project, without evaluation rubrics or earlier reports. It verified search, source inspection, review, installation and specialist role handoff. This is one workflow trial, not a paired quality or speedup experiment.
+
+## Full repository library revision pilot
+
+The 0.4.0 [revision report](results/library-revisions/REPORT.md) contains three fresh baseline/revised pairs and blinded judgments (three ties), nine further bounded forward outputs, and a separate actual setup trial. Forty-four deterministic integration tests and per-file checks across 600 folders verify mechanisms, not universal behavioral benefit. See [the remaining evaluation program](../library/EVALUATION.md).
