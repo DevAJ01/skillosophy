@@ -16,8 +16,8 @@
         "category": "Productivity",
         "defaultPrompt": "Prepare this Codex project: determine its working philosophy, select useful skills, and install them with specialist roles.",
         "websiteURL": "https://github.com/DevAJ01/skillosophy",
-        "logo": "./assets/skillosophy-icon-v2.png",
-        "composerIcon": "./assets/skillosophy-icon-v2.png",
+        "logo": "./assets/skillosophy-icon-geometric.png",
+        "composerIcon": "./assets/skillosophy-icon-geometric.png",
         "supportURL": "https://github.com/DevAJ01/skillosophy/blob/main/docs/SUPPORT.md",
         "privacyPolicyURL": "https://github.com/DevAJ01/skillosophy/blob/main/docs/PRIVACY.md",
         "termsOfServiceURL": "https://github.com/DevAJ01/skillosophy/blob/main/docs/TERMS.md"

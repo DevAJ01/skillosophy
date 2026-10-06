@@ -1,23 +1,23 @@
 {
   "status": "package prepared; not uploaded or submitted",
   "archive": "/Users/ashanj/Documents/ChatGPT/Philosopher Skills/dist/skillosophy-0.2.1-submission-DRAFT.zip",
-  "archive_sha256": "625abc2cc39394defa3e6715298d10e1012578896f1047dc3186b5c46bd108a8",
+  "archive_sha256": "58214e7279d4105fbcc0ff1f9ecfc151fcd6d4fa1900170cb63041cc10becc8a",
   "packaged_skills": 17,
   "files": 53,
   "icons": [
     {
       "field": "logo",
-      "path": "assets/skillosophy-icon-v2.png",
+      "path": "assets/skillosophy-icon-geometric.png",
       "width": 1254,
       "height": 1254,
-      "bytes": 841339
+      "bytes": 858707
     },
     {
       "field": "composerIcon",
-      "path": "assets/skillosophy-icon-v2.png",
+      "path": "assets/skillosophy-icon-geometric.png",
       "width": 1254,
       "height": 1254,
-      "bytes": 841339
+      "bytes": 858707
     }
   ],
   "missing_listing_urls": [],
