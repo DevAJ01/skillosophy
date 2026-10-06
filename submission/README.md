@@ -18,7 +18,7 @@ Published [support](../docs/SUPPORT.md), [privacy](../docs/PRIVACY.md), and [ter
 
 Run `python3 submission/build_draft.py`. The output is `dist/skillosophy-0.2.1-submission-DRAFT.zip`. The builder inspects archived manifests, prompt lengths, icons, inventory, and public-upload restrictions. `validation.json` separates completed package checks from pending Portal steps.
 
-The generated listing and composer icon is `assets/skillosophy-icon.png`, a 1254 × 1254 PNG below 5 MiB. Its charcoal mark and opaque ivory background suit both light and dark surfaces. Optional separate dark assets and brand colors are omitted, consistent with neutral styling.
+The generated listing and composer icon is `assets/skillosophy-icon-v2.png`, a 1254 × 1254 PNG below 5 MiB. The refined S mark uses two interlocking charcoal bands and a teal central module on ivory. The original icon remains available in the source history and assets folder. Optional separate dark assets and brand colors are omitted, consistent with neutral styling.
 
 This is a skills-only plugin: no MCP app cases, demo recording, or reviewer credentials are required. Local validation does not replace Portal checks.
 
