@@ -1,6 +1,6 @@
 # Skillosophy public submission preparation
 
-Status: **0.4.0 package prepared; earlier 0.2.1 uploaded draft on hold; not submitted or published**. The account plugin remains private. Public submission preparation is separate from the existing private release.
+Status: **directory eligibility blocked as observed on 15 October 2026; 0.4.0 package prepared but not uploaded; not submitted or published**. The account plugin remains private. Public submission preparation is separate from the existing private release.
 
 The user selected Ashan Jeevanathan as an individual publisher, free access, all supported countries, and GitHub Issues for support. The publication country list is explicitly empty, removing country restrictions. Publisher identity still needs verification and selection in the Portal.
 
@@ -31,3 +31,9 @@ Upload creates a draft, not a public release. Check imported metadata and automa
 The preparation skill requires the authorized developer to complete legal/policy attestations. It does not permit inferring those facts or agreement from a request to publish. See the Plugin Creator prepare-plugin-submission skill.
 
 References: [OpenAI submission documentation](https://developers.openai.com/plugins/deploy/submission), [public source](https://github.com/DevAJ01/skillosophy).
+
+## Directory eligibility observed on 15 October 2026
+
+The saved 0.2.1 draft now shows a blocking metadata finding: “We are not accepting more skills-only submissions at this time.” Review status is Needs attention and publication is Not published. All 17 saved skill checks passed; those results apply to 0.2.1, not the prepared 0.4.0 package. No replacement upload or submission for review was completed.
+
+The [guidelines](https://developers.openai.com/plugins/plugin-guidelines#skills) state that skills-only plugins can have additional listing eligibility requirements. The [desktop-only route](https://developers.openai.com/plugins/deploy/desktop-only) documents local-execution metadata and access/allowlisting requirements; it is not evidence that this account is eligible. No placeholder MCP server or eligibility workaround was added. GitHub distribution and the existing private plugin remain separate from directory publication.

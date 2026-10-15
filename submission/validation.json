@@ -32,5 +32,12 @@
     "Portal validation",
     "developer-completed legal/policy attestations",
     "actual review and publication state"
-  ]
+  ],
+  "directory_eligibility": {
+    "observed_on": "2026-10-15",
+    "saved_version": "0.2.1",
+    "status": "blocked",
+    "finding": "We are not accepting more skills-only submissions at this time.",
+    "prepared_0_4_0_uploaded": false
+  }
 }
